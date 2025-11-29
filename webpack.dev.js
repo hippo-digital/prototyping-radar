@@ -71,4 +71,9 @@ module.exports = merge(common, {
     }),
   ],
   devtool: 'source-map',
+  devServer: {
+    headers: {
+      'Cross-Origin-Opener-Policy': 'same-origin-allow-popups',
+    },
+  },
 })

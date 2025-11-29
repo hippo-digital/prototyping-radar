@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Turning repeated patterns into macros",
+    "ring": "Expert",
+    "quadrant": "Setup",
+    "isNew": "FALSE",
+    "status": "No Change",
+    "description": "Refactor repeated UI structures into reusable Nunjucks macros to simplify maintenance, improve consistency, and reduce duplication across journeys"
+  },
+  {
+    "name": "Create custom macros",
+    "ring": "Expert",
+    "quadrant": "Components and patterns",
+    "isNew": "FALSE",
+    "status": "No Change",
+    "description": "Design bespoke macros that wrap complex interface patterns or repetitive logic, enabling faster prototyping and clearer separation of concerns."
+  },
+  {
+    "name": "Handle POST requests",
+    "ring": "Practitioner",
+    "quadrant": "Data and logic",
+    "isNew": "FALSE",
+    "status": "No Change",
+    "description": "Use POST routes to collect and process user input, update session data, and control multi-step journeys that store state between pages."
+  },
+  {
+    "name": "Reset session data",
+    "ring": "Practitioner",
+    "quadrant": "Data and logic",
+    "isNew": "FALSE",
+    "status": "No Change",
+    "description": "Understand how to clear or reinitialise req.session.data to restart journeys cleanly, avoid stale values, and support testing multiple scenarios."
+  },
+  {
+    "name": "Understand Blocks and content areas",
+    "ring": "Working",
+    "quadrant": "Pages and journeys",
+    "isNew": "FALSE",
+    "status": "No Change",
+    "description": "Use Nunjucks blocks and content placeholders to structure templates, allowing pages to override or extend layout sections in a controlled way."
+  },
+  {
+    "name": "Layouts and extends",
+    "ring": "Working",
+    "quadrant": "Pages and journeys",
+    "isNew": "FALSE",
+    "status": "No Change",
+    "description": "Apply shared layouts using {% extends %} to ensure consistency, reduce repetition, and centralise changes across multiple prototype pages."
+  }
+]
