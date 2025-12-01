@@ -766,7 +766,9 @@ const Radar = function (size, radar) {
 
     if (featureToggles.UIRefresh2022) {
       renderQuadrantSubnav(radarHeader, quadrants, renderFullRadar)
-      renderSearch(radarHeader, quadrants)
+      // Move search into the site header instead of below the quadrant subnav
+      const siteHeader = d3.select('header.input-sheet__logo').select('div')
+      renderSearch(siteHeader, quadrants)
       renderAlternativeRadars(radarFooter, alternatives, currentSheet)
       renderQuadrantTables(quadrants, rings)
       renderButtons(radarFooter)

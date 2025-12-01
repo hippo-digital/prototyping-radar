@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Create custom macros",
+    "ring": "Expert",
+    "quadrant": "Components and patterns",
+    "description": "<p>Design <strong>bespoke macros</strong> that wrap complex interface patterns or repetitive logic, enabling faster prototyping and clearer separation of concerns.</p>",
+    "status": "No Change"
+  },
+  {
+    "name": "Handle POST requests",
+    "ring": "Practitioner",
+    "quadrant": "Data and logic",
+    "description": "<p>Use <strong>POST</strong> routes to collect and process user input, update session data, and control multi‑step journeys that store state between pages.</p>",
+    "status": "No Change"
+  },
+  {
+    "name": "Layouts and extends",
+    "ring": "Working",
+    "quadrant": "Setup",
+    "description": "<p>Apply shared layouts using <code>{% extends %}</code> to ensure consistency, reduce repetition, and centralise changes across multiple prototype pages.</p>",
+    "status": "No Change"
+  },
+  {
+    "name": "Reset session data",
+    "ring": "Practitioner",
+    "quadrant": "Data and logic",
+    "description": "<p>Understand how to clear or reinitialise <code>req.session.data</code> to restart journeys cleanly, avoid stale values, and support testing multiple scenarios.</p>",
+    "status": "No Change"
+  },
+  {
+    "name": "Turning repeated patterns into macros",
+    "ring": "Expert",
+    "quadrant": "Components and patterns",
+    "description": "<p>Refactor repeated UI structures into reusable <strong>Nunjucks</strong> macros to simplify maintenance, improve consistency, and reduce duplication across journeys.</p>",
+    "status": "No Change"
+  },
+  {
+    "name": "Understand Blocks and content areas",
+    "ring": "Working",
+    "quadrant": "Pages and journeys",
+    "description": "<p>Use Nunjucks <strong>blocks</strong> and content placeholders to structure templates, allowing pages to override or extend layout sections in a controlled way.</p>",
+    "status": "No Change"
+  }
+]

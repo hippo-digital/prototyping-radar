@@ -1,6 +1,6 @@
 #radar {
   width: 80%;
-  margin: 0 auto;
+  margin: 24px auto;
   position: relative;
 
   @if $UIRefresh2022 {
@@ -393,8 +393,8 @@
         position: fixed;
       }
 
-      display: flex;
-      align-items: center;
+      //display: flex;
+      align-items: cen ter;
       justify-content: center;
       margin: $quadrantsGap auto;
       width: 100%;

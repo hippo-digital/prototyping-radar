@@ -1,5 +1,6 @@
 const { merge } = require('webpack-merge')
 const webpack = require('webpack')
+const path = require('path')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const postcssPresetEnv = require('postcss-preset-env')
 const cssnano = require('cssnano')
@@ -71,4 +72,17 @@ module.exports = merge(common, {
     }),
   ],
   devtool: 'source-map',
+  devServer: {
+    static: [
+      {
+        directory: path.resolve(__dirname, 'data'),
+        publicPath: '/data',
+        watch: true,
+      },
+    ],
+    watchFiles: [path.resolve(__dirname, 'data/**/*')],
+    headers: {
+      'Cross-Origin-Opener-Policy': 'same-origin-allow-popups',
+    },
+  },
 })
