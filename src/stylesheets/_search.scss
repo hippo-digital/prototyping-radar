@@ -14,7 +14,7 @@
 
   .search-container {
     height: auto;
-    margin: 48px auto 40px;
+    margin: 1px auto 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,8 +30,8 @@
     @include layout-margin(calc(8 / 12), $screen-xxxlarge);
 
     @include media-query-medium {
-      height: 48px;
-      margin: 64px auto 48px;
+      //height: 48px;
+      //margin: 10px auto 0;
 
       &.sticky-offset {
         margin-top: 124px;
@@ -39,7 +39,7 @@
     }
 
     @include media-query-large {
-      margin: 72px auto 48px;
+      //margin: 72px auto 48px;
 
       &.sticky-offset {
         margin-top: 132px;
@@ -47,7 +47,7 @@
     }
 
     @include media-query-xlarge {
-      margin: 32px auto;
+      //margin: 32px auto;
 
       &.sticky-offset {
         margin-top: 92px;
@@ -55,7 +55,7 @@
     }
 
     @include media-query-xxlarge {
-      margin: 40px auto;
+      //margin: 40px auto;
 
       &.sticky-offset {
         margin-top: 100px;
@@ -65,7 +65,7 @@
     &__input {
       color: $wave;
       height: 48px;
-      margin-bottom: 30px;
+      //margin-bottom: 30px;
       background: #edf1f3 url(images/search-active-wave.svg) no-repeat 98% center;
       font-family: $baseFontFamily;
       scroll-margin-top: $subnavHeight;

@@ -37,7 +37,7 @@ const uiConfig = {
   subnavHeight: 60,
   bannerHeight: 200,
   tabletBannerHeight: 300,
-  headerHeight: 80,
+  headerHeight: 50,
   legendsHeight: 42,
   tabletViewWidth: 1280,
   mobileViewWidth: 768,
