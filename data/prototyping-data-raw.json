@@ -1,0 +1,639 @@
+[
+  {
+    "name": "Running the kit locally",
+    "ring": "Working",
+    "quadrant": "Run and maintain",
+    "description": "",
+    "status": "No Change"
+  },
+  {
+    "name": "What's in the kit",
+    "ring": "Working",
+    "quadrant": "Run and maintain",
+    "description": "",
+    "status": "No Change"
+  },
+  {
+    "name": "Assets folder",
+    "ring": "Working",
+    "quadrant": "Run and maintain",
+    "description": "",
+    "status": "No Change"
+  },
+  {
+    "name": "NPM packages",
+    "ring": "Working",
+    "quadrant": "Run and maintain",
+    "description": "",
+    "status": "No Change"
+  },
+  {
+    "name": "Sass compile errors",
+    "ring": "Working",
+    "quadrant": "Run and maintain",
+    "description": "",
+    "status": "No Change"
+  },
+  {
+    "name": "Terminal basics",
+    "ring": "Working",
+    "quadrant": "Run and maintain",
+    "description": "",
+    "status": "No Change"
+  },
+  {
+    "name": "Folder structure",
+    "ring": "Working",
+    "quadrant": "Run and maintain",
+    "description": "",
+    "status": "No Change"
+  },
+  {
+    "name": "Installing the kit",
+    "ring": "Working",
+    "quadrant": "Run and maintain",
+    "description": "",
+    "status": "No Change"
+  },
+  {
+    "name": "Node.js basics",
+    "ring": "Working",
+    "quadrant": "Run and maintain",
+    "description": "",
+    "status": "No Change"
+  },
+  {
+    "name": "Restarting the kit",
+    "ring": "Working",
+    "quadrant": "Run and maintain",
+    "description": "",
+    "status": "No Change"
+  },
+  {
+    "name": "Update notifications",
+    "ring": "Working",
+    "quadrant": "Run and maintain",
+    "description": "",
+    "status": "No Change"
+  },
+  {
+    "name": "Add utilities",
+    "ring": "Practitioner",
+    "quadrant": "Run and maintain",
+    "description": "",
+    "status": "No Change"
+  },
+  {
+    "name": "Errors in routes",
+    "ring": "Practitioner",
+    "quadrant": "Run and maintain",
+    "description": "",
+    "status": "No Change"
+  },
+  {
+    "name": "Debugging",
+    "ring": "Practitioner",
+    "quadrant": "Run and maintain",
+    "description": "",
+    "status": "No Change"
+  },
+  {
+    "name": "Terminal shortcuts",
+    "ring": "Practitioner",
+    "quadrant": "Run and maintain",
+    "description": "",
+    "status": "No Change"
+  },
+  {
+    "name": "Managing versions",
+    "ring": "Practitioner",
+    "quadrant": "Run and maintain",
+    "description": "",
+    "status": "No Change"
+  },
+  {
+    "name": "Git basics",
+    "ring": "Practitioner",
+    "quadrant": "Run and maintain",
+    "description": "",
+    "status": "No Change"
+  },
+  {
+    "name": "What is Heroku?",
+    "ring": "Expert",
+    "quadrant": "Run and maintain",
+    "description": "",
+    "status": "No Change"
+  },
+  {
+    "name": "Deploying to Heroku",
+    "ring": "Expert",
+    "quadrant": "Run and maintain",
+    "description": "",
+    "status": "No Change"
+  },
+  {
+    "name": "Advanced Git",
+    "ring": "Expert",
+    "quadrant": "Run and maintain",
+    "description": "",
+    "status": "No Change"
+  },
+  {
+    "name": "Cleaning up prototypes",
+    "ring": "Expert",
+    "quadrant": "Run and maintain",
+    "description": "",
+    "status": "No Change"
+  },
+  {
+    "name": "What is Routing?",
+    "ring": "Working",
+    "quadrant": "Pages and journeys",
+    "description": "",
+    "status": "No Change"
+  },
+  {
+    "name": "Nunjucks vs HTML",
+    "ring": "Working",
+    "quadrant": "Pages and journeys",
+    "description": "",
+    "status": "No Change"
+  },
+  {
+    "name": "Filtering data",
+    "ring": "Expert",
+    "quadrant": "Data and Logic",
+    "description": "",
+    "status": "No Change"
+  },
+  {
+    "name": "Creating data maps",
+    "ring": "Expert",
+    "quadrant": "Data and Logic",
+    "description": "",
+    "status": "No Change"
+  },
+  {
+    "name": "Different data types",
+    "ring": "Working",
+    "quadrant": "Data and Logic",
+    "description": "Understanding strings, numbers, and booleans.",
+    "status": "No Change"
+  },
+  {
+    "name": "Storing data in session",
+    "ring": "Working",
+    "quadrant": "Data and Logic",
+    "description": "How the kit remembers user input across pages.",
+    "status": "No Change"
+  },
+  {
+    "name": "Viewing session data",
+    "ring": "Working",
+    "quadrant": "Data and Logic",
+    "description": "Using the prototype-admin to inspect current data.",
+    "status": "No Change"
+  },
+  {
+    "name": "Clearing session data",
+    "ring": "Working",
+    "quadrant": "Data and Logic",
+    "description": "Resetting the prototype to a clean state.",
+    "status": "No Change"
+  },
+  {
+    "name": "Basic 'if' statements",
+    "ring": "Working",
+    "quadrant": "Data and Logic",
+    "description": "Simple conditional checks for content visibility.",
+    "status": "No Change"
+  },
+  {
+    "name": "Input field names",
+    "ring": "Working",
+    "quadrant": "Data and Logic",
+    "description": "Ensuring names match between HTML and session.",
+    "status": "No Change"
+  },
+  {
+    "name": "Basic math in Nunjucks",
+    "ring": "Working",
+    "quadrant": "Data and Logic",
+    "description": "Performing simple additions or subtractions.",
+    "status": "No Change"
+  },
+  {
+    "name": "Standard data filters",
+    "ring": "Working",
+    "quadrant": "Data and Logic",
+    "description": "Using built-in Nunjucks filters like 'default'.",
+    "status": "No Change"
+  },
+  {
+    "name": "Data in the URL",
+    "ring": "Working",
+    "quadrant": "Data and Logic",
+    "description": "Understanding how query strings pass basic data.",
+    "status": "No Change"
+  },
+  {
+    "name": "Redirecting with logic",
+    "ring": "Practitioner",
+    "quadrant": "Data and Logic",
+    "description": "Sending users to different pages based on their answers.",
+    "status": "No Change"
+  },
+  {
+    "name": "Using checkboxes (arrays)",
+    "ring": "Practitioner",
+    "quadrant": "Data and Logic",
+    "description": "Managing data when users select multiple options.",
+    "status": "No Change"
+  },
+  {
+    "name": "Validation logic",
+    "ring": "Practitioner",
+    "quadrant": "Data and Logic",
+    "description": "Checking if a user has entered the required information.",
+    "status": "No Change"
+  },
+  {
+    "name": "Dynamic content from data",
+    "ring": "Practitioner",
+    "quadrant": "Data and Logic",
+    "description": "Rendering text based on previous user choices.",
+    "status": "No Change"
+  },
+  {
+    "name": "Complex 'if/else' logic",
+    "ring": "Practitioner",
+    "quadrant": "Data and Logic",
+    "description": "Handling multiple conditions in a single journey.",
+    "status": "No Change"
+  },
+  {
+    "name": "Passing data between pages",
+    "ring": "Practitioner",
+    "quadrant": "Data and Logic",
+    "description": "Ensuring variables persist across the journey.",
+    "status": "No Change"
+  },
+  {
+    "name": "Logic in routes.js",
+    "ring": "Practitioner",
+    "quadrant": "Data and Logic",
+    "description": "Moving logic out of views and into the router.",
+    "status": "No Change"
+  },
+  {
+    "name": "Filtering data",
+    "ring": "Expert",
+    "quadrant": "Data and Logic",
+    "description": "Applying logic to display specific subsets of information.",
+    "status": "No Change"
+  },
+  {
+    "name": "Creating data maps",
+    "ring": "Expert",
+    "quadrant": "Data and Logic",
+    "description": "Mapping inputs to structured data objects/JSON.",
+    "status": "No Change"
+  },
+  {
+    "name": "Looping through data",
+    "ring": "Expert",
+    "quadrant": "Data and Logic",
+    "description": "Using 'for' loops to display lists of items.",
+    "status": "No Change"
+  },
+  {
+    "name": "Using external JSON files",
+    "ring": "Expert",
+    "quadrant": "Data and Logic",
+    "description": "Pulling data into the prototype from an external source.",
+    "status": "No Change"
+  },
+  {
+    "name": "Complex data structures",
+    "ring": "Expert",
+    "quadrant": "Data and Logic",
+    "description": "Managing nested objects and arrays.",
+    "status": "No Change"
+  },
+  {
+    "name": "Searching/Filtering lists",
+    "ring": "Expert",
+    "quadrant": "Data and Logic",
+    "description": "Logic for search results and dynamic lists.",
+    "status": "No Change"
+  },
+  {
+    "name": "Custom Nunjucks filters",
+    "ring": "Expert",
+    "quadrant": "Data and Logic",
+    "description": "Writing JavaScript to format data in views.",
+    "status": "No Change"
+  },
+  {
+    "name": "What is Routing?",
+    "ring": "Working",
+    "quadrant": "Pages and journeys",
+    "description": "Understanding how the kit connects one URL to another.",
+    "status": "No Change"
+  },
+  {
+    "name": "What is a View?",
+    "ring": "Working",
+    "quadrant": "Pages and journeys",
+    "description": "The basic visual layer of the prototype.",
+    "status": "No Change"
+  },
+  {
+    "name": "What is POST and GET?",
+    "ring": "Working",
+    "quadrant": "Pages and journeys",
+    "description": "Fundamentals of how data is sent from a form.",
+    "status": "No Change"
+  },
+  {
+    "name": "Nunjucks vs HTML",
+    "ring": "Working",
+    "quadrant": "Pages and journeys",
+    "description": "Learning the syntax differences between static and dynamic code.",
+    "status": "No Change"
+  },
+  {
+    "name": "Simulate errors",
+    "ring": "Working",
+    "quadrant": "Pages and journeys",
+    "description": "Manually creating error states for user testing.",
+    "status": "No Change"
+  },
+  {
+    "name": "Add delays",
+    "ring": "Working",
+    "quadrant": "Pages and journeys",
+    "description": "Simulating system load or processing times.",
+    "status": "No Change"
+  },
+  {
+    "name": "Linking pages",
+    "ring": "Working",
+    "quadrant": "Pages and journeys",
+    "description": "Creating basic anchor tags and standard navigation.",
+    "status": "No Change"
+  },
+  {
+    "name": "Creating a new page",
+    "ring": "Working",
+    "quadrant": "Pages and journeys",
+    "description": "How to duplicate or create a .html file in the app folder.",
+    "status": "No Change"
+  },
+  {
+    "name": "Basic page titles",
+    "ring": "Working",
+    "quadrant": "Pages and journeys",
+    "description": "Setting page titles for accessibility and browser tabs.",
+    "status": "No Change"
+  },
+  {
+    "name": "Template inheritance basics",
+    "ring": "Working",
+    "quadrant": "Pages and journeys",
+    "description": "Using 'extends' to pull in a base layout.",
+    "status": "No Change"
+  },
+  {
+    "name": "Hard-coding data",
+    "ring": "Working",
+    "quadrant": "Pages and journeys",
+    "description": "Placing static content into pages for quick testing.",
+    "status": "No Change"
+  },
+  {
+    "name": "Standard GOV.UK Page blocks",
+    "ring": "Working",
+    "quadrant": "Pages and journeys",
+    "description": "Identifying the 'content' and 'beforeContent' blocks.",
+    "status": "No Change"
+  },
+  {
+    "name": "Using the /index page",
+    "ring": "Working",
+    "quadrant": "Pages and journeys",
+    "description": "Organizing your prototype landing page.",
+    "status": "No Change"
+  },
+  {
+    "name": "Previewing in local host",
+    "ring": "Working",
+    "quadrant": "Pages and journeys",
+    "description": "Navigating through the local server address.",
+    "status": "No Change"
+  },
+  {
+    "name": "Extend layout files",
+    "ring": "Practitioner",
+    "quadrant": "Pages and journeys",
+    "description": "Modifying block structures for specific page needs.",
+    "status": "No Change"
+  },
+  {
+    "name": "Use back link correctly",
+    "ring": "Practitioner",
+    "quadrant": "Pages and journeys",
+    "description": "Ensuring the back link behaves as the user expects.",
+    "status": "No Change"
+  },
+  {
+    "name": "Branding",
+    "ring": "Practitioner",
+    "quadrant": "Pages and journeys",
+    "description": "Applying service-specific headers and banners.",
+    "status": "No Change"
+  },
+  {
+    "name": "Navigation patterns",
+    "ring": "Practitioner",
+    "quadrant": "Pages and journeys",
+    "description": "Implementing sidebars, footers, and breadcrumbs.",
+    "status": "No Change"
+  },
+  {
+    "name": "Customizing the start page",
+    "ring": "Practitioner",
+    "quadrant": "Pages and journeys",
+    "description": "Building a standard service start page with guidance.",
+    "status": "No Change"
+  },
+  {
+    "name": "Using block content",
+    "ring": "Practitioner",
+    "quadrant": "Pages and journeys",
+    "description": "Advanced use of layout blocks for custom structures.",
+    "status": "No Change"
+  },
+  {
+    "name": "Form layout design",
+    "ring": "Practitioner",
+    "quadrant": "Pages and journeys",
+    "description": "Organizing complex forms with fieldsets and legends.",
+    "status": "No Change"
+  },
+  {
+    "name": "Confirmation pages",
+    "ring": "Practitioner",
+    "quadrant": "Pages and journeys",
+    "description": "Building successful 'end of journey' screens.",
+    "status": "No Change"
+  },
+  {
+    "name": "Multi-path journeys",
+    "ring": "Expert",
+    "quadrant": "Pages and journeys",
+    "description": "Designing complex logic-driven user flows.",
+    "status": "No Change"
+  },
+  {
+    "name": "Building wizard patterns",
+    "ring": "Expert",
+    "quadrant": "Pages and journeys",
+    "description": "Advanced multi-step interactions and branching logic.",
+    "status": "No Change"
+  },
+  {
+    "name": "Dynamic routing logic",
+    "ring": "Expert",
+    "quadrant": "Pages and journeys",
+    "description": "Advanced server-side routing for complex states.",
+    "status": "No Change"
+  },
+  {
+    "name": "Standard GOV.UK components",
+    "ring": "Working",
+    "quadrant": "Components and patterns",
+    "description": "Using basic pre-built components like buttons and radios. ",
+    "status": "No Change"
+  },
+  {
+    "name": "What is a macro?",
+    "ring": "Working",
+    "quadrant": "Components and patterns",
+    "description": "Understanding the concept of reusable Nunjucks code blocks. [cite: 39]",
+    "status": "No Change"
+  },
+  {
+    "name": "Copying code from the Design System",
+    "ring": "Working",
+    "quadrant": "Components and patterns",
+    "description": "Finding and implementing HTML/Nunjucks snippets. [cite: 41]",
+    "status": "No Change"
+  },
+  {
+    "name": "Nunjucks vs HTML components",
+    "ring": "Working",
+    "quadrant": "Components and patterns",
+    "description": "Learning when to use a macro versus a static HTML pattern. [cite: 35]",
+    "status": "No Change"
+  },
+  {
+    "name": "Basic component options",
+    "ring": "Working",
+    "quadrant": "Components and patterns",
+    "description": "Passing simple text parameters into standard macros. [cite: 39, 41]",
+    "status": "No Change"
+  },
+  {
+    "name": "Checking accessibility defaults",
+    "ring": "Working",
+    "quadrant": "Components and patterns",
+    "description": "Ensuring base components meet standard compliance. [cite: 41]",
+    "status": "No Change"
+  },
+  {
+    "name": "Basic page layouts",
+    "ring": "Working",
+    "quadrant": "Components and patterns",
+    "description": "Using standard grid rows and columns. [cite: 5, 41]",
+    "status": "No Change"
+  },
+  {
+    "name": "Use macros for items",
+    "ring": "Practitioner",
+    "quadrant": "Components and patterns",
+    "description": "Implementing standard library components for dynamic lists. ",
+    "status": "No Change"
+  },
+  {
+    "name": "Create custom macros",
+    "ring": "Practitioner",
+    "quadrant": "Components and patterns",
+    "description": "Building and naming your own reusable Nunjucks components. [cite: 39]",
+    "status": "No Change"
+  },
+  {
+    "name": "Passing variables to macros",
+    "ring": "Practitioner",
+    "quadrant": "Components and patterns",
+    "description": "Using session data to populate component fields. ",
+    "status": "No Change"
+  },
+  {
+    "name": "Conditional components",
+    "ring": "Practitioner",
+    "quadrant": "Components and patterns",
+    "description": "Showing or hiding components based on user logic. [cite: 41, 85]",
+    "status": "No Change"
+  },
+  {
+    "name": "Customizing CSS for patterns",
+    "ring": "Practitioner",
+    "quadrant": "Components and patterns",
+    "description": "Applying specific styles to modify standard components. [cite: 21, 85]",
+    "status": "No Change"
+  },
+  {
+    "name": "Form element validation states",
+    "ring": "Practitioner",
+    "quadrant": "Components and patterns",
+    "description": "Implementing error messages and styling for input fields. [cite: 37, 41]",
+    "status": "No Change"
+  },
+  {
+    "name": "Isolating patterns for reuse",
+    "ring": "Expert",
+    "quadrant": "Components and patterns",
+    "description": "Decoupling logic from views to allow cross-project utility. [cite: 86]",
+    "status": "No Change"
+  },
+  {
+    "name": "Updating the GOV.UK Frontend",
+    "ring": "Expert",
+    "quadrant": "Components and patterns",
+    "description": "Managing versioning and dependencies for the core library. [cite: 41, 42]",
+    "status": "No Change"
+  },
+  {
+    "name": "Building complex macros",
+    "ring": "Expert",
+    "quadrant": "Components and patterns",
+    "description": "Creating components with nested logic and multiple parameters. [cite: 39, 42]",
+    "status": "No Change"
+  },
+  {
+    "name": "Pattern library management",
+    "ring": "Expert",
+    "quadrant": "Components and patterns",
+    "description": "Organizing a suite of custom patterns within a large prototype. [cite: 41, 86]",
+    "status": "No Change"
+  },
+  {
+    "name": "Design system contribution",
+    "ring": "Expert",
+    "quadrant": "Components and patterns",
+    "description": "Refining prototype patterns for potential production inclusion. [cite: 41, 88]",
+    "status": "No Change"
+  }
+]
