@@ -1,0 +1,22 @@
+---
+name: "Folder structure"
+ring: "Working"
+quadrant: "Run and maintain"
+status: "No Change"
+---
+
+## What is this skill?
+
+Understanding the folder structure means knowing where to find and place different types of files in the prototype kit. This includes the app folder for views, routes, and assets, as well as configuration files in the root.
+
+## Why is it important?
+
+- **Find files quickly** – Know exactly where to look for views, routes, and styles
+- **Organise your work** – Keep your prototype tidy and maintainable
+- **Avoid breaking things** – Understand which files are safe to edit and which to leave alone
+- **Collaborate effectively** – Team members can navigate the project consistently
+
+## Where to learn more
+
+- [GOV.UK Prototype Kit: Folder structure](https://prototype-kit.service.gov.uk/docs/create-new-prototype)
+- [NHS Prototype Kit: Project structure](https://nhsuk-prototype-kit.azurewebsites.net/docs)

@@ -1,0 +1,22 @@
+---
+name: "Multi-path journeys"
+ring: "Expert"
+quadrant: "Pages and journeys"
+status: "No Change"
+---
+
+## What is this skill?
+
+Multi-path journeys involve designing complex user flows where different users take different routes through the service based on their circumstances, eligibility, or choices.
+
+## Why is it important?
+
+- **Realistic services** – Most services have multiple paths for different user types
+- **Efficient journeys** – Skip irrelevant questions for each user
+- **Edge cases** – Test all possible routes through the service
+- **User research** – Understand how different users experience the service
+
+## Where to learn more
+
+- [GOV.UK Prototype Kit: Branching](https://prototype-kit.service.gov.uk/docs/branching)
+- [GOV.UK Service Manual: Form structure](https://www.gov.uk/service-manual/design/form-structure)

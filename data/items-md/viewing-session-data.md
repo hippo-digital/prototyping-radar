@@ -1,0 +1,22 @@
+---
+name: "Viewing session data"
+ring: "Working"
+quadrant: "Data and Logic"
+status: "No Change"
+---
+
+## What is this skill?
+
+Viewing session data involves using the prototype admin panel (usually at /manage-prototype/clear-data) to inspect what data is currently stored in the session.
+
+## Why is it important?
+
+- **Debugging** – See exactly what data is stored when things aren't working
+- **Understanding flow** – Check how data changes as users move through the journey
+- **Testing** – Verify that forms are saving data with the correct names
+- **Learning** – Understand how the kit handles data behind the scenes
+
+## Where to learn more
+
+- [GOV.UK Prototype Kit: Clear session data](https://prototype-kit.service.gov.uk/docs/clear-session-data)
+- [GOV.UK Prototype Kit: Storing data](https://prototype-kit.service.gov.uk/docs/store-and-use-data)

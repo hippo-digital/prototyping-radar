@@ -1,0 +1,22 @@
+---
+name: "Basic component options"
+ring: "Working"
+quadrant: "Components and patterns"
+status: "No Change"
+---
+
+## What is this skill?
+
+Basic component options involves passing simple parameters like text, IDs, and labels to GOV.UK Frontend macros to configure how components appear and behave.
+
+## Why is it important?
+
+- **Customisation** – Adapt components to your specific needs
+- **Correct labelling** – Ensure form fields have proper labels for accessibility
+- **Unique IDs** – Prevent conflicts when using multiple instances
+- **Foundation** – Basic options are the first step to mastering macros
+
+## Where to learn more
+
+- [GOV.UK Design System: Component options](https://design-system.service.gov.uk/components/)
+- [GOV.UK Frontend: Component API](https://frontend.design-system.service.gov.uk/)

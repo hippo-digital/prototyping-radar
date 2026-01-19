@@ -1,0 +1,22 @@
+---
+name: "Creating a new page"
+ring: "Working"
+quadrant: "Pages and journeys"
+status: "No Change"
+---
+
+## What is this skill?
+
+Creating a new page involves adding a new .html file to the app/views folder, setting up the basic template structure, and extending the correct layout to ensure consistency with other pages.
+
+## Why is it important?
+
+- **Build your prototype** – You need pages to create any user journey
+- **Correct structure** – New pages must extend layouts to work properly
+- **Organised files** – Learn to name and place files logically
+- **Efficient workflow** – Know when to duplicate existing pages vs. starting fresh
+
+## Where to learn more
+
+- [GOV.UK Prototype Kit: Create pages](https://prototype-kit.service.gov.uk/docs/create-pages)
+- [NHS Prototype Kit: Views](https://nhsuk-prototype-kit.azurewebsites.net/docs)

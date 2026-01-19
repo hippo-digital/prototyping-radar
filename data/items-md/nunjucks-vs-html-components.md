@@ -1,0 +1,22 @@
+---
+name: "Nunjucks vs HTML components"
+ring: "Working"
+quadrant: "Components and patterns"
+status: "No Change"
+---
+
+## What is this skill?
+
+Understanding Nunjucks vs HTML components means knowing when to use a Nunjucks macro (for dynamic, configurable components) versus plain HTML (for static, one-off content).
+
+## Why is it important?
+
+- **Right tool for the job** – Choose the appropriate approach for each situation
+- **Efficiency** – Macros save time for repeated, dynamic components
+- **Simplicity** – HTML is fine for simple, static content
+- **Maintenance** – Understanding the difference helps when updating code
+
+## Where to learn more
+
+- [GOV.UK Design System: Using Nunjucks](https://design-system.service.gov.uk/get-started/use-nunjucks/)
+- [GOV.UK Design System: Components](https://design-system.service.gov.uk/components/)

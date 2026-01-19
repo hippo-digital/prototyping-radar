@@ -1,0 +1,22 @@
+---
+name: "Updating the GOV.UK Frontend"
+ring: "Expert"
+quadrant: "Components and patterns"
+status: "No Change"
+---
+
+## What is this skill?
+
+Updating the GOV.UK Frontend involves managing version upgrades of the core design system package, handling breaking changes, and ensuring your prototype continues to work after updates.
+
+## Why is it important?
+
+- **Security fixes** – Updates often include important security patches
+- **New components** – Access the latest design system components
+- **Bug fixes** – Benefit from fixes to existing component issues
+- **Accessibility improvements** – Updates often include accessibility enhancements
+
+## Where to learn more
+
+- [GOV.UK Prototype Kit: Updating](https://prototype-kit.service.gov.uk/docs/updating-the-kit)
+- [GOV.UK Frontend releases](https://github.com/alphagov/govuk-frontend/releases)

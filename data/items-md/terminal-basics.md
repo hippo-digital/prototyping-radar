@@ -1,0 +1,22 @@
+---
+name: "Terminal basics"
+ring: "Working"
+quadrant: "Run and maintain"
+status: "No Change"
+---
+
+## What is this skill?
+
+Terminal basics involves understanding how to use the command line interface to navigate folders, run commands, and interact with the prototype kit. This is essential for starting, stopping, and managing your prototype.
+
+## Why is it important?
+
+- **Run the kit** – The terminal is how you start and stop your prototype
+- **Install dependencies** – NPM commands are run through the terminal
+- **Navigate your project** – Move between folders and find files quickly
+- **Debug issues** – Error messages appear in the terminal, helping you diagnose problems
+
+## Where to learn more
+
+- [GOV.UK Prototype Kit: Terminal basics](https://prototype-kit.service.gov.uk/docs/install/requirements#terminal)
+- [MDN Web Docs: Command line crash course](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line)
