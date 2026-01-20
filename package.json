@@ -21,8 +21,8 @@
     "quality": "npm run lint-prettier:check && npm run test:coverage"
   },
   "engines": {
-    "node": ">=18",
-    "npm": ">=9"
+    "node": "18.x",
+    "npm": "9.x"
   },
   "author": "Thoughtworks",
   "repository": {
