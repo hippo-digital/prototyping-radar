@@ -69,11 +69,15 @@ heroku open
 ## What Happens During Deployment
 
 1. Heroku detects this is a Node.js app
-2. Installs dependencies (`npm install`)
+2. Installs dependencies (`npm install` - including devDependencies because of NPM_CONFIG_PRODUCTION=false)
 3. Runs `heroku-postbuild` script which:
-   - Builds the data from markdown files (`npm run build:data:md`)
-   - Creates production webpack bundle (`npm run build:prod`)
+   - Builds the data from markdown files (`npm run build:data:md`) → creates `/data/prototyping-data.json`
+   - Creates production webpack bundle (`npm run build:prod`) → creates `/dist` directory
 4. Starts the app using `npm start` which runs `node server.js`
+5. Server serves:
+   - Static files from `/dist`
+   - Data files from `/data`
+   - Auto-loads `/data/prototyping-data.json` (configured in `radar.config.js`)
 
 ## Viewing Logs
 ```bash
