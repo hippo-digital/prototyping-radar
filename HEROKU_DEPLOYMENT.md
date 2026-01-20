@@ -37,17 +37,22 @@ heroku login
 
 ### 2. Create a new Heroku app
 ```bash
-heroku create your-radar-app-name
+heroku create prototyping-skills-tree
 ```
-Replace `your-radar-app-name` with your desired app name.
 
-### 3. Commit your changes
+### 3. Configure NPM to install build dependencies
+```bash
+heroku config:set NPM_CONFIG_PRODUCTION=false
+```
+⚠️ **This is REQUIRED** - Webpack and build tools are in devDependencies, which Heroku needs to build the dist directory.
+
+### 4. Commit your changes
 ```bash
 git add .
 git commit -m "Add Heroku deployment configuration"
 ```
 
-### 4. Deploy to Heroku
+### 5. Deploy to Heroku
 ```bash
 git push heroku main
 ```
@@ -76,6 +81,35 @@ heroku logs --tail
 ```
 
 ## Troubleshooting
+
+### H10 Error: App Crashed
+If you see `H10 desc="App crashed"` error:
+
+1. **Check build logs:**
+   ```bash
+   heroku logs --tail --source app
+   ```
+
+2. **Verify the build completed:**
+   The `heroku-postbuild` script should run during deployment and create the `dist` directory.
+   Look for these lines in the logs:
+   ```
+   -----> Running heroku-postbuild
+   Wrote 87 items to /tmp/build.../data/prototyping-data.json
+   webpack 5.89.0 compiled successfully
+   ```
+
+3. **Common causes:**
+   - Build failed silently - check for webpack errors in logs
+   - Missing dependencies - ensure all dependencies are in `dependencies` not `devDependencies`
+   - Node version mismatch - verify `engines` in package.json matches Heroku
+
+4. **Force a rebuild:**
+   ```bash
+   heroku repo:purge_cache -a your-app-name
+   git commit --allow-empty -m "Rebuild"
+   git push heroku main
+   ```
 
 ### Build fails
 Check the build logs:
