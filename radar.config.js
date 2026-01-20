@@ -2,18 +2,9 @@
 // This file replaces environment variables for easier management
 
 module.exports = {
-  quadrants: [
-    "Run and maintain",
-    "Pages and journeys",
-    "Data and Logic",
-    "Components and patterns"
-  ],
+  quadrants: ['Run and maintain', 'Pages and journeys', 'Components and patterns', 'Data and Logic'],
 
-  rings: [
-    "Working",
-    "Practitioner",
-    "Expert"
-  ],
+  rings: ['Working', 'Practitioner', 'Expert'],
 
   // Optional: Other configuration settings
   enableGoogleAuth: false,
@@ -25,5 +16,5 @@ module.exports = {
   gtmId: null,
 
   // Adobe Launch Script URL (if needed)
-  adobeLaunchScriptUrl: null
-};
+  adobeLaunchScriptUrl: null,
+}

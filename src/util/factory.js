@@ -135,8 +135,11 @@ const plotRadarGraph = function (title, blips, currentRadarName, alternativeRada
   const radar = new Radar()
   radar.addRings(Object.values(ringMap))
 
-  _.each(quadrants, function (quadrant) {
-    radar.addQuadrant(quadrant)
+  // Add quadrants in the order defined in graphConfig.quadrants
+  graphConfig.quadrants.forEach(function (quadrantName) {
+    if (quadrants[quadrantName]) {
+      radar.addQuadrant(quadrants[quadrantName])
+    }
   })
 
   alternativeRadars.forEach(function (sheetName) {
