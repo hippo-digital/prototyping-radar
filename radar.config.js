@@ -18,8 +18,8 @@ module.exports = {
   // Optional: Other configuration settings
   enableGoogleAuth: false,
 
-  // Default sheet URL (if needed)
-  defaultSheetUrl: null,
+  // Default sheet URL - points to the prototyping skills data
+  defaultSheetUrl: '/data/prototyping-data.json',
 
   // Google Analytics/Tag Manager ID (if needed)
   gtmId: null,

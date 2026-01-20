@@ -22,6 +22,9 @@ module.exports = {
     "Expert"
   ],
   
+  // Default sheet URL - automatically loads this JSON file
+  defaultSheetUrl: '/data/prototyping-data.json',
+  
   // Optional settings
   enableGoogleAuth: false,
   defaultSheetUrl: null,
