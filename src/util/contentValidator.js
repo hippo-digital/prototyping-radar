@@ -15,6 +15,9 @@ const ContentValidator = function (columnNames) {
     return columnName.trim()
   })
 
+  // Debug logging
+  console.log('ContentValidator columnNames:', columnNames)
+
   self.verifyContent = function () {
     if (columnNames.length === 0) {
       throw new MalformedDataError(ExceptionMessages.MISSING_CONTENT)
@@ -48,12 +51,16 @@ const ContentValidator = function (columnNames) {
           descriptionValid = true
           break
         case "isNew":
+        case "isnew":
           isNewValid = true
           break
         case "status":
         case "grow, hold, or wither":
           statusValid = true
     }})
+
+    // Debug logging
+    console.log('Validation results:', { nameValid, ringValid, quadrantValid, descriptionValid, isNewValid, statusValid })
 
     if (!nameValid || !ringValid || !quadrantValid || !descriptionValid)
     {

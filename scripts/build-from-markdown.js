@@ -9,6 +9,7 @@
  *   status: string (optional) — one of: New, Moved In, Moved Out, No Change
  *   isNew: boolean|string (optional) — used if status is not provided
  *   topic: string (optional)
+ *   order: number (optional) — custom sort order within ring/quadrant
  *
  * The Markdown body will be converted to HTML and used as `description`.
  *
@@ -83,6 +84,15 @@ function fmToOutput(fm, html) {
     description: String(html).trim(),
   }
   if (fm.topic) out.topic = String(fm.topic).trim()
+
+  // Always include order field for consistency, even if null
+  if (fm.order !== undefined && fm.order !== null) {
+    const orderNum = Number(fm.order)
+    out.order = !isNaN(orderNum) ? orderNum : null
+  } else {
+    out.order = null
+  }
+
   if (fm.status && String(fm.status).trim() !== '') out.status = String(fm.status).trim()
   else out.isNew = normalizeIsNew(fm.isNew)
   return out

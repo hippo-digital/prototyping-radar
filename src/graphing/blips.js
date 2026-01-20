@@ -334,7 +334,7 @@ function createGroupBlip(blipsInRing, blipType, ring, quadrantOrder) {
   const blipId = `${quadrantOrder}-${replaceSpaceWithHyphens(ring.name())}-group-${replaceSpaceWithHyphens(
     blipType,
   )}-blips`
-  const groupBlip = new Blip(blipText, ring, blipsInRing[0].isNew(), '', '')
+  const groupBlip = new Blip(blipText, ring, blipsInRing[0].isNew(), '', '', '', null)
   groupBlip.setBlipText(blipText)
   groupBlip.setId(blipId)
   groupBlip.setIsGroup(true)
@@ -358,6 +358,12 @@ function plotGroupBlips(ringBlips, ring, quadrantOrder, parentElement, quadrantW
     const blipCoordsForCurrentQuadrant = transposeQuadrantCoords(baseCoords, groupBlip.groupBlipWidth())[quadrantOrder]
     drawBlipInCoordinates(groupBlip, blipCoordsForCurrentQuadrant, quadrantOrder, parentElement)
     renderBlipDescription(groupBlip, ring, quadrantWrapper, tooltip, groupBlipTooltipText)
+
+    // Sort blips by their ID before rendering in table
+    blipsInRing.sort(function (a, b) {
+      return a.id() - b.id()
+    })
+
     blipsInRing.forEach(function (blip) {
       blip.setGroupIdInGraph(groupBlip.id())
       renderBlipDescription(blip, ring, quadrantWrapper, tooltip)
@@ -376,6 +382,11 @@ const plotRadarBlips = function (parentElement, rings, quadrantWrapper, tooltip)
   rings.forEach(function (ring, i) {
     const ringBlips = blips.filter(function (blip) {
       return blip.ring() === ring
+    })
+
+    // Sort blips by their ID (blip number) for correct table ordering
+    ringBlips.sort(function (a, b) {
+      return a.id() - b.id()
     })
 
     if (ringBlips.length === 0) {

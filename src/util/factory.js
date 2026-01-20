@@ -61,6 +61,7 @@ const plotRadar = function (title, blips, currentRadarName, alternativeRadars) {
         blip.status,
         blip.topic,
         blip.description,
+        blip.order
       ),
     )
   })
@@ -127,6 +128,7 @@ const plotRadarGraph = function (title, blips, currentRadarName, alternativeRada
         blip.status,
         blip.topic,
         blip.description,
+        blip.order
       )
       quadrants[currentQuadrant].add(blipObj)
     }
@@ -245,6 +247,8 @@ const CSVDocument = function (url) {
         ? plotRadarGraph(FileName(url), blips, 'CSV File', [])
         : plotRadar(FileName(url), blips, 'CSV File', [])
     } catch (exception) {
+      console.error('createBlips (CSV) exception:', exception)
+      console.error('Exception stack:', exception.stack)
       const invalidContentError = new InvalidContentError(ExceptionMessages.INVALID_CSV_CONTENT)
       plotErrorMessage(featureToggles.UIRefresh2022 ? invalidContentError : exception, 'csv')
     }
@@ -281,6 +285,8 @@ const JSONFile = function (url) {
         ? plotRadarGraph(FileName(url), blips, 'JSON File', [])
         : plotRadar(FileName(url), blips, 'JSON File', [])
     } catch (exception) {
+      console.error('createBlips exception:', exception)
+      console.error('Exception stack:', exception.stack)
       const invalidContentError = new InvalidContentError(ExceptionMessages.INVALID_JSON_CONTENT)
       plotErrorMessage(featureToggles.UIRefresh2022 ? invalidContentError : exception, 'json')
     }

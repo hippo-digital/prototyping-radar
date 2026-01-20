@@ -49,7 +49,15 @@ const InputSanitizer = function () {
   function trimWhiteSpaces(blip) {
     var processedBlip = {}
     _.forOwn(blip, function (value, key) {
-      processedBlip[key.trim()] = value.trim()
+      var trimmedKey = key.trim()
+      // Handle null values (e.g., order field) and non-string values
+      if (value === null || value === undefined) {
+        processedBlip[trimmedKey] = value
+      } else if (typeof value === 'string') {
+        processedBlip[trimmedKey] = value.trim()
+      } else {
+        processedBlip[trimmedKey] = value
+      }
     })
     return processedBlip
   }

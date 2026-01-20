@@ -67,13 +67,17 @@ const Radar = function () {
             blip: blip,
             ringOrder: ringOrder,
             quadrantOrder: quadOrder !== undefined ? quadOrder : 999,
-            quadrantName: quadrantName
+            quadrantName: quadrantName,
+            customOrder: blip.order ? blip.order() : null
           })
         })
       }
     })
 
-    // Sort by ring first (Working=0, Practitioner=1, Expert=2), then by quadrant order (clockwise), then by name
+    // Sort by ring first (Working=0, Practitioner=1, Expert=2),
+    // then by quadrant order (clockwise),
+    // then by custom order if provided,
+    // then alphabetically by name
     allBlipsWithMetadata.sort(function (a, b) {
       if (a.ringOrder !== b.ringOrder) {
         return a.ringOrder - b.ringOrder
@@ -81,6 +85,13 @@ const Radar = function () {
       if (a.quadrantOrder !== b.quadrantOrder) {
         return a.quadrantOrder - b.quadrantOrder
       }
+      // Use custom order if both have it
+      if (a.customOrder !== null && b.customOrder !== null) {
+        return a.customOrder - b.customOrder
+      }
+      // Items with custom order come before items without
+      if (a.customOrder !== null) return -1
+      if (b.customOrder !== null) return 1
       // Within same ring and quadrant, sort alphabetically by name
       return a.blip.name().localeCompare(b.blip.name())
     })
