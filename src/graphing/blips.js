@@ -12,7 +12,8 @@ const _ = {
 }
 
 const getRingRadius = function (ringIndex) {
-  const ratios = [0, 0.316, 0.652, 0.832, 0.992]
+  // Updated to match ringCalculator.js ratios: Working (60%), Practitioner (25%), Expert (15%)
+  const ratios = [0, 0.60, 0.85, 1.0, 1.0]
   const radius = ratios[ringIndex] * graphConfig.quadrantWidth
   return radius || 0
 }

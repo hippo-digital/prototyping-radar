@@ -166,7 +166,14 @@ function renderQuadrantTables(quadrants, rings) {
           .map((ring) => ring.name()),
       ),
     )
-    ringNames.forEach(function (ringName) {
+    // Sort ring names by their order
+    const sortedRingNames = ringNames
+      .map((ringName) => rings.find((ring) => ring.name() === ringName))
+      .filter((ring) => ring !== undefined)
+      .sort((a, b) => a.order() - b.order())
+      .map((ring) => ring.name())
+
+    sortedRingNames.forEach(function (ringName) {
       quadrantContainer
         .append('h2')
         .classed('quadrant-table__ring-name', true)
