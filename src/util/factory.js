@@ -130,6 +130,9 @@ const plotRadarGraph = function (title, blips, currentRadarName, alternativeRada
         blip.description,
         blip.order
       )
+      if (blip.filename) {
+        blipObj.setFilename(blip.filename)
+      }
       quadrants[currentQuadrant].add(blipObj)
     }
   })

@@ -1,7 +1,7 @@
 const { graphConfig } = require('../graphing/config')
 const IDEAL_BLIP_WIDTH = 22
 const Blip = function (name, ring, isNew, status, topic, description, order) {
-  let self, blipText, isGroup, id, groupIdInGraph
+  let self, blipText, isGroup, id, groupIdInGraph, filename
 
   self = {}
   isGroup = false
@@ -106,6 +106,14 @@ const Blip = function (name, ring, isNew, status, topic, description, order) {
 
   self.setIsGroup = function (isAGroupBlip) {
     isGroup = isAGroupBlip
+  }
+
+  self.filename = function () {
+    return filename || ''
+  }
+
+  self.setFilename = function (newFilename) {
+    filename = newFilename
   }
 
   return self

@@ -76,12 +76,13 @@ function validateFrontmatter(fm, file) {
   }
 }
 
-function fmToOutput(fm, html) {
+function fmToOutput(fm, html, filename) {
   const out = {
     name: String(fm.name).trim(),
     ring: String(fm.ring).trim(),
     quadrant: String(fm.quadrant).trim(),
     description: String(html).trim(),
+    filename: filename || '',
   }
   if (fm.topic) out.topic = String(fm.topic).trim()
 
@@ -130,7 +131,9 @@ function main() {
     }
     // Convert Markdown body to HTML
     const html = marked.parse(parsed.content || '')
-    results.push(fmToOutput(parsed.data, html))
+    // Extract filename without extension
+    const filename = path.basename(file, '.md')
+    results.push(fmToOutput(parsed.data, html, filename))
   }
 
   ensureDir(path.dirname(outPath))
