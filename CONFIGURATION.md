@@ -11,9 +11,9 @@ This file contains all radar-specific settings:
 module.exports = {
   quadrants: [
     "Run and maintain",
-    "Pages and journeys", 
+    "Pages and journeys",
+    "Components and patterns",
     "Data and Logic",
-    "Components and patterns"
   ],
   
   rings: [
@@ -124,14 +124,14 @@ If you're migrating from the old environment variable approach:
 
 **Before** (.env):
 ```
-QUADRANTS=["Run and maintain","Pages and journeys","Data and Logic","Components and patterns"]
+QUADRANTS=["Run and maintain","Pages and journeys","Components and patterns","Data and Logic"]
 RINGS=["Working","Practitioner","Expert"]
 ```
 
 **After** (radar.config.js):
 ```javascript
 module.exports = {
-  quadrants: ["Run and maintain","Pages and journeys","Data and Logic","Components and patterns"],
+  quadrants: ["Run and maintain","Pages and journeys","Components and patterns","Data and Logic"],
   rings: ["Working","Practitioner","Expert"]
 };
 ```
