@@ -4,6 +4,25 @@ const { stickQuadrantOnScroll } = require('./quadrants')
 const { removeAllSpaces } = require('../../util/stringUtil')
 const feedbackConfig = require('../../../feedback.config')
 
+function addTargetBlankToExternalLinks(html) {
+  // Create a temporary div to parse the HTML
+  const tempDiv = document.createElement('div')
+  tempDiv.innerHTML = html
+
+  // Find all links
+  const links = tempDiv.querySelectorAll('a[href]')
+  links.forEach(link => {
+    const href = link.getAttribute('href')
+    // Check if it's an external link (starts with http:// or https://)
+    if (href && (href.startsWith('http://') || href.startsWith('https://'))) {
+      link.setAttribute('target', '_blank')
+      link.setAttribute('rel', 'noopener noreferrer')
+    }
+  })
+
+  return tempDiv.innerHTML
+}
+
 function generateFeedbackLink(blip, ring, quadrant) {
   if (!feedbackConfig.enabled) {
     return ''
@@ -104,11 +123,14 @@ function renderBlipDescription(blip, ring, quadrant, tip, groupBlipTooltipText) 
       .text(`${blip.blipText()}. ${blip.name()}`)
     blipItemContainer.append('span').classed('blip-list__item-container__name-arrow', true)
 
+    // Process description to add target="_blank" to external links
+    const processedDescription = addTargetBlankToExternalLinks(blip.description())
+
     const descriptionDiv = blipItemDiv
       .append('div')
       .classed('blip-list__item-container__description', true)
       .attr('id', `blip-description-${blip.id()}`)
-      .html(blip.description())
+      .html(processedDescription)
 
     // Add feedback link if filename exists
     if (blip.filename && blip.filename()) {
