@@ -8,14 +8,24 @@
 ## Files Created
 ✅ `server.js` - Express server to serve production build
 ✅ `Procfile` - Tells Heroku how to start the app
+✅ `radar.config.js` - Configuration file for quadrants, rings, and other settings
 ✅ `package.json` - Updated with start script, heroku-postbuild, and engines
 
-## Environment Variables
-The app uses the following environment variables that need to be set on Heroku:
+## Configuration
+All radar configuration is now in `radar.config.js` which is included in your codebase:
+- **Quadrants**: Run and maintain, Pages and journeys, Data and Logic, Components and patterns
+- **Rings**: Working, Practitioner, Expert
 
+To modify the configuration, simply edit `radar.config.js` and commit the changes.
+
+## Environment Variables
+You no longer need to set QUADRANTS and RINGS as environment variables!
+
+Optional environment variables (only if needed):
 ```bash
-QUADRANTS=["Run and maintain","Pages and journeys","Data and Logic","Components and patterns"]
-RINGS=["Working","Practitioner","Expert"]
+heroku config:set CLIENT_ID=your-client-id
+heroku config:set API_KEY=your-api-key
+heroku config:set GTM_ID=your-gtm-id
 ```
 
 ## Deployment Steps
@@ -31,20 +41,13 @@ heroku create your-radar-app-name
 ```
 Replace `your-radar-app-name` with your desired app name.
 
-### 3. Set environment variables
-```bash
-heroku config:set QUADRANTS='["Run and maintain","Pages and journeys","Data and Logic","Components and patterns"]'
-heroku config:set RINGS='["Working","Practitioner","Expert"]'
-heroku config:set NODE_ENV=production
-```
-
-### 4. Commit your changes
+### 3. Commit your changes
 ```bash
 git add .
 git commit -m "Add Heroku deployment configuration"
 ```
 
-### 5. Deploy to Heroku
+### 4. Deploy to Heroku
 ```bash
 git push heroku main
 ```
@@ -53,7 +56,7 @@ Or if you're on a different branch:
 git push heroku your-branch-name:main
 ```
 
-### 6. Open your app
+### 5. Open your app
 ```bash
 heroku open
 ```

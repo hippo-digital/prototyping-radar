@@ -7,10 +7,11 @@ const args = require('yargs').argv
 
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const radarConfig = require('./radar.config')
 
 const env = args.envFile
 if (env) {
-  // Load env file
+  // Load env file (for any remaining env vars like API keys)
   require('dotenv').config({ path: env })
 } else {
   require('dotenv').config()
@@ -30,12 +31,12 @@ const plugins = [
   new webpack.DefinePlugin({
     'process.env.CLIENT_ID': JSON.stringify(process.env.CLIENT_ID),
     'process.env.API_KEY': JSON.stringify(process.env.API_KEY),
-    'process.env.ENABLE_GOOGLE_AUTH': JSON.stringify(process.env.ENABLE_GOOGLE_AUTH),
-    'process.env.GTM_ID': JSON.stringify(process.env.GTM_ID),
-    'process.env.RINGS': JSON.stringify(process.env.RINGS),
-    'process.env.QUADRANTS': JSON.stringify(process.env.QUADRANTS),
-    'process.env.ADOBE_LAUNCH_SCRIPT_URL': JSON.stringify(process.env.ADOBE_LAUNCH_SCRIPT_URL),
-    'process.env.DEFAULT_SHEET_URL': JSON.stringify(process.env.DEFAULT_SHEET_URL),
+    'process.env.ENABLE_GOOGLE_AUTH': JSON.stringify(radarConfig.enableGoogleAuth || process.env.ENABLE_GOOGLE_AUTH),
+    'process.env.GTM_ID': JSON.stringify(radarConfig.gtmId || process.env.GTM_ID),
+    'process.env.RINGS': JSON.stringify(radarConfig.rings),
+    'process.env.QUADRANTS': JSON.stringify(radarConfig.quadrants),
+    'process.env.ADOBE_LAUNCH_SCRIPT_URL': JSON.stringify(radarConfig.adobeLaunchScriptUrl || process.env.ADOBE_LAUNCH_SCRIPT_URL),
+    'process.env.DEFAULT_SHEET_URL': JSON.stringify(radarConfig.defaultSheetUrl || process.env.DEFAULT_SHEET_URL),
   }),
 ]
 
