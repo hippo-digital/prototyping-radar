@@ -1,0 +1,22 @@
+---
+name: "Installing the kit"
+ring: "Working"
+quadrant: "Run and maintain"
+status: "No Change"
+---
+
+## What is this skill?
+
+Installing the kit involves downloading the prototype kit, setting up Node.js, and running npm install to get all dependencies. This is the first step before you can start building prototypes.
+
+## Why is it important?
+
+- **Get started** – You cannot prototype without first installing the kit
+- **Understand dependencies** – Learn how Node.js and NPM work together
+- **Troubleshoot setup issues** – Know how to fix common installation problems
+- **Set up new projects** – Create fresh prototypes whenever needed
+
+## Where to learn more
+
+- [GOV.UK Prototype Kit: Installation guide](https://prototype-kit.service.gov.uk/docs/install)
+- [NHS Prototype Kit: Installation](https://nhsuk-prototype-kit.azurewebsites.net/docs/install)

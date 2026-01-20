@@ -1,0 +1,22 @@
+---
+name: "Form layout design"
+ring: "Practitioner"
+quadrant: "Pages and journeys"
+status: "No Change"
+---
+
+## What is this skill?
+
+Form layout design involves organizing complex forms with fieldsets, legends, hint text, and proper spacing to create accessible, user-friendly form pages.
+
+## Why is it important?
+
+- **Accessibility** – Properly structured forms work with assistive technologies
+- **Usability** – Good layout reduces user errors and confusion
+- **Design system compliance** – Follow GOV.UK form patterns
+- **Complex forms** – Handle multi-part questions and grouped inputs correctly
+
+## Where to learn more
+
+- [GOV.UK Design System: Fieldset](https://design-system.service.gov.uk/components/fieldset/)
+- [GOV.UK Service Manual: Form structure](https://www.gov.uk/service-manual/design/form-structure)

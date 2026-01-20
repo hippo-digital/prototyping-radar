@@ -1,5 +1,5 @@
 const RingCalculator = function (numberOfRings, maxRadius) {
-  var sequence = [0, 6, 5, 3, 2, 1, 1, 1]
+  var sequence = [0, 7, 4, 3, 2, 1, 1, 1]
 
   var self = {}
 
@@ -17,7 +17,8 @@ const RingCalculator = function (numberOfRings, maxRadius) {
   }
 
   self.getRingRadius = function (ringIndex) {
-    const ratios = [0, 0.316, 0.652, 0.832, 1]
+    // Adjusted ratios so inner ring is 60%: Working (60%), Practitioner (25%), Expert (15%)
+    const ratios = [0, 0.60, 0.85, 1.0, 1]
     const radius = ratios[ringIndex] * maxRadius
     return radius || 0
   }

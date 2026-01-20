@@ -1,12 +1,14 @@
+const radarConfig = require('../../radar.config')
+
 const quadrantSize = 512
 const quadrantGap = 32
 
 const getQuadrants = () => {
-  return JSON.parse(process.env.QUADRANTS || null) || ['Techniques', 'Platforms', 'Tools', 'Languages & Frameworks']
+  return radarConfig.quadrants || ['Techniques', 'Platforms', 'Tools', 'Languages & Frameworks']
 }
 
 const getRings = () => {
-  return JSON.parse(process.env.RINGS || null) || ['Adopt', 'Trial', 'Assess', 'Hold']
+  return radarConfig.rings || ['Adopt', 'Trial', 'Assess', 'Hold']
 }
 
 const isBetween = (number, startNumber, endNumber) => {
@@ -30,7 +32,7 @@ const graphConfig = {
   rings: getRings(),
   quadrants: getQuadrants(),
   groupBlipAngles: [30, 35, 60, 80],
-  maxBlipsInRings: [8, 22, 17, 18],
+  maxBlipsInRings: [15, 22, 17, 18],
 }
 
 const uiConfig = {

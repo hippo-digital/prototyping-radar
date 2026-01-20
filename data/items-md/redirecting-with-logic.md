@@ -1,0 +1,22 @@
+---
+name: "Redirecting with logic"
+ring: "Practitioner"
+quadrant: "Data and Logic"
+status: "No Change"
+---
+
+## What is this skill?
+
+Redirecting with logic involves using routes to send users to different pages based on their form answers, enabling branching journeys and eligibility checks.
+
+## Why is it important?
+
+- **Branching journeys** – Send users down different paths based on answers
+- **Eligibility screening** – Redirect ineligible users to appropriate pages
+- **Skip logic** – Jump over irrelevant questions
+- **Dynamic experiences** – Create personalised journeys
+
+## Where to learn more
+
+- [GOV.UK Prototype Kit: Branching](https://prototype-kit.service.gov.uk/docs/branching)
+- [GOV.UK Prototype Kit: Create routes](https://prototype-kit.service.gov.uk/docs/create-routes)

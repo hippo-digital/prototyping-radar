@@ -1,0 +1,22 @@
+---
+name: "Isolating patterns for reuse"
+ring: "Expert"
+quadrant: "Components and patterns"
+status: "No Change"
+---
+
+## What is this skill?
+
+Isolating patterns for reuse involves extracting components from your prototype into standalone, well-documented modules that can be shared across projects or with other teams.
+
+## Why is it important?
+
+- **Cross-project efficiency** – Reuse proven patterns in future prototypes
+- **Team collaboration** – Share components with colleagues
+- **Design system contribution** – Prepare patterns for wider adoption
+- **Quality improvement** – Isolated patterns get more attention and refinement
+
+## Where to learn more
+
+- [GOV.UK Design System: Contribute](https://design-system.service.gov.uk/community/propose-a-component-or-pattern/)
+- [NHS digital service manual: Contribute](https://service-manual.nhs.uk/community-and-contribution)

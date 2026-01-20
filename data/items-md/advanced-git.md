@@ -1,0 +1,22 @@
+---
+name: "Advanced Git"
+ring: "Expert"
+quadrant: "Run and maintain"
+status: "No Change"
+---
+
+## What is this skill?
+
+Advanced Git involves using branches to work on features separately, merging changes, resolving conflicts, and using Git history to understand or revert changes in your prototype.
+
+## Why is it important?
+
+- **Safe experimentation** – Test ideas in branches without affecting the main prototype
+- **Team collaboration** – Multiple people can work on different features simultaneously
+- **Version management** – Maintain different versions for different research rounds
+- **Recovery** – Revert problematic changes without losing other work
+
+## Where to learn more
+
+- [GitHub: Git branching](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches)
+- [Atlassian: Git branching tutorial](https://www.atlassian.com/git/tutorials/using-branches)

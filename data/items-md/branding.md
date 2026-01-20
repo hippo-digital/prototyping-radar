@@ -1,0 +1,22 @@
+---
+name: "Branding"
+ring: "Practitioner"
+quadrant: "Pages and journeys"
+status: "No Change"
+---
+
+## What is this skill?
+
+Branding involves applying service-specific headers, logos, and banners to your prototype to match your organisation's identity or test different visual approaches.
+
+## Why is it important?
+
+- **Realistic testing** – Branded prototypes feel more authentic to users
+- **Stakeholder buy-in** – Helps decision makers visualise the final service
+- **Service identity** – Test how branding affects user perception
+- **Multi-organisation services** – Handle joint services or departmental branding
+
+## Where to learn more
+
+- [GOV.UK Design System: Header](https://design-system.service.gov.uk/components/header/)
+- [NHS digital service manual: Header](https://service-manual.nhs.uk/design-system/components/header)

@@ -1,0 +1,22 @@
+---
+name: "Building complex macros"
+ring: "Expert"
+quadrant: "Components and patterns"
+status: "No Change"
+---
+
+## What is this skill?
+
+Building complex macros involves creating sophisticated Nunjucks components with nested logic, multiple parameters, default values, and conditional rendering based on the options passed in.
+
+## Why is it important?
+
+- **Flexibility** – Create components that adapt to many different use cases
+- **Production-like quality** – Build macros that match GOV.UK Frontend standards
+- **Reduced duplication** – Handle variations within a single macro
+- **Team efficiency** – Provide powerful tools for less experienced team members
+
+## Where to learn more
+
+- [Nunjucks: Macro](https://mozilla.github.io/nunjucks/templating.html#macro)
+- [GOV.UK Frontend: Component examples](https://github.com/alphagov/govuk-frontend/tree/main/packages/govuk-frontend/src/govuk/components)

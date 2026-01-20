@@ -1,0 +1,22 @@
+---
+name: "Previewing in local host"
+ring: "Working"
+quadrant: "Pages and journeys"
+status: "No Change"
+---
+
+## What is this skill?
+
+Previewing in localhost involves navigating to your local server address (usually localhost:3000) in a browser to view and test your prototype as you develop it.
+
+## Why is it important?
+
+- **Immediate feedback** – See your changes as you make them
+- **Testing** – Check that links, forms, and logic work correctly
+- **Debugging** – Identify visual and functional issues early
+- **Development workflow** – Essential for iterative prototyping
+
+## Where to learn more
+
+- [GOV.UK Prototype Kit: Running the kit](https://prototype-kit.service.gov.uk/docs/install/run-the-kit)
+- [MDN Web Docs: What is a web server?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_web_server)
