@@ -112,11 +112,50 @@
             font-size: 1.125rem;
           }
 
-          & > * {
+          & > *:not(ul):not(ol):not(h2) {
             font-family: inherit !important;
             font-size: inherit !important;
             line-height: inherit !important;
             margin: 0 !important;
+          }
+
+          h2 {
+            font-size: 1.25rem !important;
+            margin: 24px 0 0 0 !important;
+            line-height: 1.25 !important;
+
+            // style the first h2 differently to the rest
+            &:first-of-type {
+              margin: 0 0 16px 0 !important;
+            }
+          }
+
+
+          ul {
+            list-style-type: disc !important;
+            list-style-position: outside !important;
+            padding-left: 20px !important;
+            margin: 12px 0 !important;
+
+            li {
+              list-style-type: disc !important;
+              display: list-item !important;
+              margin: 8px 0 !important;
+              padding-left: 0px !important;
+            }
+          }
+
+          ol {
+            list-style-type: decimal !important;
+            list-style-position: outside !important;
+            padding-left: 40px !important;
+            margin: 12px 0 !important;
+
+            li {
+              display: list-item !important;
+              margin: 8px 0 !important;
+              padding-left: 8px !important;
+            }
           }
 
           .blip-feedback-link {
