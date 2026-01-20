@@ -3,6 +3,7 @@ name: "Running the kit locally"
 ring: "Working"
 quadrant: "Run and maintain"
 status: "No Change"
+order: 1
 ---
 
 ## What is this skill?

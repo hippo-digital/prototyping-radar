@@ -9,6 +9,7 @@
  *   status: string (optional) — one of: New, Moved In, Moved Out, No Change
  *   isNew: boolean|string (optional) — used if status is not provided
  *   topic: string (optional)
+ *   order: number (optional) — custom sort order within ring/quadrant
  *
  * The Markdown body will be converted to HTML and used as `description`.
  *
@@ -75,14 +76,24 @@ function validateFrontmatter(fm, file) {
   }
 }
 
-function fmToOutput(fm, html) {
+function fmToOutput(fm, html, filename) {
   const out = {
     name: String(fm.name).trim(),
     ring: String(fm.ring).trim(),
     quadrant: String(fm.quadrant).trim(),
     description: String(html).trim(),
+    filename: filename || '',
   }
   if (fm.topic) out.topic = String(fm.topic).trim()
+
+  // Always include order field for consistency, even if null
+  if (fm.order !== undefined && fm.order !== null) {
+    const orderNum = Number(fm.order)
+    out.order = !isNaN(orderNum) ? orderNum : null
+  } else {
+    out.order = null
+  }
+
   if (fm.status && String(fm.status).trim() !== '') out.status = String(fm.status).trim()
   else out.isNew = normalizeIsNew(fm.isNew)
   return out
@@ -120,7 +131,9 @@ function main() {
     }
     // Convert Markdown body to HTML
     const html = marked.parse(parsed.content || '')
-    results.push(fmToOutput(parsed.data, html))
+    // Extract filename without extension
+    const filename = path.basename(file, '.md')
+    results.push(fmToOutput(parsed.data, html, filename))
   }
 
   ensureDir(path.dirname(outPath))
