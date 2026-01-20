@@ -1,9 +1,24 @@
 # Heroku H10 Error Fix
 
 ## Problem
-The app crashes on Heroku with H10 error because the `dist` directory is not created during build.
+The app crashes on Heroku with H10 error.
 
-## Root Cause
+## Root Causes
+
+### 1. Express 5 Compatibility Issue ⚠️ **CRITICAL**
+**Error:** `PathError [TypeError]: Missing parameter name at index 1: *`
+
+Express v5 has breaking changes with wildcard routes. The `app.get('*', ...)` syntax is no longer valid.
+
+**Solution:** Downgrade to Express 4
+```bash
+# Already fixed in package.json - just redeploy
+git add package.json
+git commit -m "Fix: Downgrade Express to v4 for compatibility"
+git push heroku main
+```
+
+### 2. Missing dist Directory
 Webpack and build tools are in `devDependencies`, but Heroku doesn't install devDependencies by default in production mode.
 
 ## Solution
