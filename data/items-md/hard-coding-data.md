@@ -1,8 +1,9 @@
 ---
-name: "Hard-coding data"
-ring: "Working"
-quadrant: "Pages and journeys"
-status: "No Change"
+name: Hard-coding data
+ring: Working
+quadrant: Pages and journeys
+status: No Change
+order: 11
 ---
 
 ## What is this skill?

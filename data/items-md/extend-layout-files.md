@@ -1,8 +1,9 @@
 ---
-name: "Extend layout files"
-ring: "Practitioner"
-quadrant: "Pages and journeys"
-status: "No Change"
+name: Extend layout files
+ring: Practitioner
+quadrant: Pages and journeys
+status: No Change
+order: 2
 ---
 
 ## What is this skill?

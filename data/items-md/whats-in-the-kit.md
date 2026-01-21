@@ -1,8 +1,9 @@
 ---
-name: "What's in the kit"
-ring: "Working"
-quadrant: "Run and maintain"
-status: "No Change"
+name: What's in the kit
+ring: Working
+quadrant: Run and maintain
+status: No Change
+order: 7
 ---
 
 ## What is this skill?

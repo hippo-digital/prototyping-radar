@@ -1,8 +1,9 @@
 ---
-name: "Dynamic routing logic"
-ring: "Expert"
-quadrant: "Pages and journeys"
-status: "No Change"
+name: Dynamic routing logic
+ring: Expert
+quadrant: Pages and journeys
+status: No Change
+order: 6
 ---
 
 ## What is this skill?

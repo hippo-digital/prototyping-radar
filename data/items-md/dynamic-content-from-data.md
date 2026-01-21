@@ -1,8 +1,9 @@
 ---
-name: "Dynamic content from data"
-ring: "Practitioner"
-quadrant: "Data and Logic"
-status: "No Change"
+name: Dynamic content from data
+ring: Practitioner
+quadrant: Data and Logic
+status: No Change
+order: 14
 ---
 
 ## What is this skill?

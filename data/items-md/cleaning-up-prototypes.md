@@ -1,8 +1,9 @@
 ---
-name: "Cleaning up prototypes"
-ring: "Expert"
-quadrant: "Run and maintain"
-status: "No Change"
+name: Cleaning up prototypes
+ring: Expert
+quadrant: Run and maintain
+status: No Change
+order: 2
 ---
 
 ## What is this skill?

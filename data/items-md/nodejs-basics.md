@@ -1,8 +1,9 @@
 ---
-name: "Node.js basics"
-ring: "Working"
-quadrant: "Run and maintain"
-status: "No Change"
+name: Node.js basics
+ring: Working
+quadrant: Run and maintain
+status: No Change
+order: 2
 ---
 
 ## What is this skill?

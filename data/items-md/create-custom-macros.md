@@ -1,8 +1,9 @@
 ---
-name: "Create custom macros"
-ring: "Practitioner"
-quadrant: "Components and patterns"
-status: "No Change"
+name: Create custom macros
+ring: Practitioner
+quadrant: Components and patterns
+status: No Change
+order: 1
 ---
 
 ## What is this skill?

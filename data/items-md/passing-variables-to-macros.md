@@ -1,8 +1,9 @@
 ---
-name: "Passing variables to macros"
-ring: "Practitioner"
-quadrant: "Components and patterns"
-status: "No Change"
+name: Passing variables to macros
+ring: Practitioner
+quadrant: Components and patterns
+status: No Change
+order: 2
 ---
 
 ## What is this skill?

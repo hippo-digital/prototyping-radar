@@ -1,8 +1,9 @@
 ---
-name: "Using external JSON files"
-ring: "Expert"
-quadrant: "Data and Logic"
-status: "No Change"
+name: Using external JSON files
+ring: Expert
+quadrant: Data and Logic
+status: No Change
+order: 6
 ---
 
 ## What is this skill?

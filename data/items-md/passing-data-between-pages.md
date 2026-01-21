@@ -1,8 +1,9 @@
 ---
-name: "Passing data between pages"
-ring: "Practitioner"
-quadrant: "Data and Logic"
-status: "No Change"
+name: Passing data between pages
+ring: Practitioner
+quadrant: Data and Logic
+status: No Change
+order: 6
 ---
 
 ## What is this skill?

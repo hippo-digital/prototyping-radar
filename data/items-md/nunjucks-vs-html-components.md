@@ -1,8 +1,9 @@
 ---
-name: "Nunjucks vs HTML components"
-ring: "Working"
-quadrant: "Components and patterns"
-status: "No Change"
+name: Nunjucks vs HTML components
+ring: Working
+quadrant: Components and patterns
+status: No Change
+order: 6
 ---
 
 ## What is this skill?

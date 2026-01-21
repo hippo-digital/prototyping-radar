@@ -1,8 +1,9 @@
 ---
-name: "Conditional components"
-ring: "Practitioner"
-quadrant: "Components and patterns"
-status: "No Change"
+name: Conditional components
+ring: Practitioner
+quadrant: Components and patterns
+status: No Change
+order: 10
 ---
 
 ## What is this skill?

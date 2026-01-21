@@ -1,8 +1,9 @@
 ---
-name: "Complex 'if/else' logic"
-ring: "Practitioner"
-quadrant: "Data and Logic"
-status: "No Change"
+name: Complex 'if/else' logic
+ring: Practitioner
+quadrant: Data and Logic
+status: No Change
+order: 1
 ---
 
 ## What is this skill?

@@ -1,8 +1,9 @@
 ---
-name: "Assets folder"
-ring: "Working"
-quadrant: "Run and maintain"
-status: "No Change"
+name: Assets folder
+ring: Working
+quadrant: Run and maintain
+status: No Change
+order: 9
 ---
 
 ## What is this skill?

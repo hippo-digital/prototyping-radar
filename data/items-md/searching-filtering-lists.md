@@ -1,8 +1,9 @@
 ---
-name: "Searching/Filtering lists"
-ring: "Expert"
-quadrant: "Data and Logic"
-status: "No Change"
+name: Searching/Filtering lists
+ring: Expert
+quadrant: Data and Logic
+status: No Change
+order: 10
 ---
 
 ## What is this skill?

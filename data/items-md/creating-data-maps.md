@@ -1,8 +1,9 @@
 ---
-name: "Creating data maps"
-ring: "Expert"
-quadrant: "Data and Logic"
-status: "No Change"
+name: Creating data maps
+ring: Expert
+quadrant: Data and Logic
+status: No Change
+order: 7
 ---
 
 ## What is this skill?

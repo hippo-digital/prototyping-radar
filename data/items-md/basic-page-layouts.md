@@ -1,8 +1,9 @@
 ---
-name: "Basic page layouts"
-ring: "Working"
-quadrant: "Components and patterns"
-status: "No Change"
+name: Basic page layouts
+ring: Working
+quadrant: Components and patterns
+status: No Change
+order: 5
 ---
 
 ## What is this skill?

@@ -1,8 +1,9 @@
 ---
-name: "Checking accessibility defaults"
-ring: "Working"
-quadrant: "Components and patterns"
-status: "No Change"
+name: Checking accessibility defaults
+ring: Working
+quadrant: Components and patterns
+status: No Change
+order: 20
 ---
 
 ## What is this skill?

@@ -1,8 +1,9 @@
 ---
-name: "Copying code from the Design System"
-ring: "Working"
-quadrant: "Components and patterns"
-status: "No Change"
+name: Copying code from the Design System
+ring: Working
+quadrant: Components and patterns
+status: No Change
+order: 3
 ---
 
 ## What is this skill?

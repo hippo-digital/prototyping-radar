@@ -1,8 +1,9 @@
 ---
-name: "Use macros for items"
-ring: "Practitioner"
-quadrant: "Components and patterns"
-status: "No Change"
+name: Use macros for items
+ring: Practitioner
+quadrant: Components and patterns
+status: No Change
+order: 3
 ---
 
 ## What is this skill?

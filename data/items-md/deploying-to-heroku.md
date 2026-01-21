@@ -1,8 +1,9 @@
 ---
-name: "Deploying to Heroku"
-ring: "Expert"
-quadrant: "Run and maintain"
-status: "No Change"
+name: Deploying to Heroku
+ring: Expert
+quadrant: Run and maintain
+status: No Change
+order: 3
 ---
 
 ## What is this skill?

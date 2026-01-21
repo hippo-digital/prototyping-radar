@@ -1,8 +1,9 @@
 ---
-name: "Using block content"
-ring: "Practitioner"
-quadrant: "Pages and journeys"
-status: "No Change"
+name: Using block content
+ring: Practitioner
+quadrant: Pages and journeys
+status: No Change
+order: 4
 ---
 
 ## What is this skill?

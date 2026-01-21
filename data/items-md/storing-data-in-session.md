@@ -1,8 +1,9 @@
 ---
-name: "Storing data in session"
-ring: "Working"
-quadrant: "Data and Logic"
-status: "No Change"
+name: Storing data in session
+ring: Working
+quadrant: Data and Logic
+status: No Change
+order: 2
 ---
 
 ## What is this skill?

@@ -1,8 +1,9 @@
 ---
-name: "Add delays"
-ring: "Working"
-quadrant: "Pages and journeys"
-status: "No Change"
+name: Add delays
+ring: Working
+quadrant: Pages and journeys
+status: No Change
+order: 13
 ---
 
 ## What is this skill?

@@ -1,8 +1,9 @@
 ---
-name: "What is a View?"
-ring: "Working"
-quadrant: "Pages and journeys"
-status: "No Change"
+name: What is a View?
+ring: Working
+quadrant: Pages and journeys
+status: No Change
+order: 1
 ---
 
 ## What is this skill?

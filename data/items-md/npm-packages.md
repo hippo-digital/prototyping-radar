@@ -1,8 +1,9 @@
 ---
-name: "NPM packages"
-ring: "Working"
-quadrant: "Run and maintain"
-status: "No Change"
+name: NPM packages
+ring: Working
+quadrant: Run and maintain
+status: No Change
+order: 3
 ---
 
 ## What is this skill?

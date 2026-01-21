@@ -1,8 +1,9 @@
 ---
-name: "Template inheritance basics"
-ring: "Working"
-quadrant: "Pages and journeys"
-status: "No Change"
+name: Template inheritance basics
+ring: Working
+quadrant: Pages and journeys
+status: No Change
+order: 8
 ---
 
 ## What is this skill?

@@ -1,8 +1,9 @@
 ---
-name: "Building complex macros"
-ring: "Expert"
-quadrant: "Components and patterns"
-status: "No Change"
+name: Building complex macros
+ring: Expert
+quadrant: Components and patterns
+status: No Change
+order: 1
 ---
 
 ## What is this skill?

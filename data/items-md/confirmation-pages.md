@@ -1,8 +1,9 @@
 ---
-name: "Confirmation pages"
-ring: "Practitioner"
-quadrant: "Pages and journeys"
-status: "No Change"
+name: Confirmation pages
+ring: Practitioner
+quadrant: Pages and journeys
+status: No Change
+order: 15
 ---
 
 ## What is this skill?

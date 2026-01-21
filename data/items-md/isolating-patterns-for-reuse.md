@@ -1,8 +1,9 @@
 ---
-name: "Isolating patterns for reuse"
-ring: "Expert"
-quadrant: "Components and patterns"
-status: "No Change"
+name: Isolating patterns for reuse
+ring: Expert
+quadrant: Components and patterns
+status: No Change
+order: 3
 ---
 
 ## What is this skill?

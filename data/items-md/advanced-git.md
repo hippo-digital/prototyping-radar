@@ -1,8 +1,9 @@
 ---
-name: "Advanced Git"
-ring: "Expert"
-quadrant: "Run and maintain"
-status: "No Change"
+name: Advanced Git
+ring: Expert
+quadrant: Run and maintain
+status: No Change
+order: 1
 ---
 
 ## What is this skill?

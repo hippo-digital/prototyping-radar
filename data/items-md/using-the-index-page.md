@@ -1,8 +1,9 @@
 ---
-name: "Using the /index page"
-ring: "Working"
-quadrant: "Pages and journeys"
-status: "No Change"
+name: Using the /index page
+ring: Working
+quadrant: Pages and journeys
+status: No Change
+order: 4
 ---
 
 ## What is this skill?

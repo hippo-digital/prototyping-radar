@@ -1,8 +1,9 @@
 ---
-name: "Terminal shortcuts"
-ring: "Practitioner"
-quadrant: "Run and maintain"
-status: "No Change"
+name: Terminal shortcuts
+ring: Practitioner
+quadrant: Run and maintain
+status: No Change
+order: 9
 ---
 
 ## What is this skill?

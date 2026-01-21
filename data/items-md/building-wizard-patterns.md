@@ -1,8 +1,9 @@
 ---
-name: "Building wizard patterns"
-ring: "Expert"
-quadrant: "Pages and journeys"
-status: "No Change"
+name: Building wizard patterns
+ring: Expert
+quadrant: Pages and journeys
+status: No Change
+order: 4
 ---
 
 ## What is this skill?

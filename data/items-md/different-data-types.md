@@ -1,8 +1,9 @@
 ---
-name: "Different data types"
-ring: "Working"
-quadrant: "Data and Logic"
-status: "No Change"
+name: Different data types
+ring: Working
+quadrant: Data and Logic
+status: No Change
+order: 5
 ---
 
 ## What is this skill?

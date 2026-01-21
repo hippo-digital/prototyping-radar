@@ -1,8 +1,9 @@
 ---
-name: "Sass compile errors"
-ring: "Working"
-quadrant: "Run and maintain"
-status: "No Change"
+name: Sass compile errors
+ring: Working
+quadrant: Run and maintain
+status: No Change
+order: 11
 ---
 
 ## What is this skill?

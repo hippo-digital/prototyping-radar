@@ -1,8 +1,9 @@
 ---
-name: "Looping through data"
-ring: "Expert"
-quadrant: "Data and Logic"
-status: "No Change"
+name: Looping through data
+ring: Expert
+quadrant: Data and Logic
+status: No Change
+order: 8
 ---
 
 ## What is this skill?
