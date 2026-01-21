@@ -79,41 +79,75 @@ function createViewByQuadrants(container, radar) {
 function createViewByNumber(container, radar) {
   const allBlips = []
 
-  // Collect all blips
+  // Collect all blips with quadrant and ring info
   radar.quadrants().forEach(quadrantWrapper => {
     quadrantWrapper.quadrant.blips().forEach(blip => {
-      allBlips.push(blip)
+      allBlips.push({
+        blip: blip,
+        quadrantName: quadrantWrapper.quadrant.name(),
+        ringName: blip.ring().name()
+      })
     })
   })
 
   // Sort by number
   allBlips.sort((a, b) => {
-    const numA = a.blipText() ? parseInt(a.blipText()) : 999
-    const numB = b.blipText() ? parseInt(b.blipText()) : 999
+    const numA = a.blip.blipText() ? parseInt(a.blip.blipText()) : 999
+    const numB = b.blip.blipText() ? parseInt(b.blip.blipText()) : 999
     return numA - numB
   })
 
-  const sectionDiv = container.append('div')
-    .attr('class', 'list-view__quadrant')
+  // Group by quadrant and ring as we go
+  let currentQuadrant = null
+  let currentRing = null
+  let quadrantDiv = null
+  let ringDiv = null
 
-  sectionDiv.append('h2')
-    .attr('class', 'list-view__quadrant-title')
-    .text('All Skills by Number')
+  allBlips.forEach(item => {
+    const quadrantName = item.quadrantName
+    const ringName = item.ringName
 
-  renderBlips(sectionDiv, allBlips)
+    // Create new quadrant section if needed
+    if (quadrantName !== currentQuadrant) {
+      currentQuadrant = quadrantName
+      currentRing = null
+      quadrantDiv = container.append('div')
+        .attr('class', 'list-view__quadrant')
+
+      quadrantDiv.append('h2')
+        .attr('class', 'list-view__quadrant-title')
+        .text(quadrantName)
+    }
+
+    // Create new ring section if needed
+    if (ringName !== currentRing) {
+      currentRing = ringName
+      ringDiv = quadrantDiv.append('div')
+        .attr('class', 'list-view__ring')
+
+      ringDiv.append('h3')
+        .attr('class', 'list-view__ring-title')
+        .text(ringName)
+    }
+
+    renderBlips(ringDiv, [item.blip])
+  })
 }
 
 function createViewByLevels(container, radar) {
   const blipsByRing = {}
 
-  // Collect all blips grouped by ring
+  // Collect all blips grouped by ring, with quadrant info
   radar.quadrants().forEach(quadrantWrapper => {
     quadrantWrapper.quadrant.blips().forEach(blip => {
       const ringName = blip.ring().name()
       if (!blipsByRing[ringName]) {
         blipsByRing[ringName] = []
       }
-      blipsByRing[ringName].push(blip)
+      blipsByRing[ringName].push({
+        blip: blip,
+        quadrantName: quadrantWrapper.quadrant.name()
+      })
     })
   })
 
@@ -133,14 +167,41 @@ function createViewByLevels(container, radar) {
       .attr('class', 'list-view__quadrant-title')
       .text(ringName)
 
-    // Sort blips by number
-    const sortedBlips = blipsByRing[ringName].sort((a, b) => {
-      const numA = a.blipText() ? parseInt(a.blipText()) : 999
-      const numB = b.blipText() ? parseInt(b.blipText()) : 999
-      return numA - numB
+    // Group by quadrant within each ring
+    const blipsByQuadrant = {}
+    blipsByRing[ringName].forEach(item => {
+      const quadrantName = item.quadrantName
+      if (!blipsByQuadrant[quadrantName]) {
+        blipsByQuadrant[quadrantName] = []
+      }
+      blipsByQuadrant[quadrantName].push(item.blip)
     })
 
-    renderBlips(ringDiv, sortedBlips)
+    // Sort quadrants
+    const sortedQuadrants = Object.keys(blipsByQuadrant).sort((a, b) => {
+      const orderA = QUADRANT_ORDER[a] !== undefined ? QUADRANT_ORDER[a] : 999
+      const orderB = QUADRANT_ORDER[b] !== undefined ? QUADRANT_ORDER[b] : 999
+      return orderA - orderB
+    })
+
+    // Render each quadrant
+    sortedQuadrants.forEach(quadrantName => {
+      const quadrantDiv = ringDiv.append('div')
+        .attr('class', 'list-view__ring')
+
+      quadrantDiv.append('h3')
+        .attr('class', 'list-view__ring-title')
+        .text(quadrantName)
+
+      // Sort blips by number
+      const sortedBlips = blipsByQuadrant[quadrantName].sort((a, b) => {
+        const numA = a.blipText() ? parseInt(a.blipText()) : 999
+        const numB = b.blipText() ? parseInt(b.blipText()) : 999
+        return numA - numB
+      })
+
+      renderBlips(quadrantDiv, sortedBlips)
+    })
   })
 }
 

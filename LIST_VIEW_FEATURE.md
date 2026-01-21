@@ -22,13 +22,21 @@ Choose how you want to view the skills:
 
 #### **View by Number**
 - All 107 skills listed in numerical order (#1 → #107)
+- **Consistent heading hierarchy**:
+  - Quadrant name as main heading (h2, sticky at top)
+  - Level name as subheading (h3, sticky at 64px)
+  - Same structure as other views for familiarity
 - Shows the complete learning progression
-- Each skill displays its quadrant and level
 - Best for following the recommended learning path
 
 #### **View by Level**
-- Organized by: Level → Skills
-- Three sections: Working, Practitioner, Expert
+- Organized by: Level → Quadrant → Skills
+- Three main sections: Working, Practitioner, Expert (sticky at top)
+- **Within each level, grouped by quadrant** (sticky subheadings)
+  - Setup and Deployment
+  - Pages and Layouts
+  - Components and Patterns
+  - Data and Logic
 - Skills from all quadrants grouped by difficulty
 - Best for focusing on skills at your current level
 
