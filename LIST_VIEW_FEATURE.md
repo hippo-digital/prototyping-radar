@@ -37,7 +37,10 @@ Choose how you want to view the skills:
   - Click any skill header to expand and view full description
   - Click again to collapse
   - Arrow indicator shows expand/collapse state
-- **Expand/Collapse All Control**: Button to expand or collapse all skills at once
+- **Expand/Collapse All Button**: Located in the view selector bar
+  - Click "Expand All" to open all skills at once
+  - Click "Collapse All" to close all skills
+  - Styled with subtle gray border to distinguish from view filters
 - Each skill shows:
   - Skill number (#1, #2, etc.)
   - Skill name

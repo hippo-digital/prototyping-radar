@@ -235,12 +235,9 @@ function createListView(radar) {
       createListView(radar)
     })
 
-  // Add expand/collapse all control
-  const expandControl = header.append('div')
-    .attr('class', 'list-view__expand-control')
-
-  expandControl.append('button')
-    .attr('class', 'list-view__expand-button')
+  // Add expand/collapse all button to the same bar
+  buttonGroup.append('button')
+    .attr('class', 'list-view__view-button list-view__expand-button')
     .text('Expand All')
     .on('click', function() {
       const allSkills = d3.selectAll('.list-view__skill')

@@ -77,6 +77,7 @@
 .list-view__button-group {
   display: flex;
   gap: 8px;
+  flex-wrap: wrap;
 }
 
 .list-view__view-button {
@@ -100,24 +101,15 @@
   }
 }
 
-.list-view__expand-control {
-  margin-top: 20px;
-  text-align: center;
-}
-
 .list-view__expand-button {
-  padding: 10px 24px;
-  background: white;
-  border: 2px solid #0c2340;
-  border-radius: 4px;
-  color: #0c2340;
-  font-size: 14px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.2s ease;
+  margin-left: 12px;
+  border-color: #666;
+  color: #666;
 
   &:hover {
-    background: #e8f0f8;
+    border-color: #0c2340;
+    color: #0c2340;
+    background: #f0f4f8;
   }
 }
 
@@ -287,7 +279,7 @@
     display: none;
   }
 
-  .list-view__expand-control {
+  .list-view__expand-button {
     display: none;
   }
 
