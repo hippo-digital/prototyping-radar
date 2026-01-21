@@ -1,0 +1,310 @@
+.view-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  display: none; // Hidden until radar is loaded
+
+  &.visible {
+    display: block;
+  }
+}
+
+.view-toggle__button {
+  background: #0c2340;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  transition: background 0.2s ease;
+
+  &:hover {
+    background: #1a3a5c;
+  }
+
+  &:active {
+    transform: translateY(1px);
+  }
+}
+
+.list-view {
+  display: none;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+
+  &.active {
+    display: block;
+  }
+}
+
+.list-view__header {
+  margin-bottom: 40px;
+
+  h1 {
+    font-size: 32px;
+    margin-bottom: 8px;
+    color: #0c2340;
+  }
+
+  p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+}
+
+.list-view__view-selector {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 20px;
+  padding: 16px;
+  background: #f0f4f8;
+  border-radius: 8px;
+}
+
+.list-view__view-label {
+  font-weight: 600;
+  color: #0c2340;
+  font-size: 14px;
+}
+
+.list-view__button-group {
+  display: flex;
+  gap: 8px;
+}
+
+.list-view__view-button {
+  padding: 8px 16px;
+  background: white;
+  border: 2px solid #0c2340;
+  border-radius: 4px;
+  color: #0c2340;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+
+  &:hover {
+    background: #e8f0f8;
+  }
+
+  &.active {
+    background: #0c2340;
+    color: white;
+  }
+}
+
+.list-view__expand-control {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.list-view__expand-button {
+  padding: 10px 24px;
+  background: white;
+  border: 2px solid #0c2340;
+  border-radius: 4px;
+  color: #0c2340;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+
+  &:hover {
+    background: #e8f0f8;
+  }
+}
+
+.list-view__quadrant {
+  margin-bottom: 60px;
+  page-break-inside: avoid;
+}
+
+.list-view__quadrant-title {
+  font-size: 28px;
+  color: #0c2340;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #0c2340;
+}
+
+.list-view__ring {
+  margin-bottom: 40px;
+}
+
+.list-view__ring-title {
+  font-size: 22px;
+  color: #0c2340;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.list-view__skill {
+  margin-bottom: 30px;
+  padding: 0;
+  background: #f8f9fa;
+  border-radius: 4px;
+  page-break-inside: avoid;
+  overflow: hidden;
+
+  &.expanded {
+    .list-view__skill-content {
+      max-height: none;
+      padding: 20px;
+      opacity: 1;
+    }
+
+    .list-view__skill-arrow {
+      transform: rotate(180deg);
+    }
+  }
+}
+
+.list-view__skill-header {
+  display: flex;
+  align-items: baseline;
+  width: 100%;
+  padding: 20px;
+  background: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.2s ease;
+
+  &:hover {
+    background: #e8f0f8;
+  }
+
+  &:focus {
+    outline: 3px solid #ffbf47;
+    outline-offset: 0;
+  }
+}
+
+.list-view__skill-number {
+  font-size: 14px;
+  font-weight: 700;
+  color: #0c2340;
+  min-width: 40px;
+  flex-shrink: 0;
+}
+
+.list-view__skill-name {
+  font-size: 20px;
+  font-weight: 700;
+  color: #0c2340;
+  margin: 0;
+  flex: 1;
+}
+
+.list-view__skill-arrow {
+  font-size: 12px;
+  color: #0c2340;
+  margin-left: 12px;
+  transition: transform 0.3s ease;
+  flex-shrink: 0;
+}
+
+.list-view__skill-content {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, opacity 0.3s ease, padding 0.3s ease;
+  padding: 0 20px;
+
+  h2 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #0c2340;
+    margin-top: 16px;
+    margin-bottom: 8px;
+  }
+
+  p {
+    margin-bottom: 12px;
+    line-height: 1.6;
+  }
+
+  ul {
+    margin: 12px 0;
+    padding-left: 20px;
+
+    li {
+      margin-bottom: 8px;
+      line-height: 1.6;
+
+      strong {
+        color: #0c2340;
+      }
+    }
+  }
+
+  a {
+    color: #0066cc;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+// Print styles
+@media print {
+  .view-toggle,
+  .graph-header,
+  header,
+  footer {
+    display: none !important;
+  }
+
+  .list-view {
+    display: block !important;
+  }
+
+  .list-view__skill {
+    page-break-inside: avoid;
+    background: white;
+    border: 1px solid #ddd;
+
+    // Expand all skills for printing
+    &:not(.expanded) {
+      .list-view__skill-content {
+        max-height: none !important;
+        opacity: 1 !important;
+        padding: 20px !important;
+      }
+    }
+  }
+
+  .list-view__skill-arrow {
+    display: none;
+  }
+
+  .list-view__expand-control {
+    display: none;
+  }
+
+  .list-view__quadrant {
+    page-break-before: always;
+
+    &:first-child {
+      page-break-before: avoid;
+    }
+  }
+}
+
+// Hide radar when list view is active
+body.list-view-active {
+  #radar,
+  .quadrant-table,
+  .graph-header {
+    display: none;
+  }
+}

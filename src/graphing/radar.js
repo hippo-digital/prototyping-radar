@@ -9,6 +9,7 @@ const config = require('../config')
 const featureToggles = config().featureToggles
 const { plotRadarBlips } = require('./blips')
 const { graphConfig, getGraphSize } = require('./config')
+const { initializeToggle } = require('../util/listView')
 
 const { renderBanner } = require('./components/banner')
 const { renderQuadrantSubnav } = require('./components/quadrantSubnav')
@@ -825,6 +826,9 @@ const Radar = function (size, radar) {
     }
 
     renderDeepLinkViewIfPresent(quadrants)
+
+    // Initialize list view toggle
+    initializeToggle(radar)
   }
 
   function hasMovementData(quadrants) {
