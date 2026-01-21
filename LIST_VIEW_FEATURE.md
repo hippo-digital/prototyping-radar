@@ -33,6 +33,11 @@ Choose how you want to view the skills:
 - Best for focusing on skills at your current level
 
 ### 3. List View Display
+- **Sticky Headings**: Context always visible while scrolling
+  - Quadrant titles stick to the top of the viewport
+  - Ring/Level titles stick below quadrant title
+  - Always see which category and level you're viewing
+  - Smooth layering as new headings replace previous ones
 - **Accordion Interface**: Each skill is collapsed by default
   - Click any skill header to expand and view full description
   - Click again to collapse
@@ -125,17 +130,23 @@ To test the feature:
    - **Quadrants** - Organized by domain area
    - **By Number** - Skills in learning order (#1-107)
    - **By Level** - Grouped by Working/Practitioner/Expert
-5. **Test Accordions**:
+5. **Test Sticky Headings**:
+   - Scroll down and watch quadrant title stick to top
+   - Notice ring/level title sticks below quadrant title
+   - Continue scrolling to see new headings replace old ones
+   - Context always visible (category + level)
+6. **Test Accordions**:
    - Click any skill to expand and view description
    - Click again to collapse
    - Use "Expand All" button to open all skills
    - Use "Collapse All" button to close all skills
-6. Scroll through skills
-7. Test print preview (Cmd+P) - all skills auto-expand
-8. Toggle back to "🎯 Radar View"
+7. Scroll through skills
+8. Test print preview (Cmd+P) - all skills auto-expand, headings become static
+9. Toggle back to "🎯 Radar View"
 
 ## Benefits
 
+✅ **Sticky Headings** - Always see which category and level you're viewing
 ✅ **Printable** - Easy to print complete skill reference (auto-expands all)
 ✅ **Searchable** - Browser Cmd+F works across all skills
 ✅ **Scrollable** - No clicking through individual skills

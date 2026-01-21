@@ -49,6 +49,8 @@
     font-size: 32px;
     margin-bottom: 8px;
     color: #0c2340;
+    font-family: Inter,serif;
+    font-weight: 630;
   }
 
   p {
@@ -119,11 +121,16 @@
 }
 
 .list-view__quadrant-title {
+  position: sticky;
+  top: 0;
+  z-index: 20;
   font-size: 28px;
   color: #0c2340;
   margin-bottom: 30px;
-  padding-bottom: 10px;
+  padding: 16px 20px 10px;
+  background: white;
   border-bottom: 3px solid #0c2340;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .list-view__ring {
@@ -131,10 +138,17 @@
 }
 
 .list-view__ring-title {
+  position: sticky;
+  top: 64px;
+  z-index: 10;
   font-size: 22px;
   color: #0c2340;
   margin-bottom: 20px;
+  padding: 12px 20px;
   font-weight: 600;
+  background: #f8f9fa;
+  border-left: 4px solid #0c2340;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
 .list-view__skill {
@@ -258,6 +272,12 @@
 
   .list-view {
     display: block !important;
+  }
+
+  .list-view__quadrant-title,
+  .list-view__ring-title {
+    position: static;
+    box-shadow: none;
   }
 
   .list-view__skill {
