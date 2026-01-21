@@ -304,15 +304,15 @@ function renderRadarQuadrantName(quadrant, parentGroup, tip) {
   anchor = 'start'
 
   if (adjustX < 0) {
-    translateX = 60
+    translateX = 30
   } else {
     translateX = quadrantWidth * 2 - quadrantsGap - renderedText.width
   }
   if (adjustY < 0) {
     ctaArrowYOffset = quadrantTextElement.childElementCount > 1 ? 8 : ctaArrowYOffset
-    translateY = 60
+    translateY = 40
   } else {
-    translateY = effectiveQuadrantWidth * 2 - 60
+    translateY = effectiveQuadrantWidth * 2 - 30
   }
   quadrantName.attr('text-anchor', anchor)
   quadrantNameGroup.attr('transform', 'translate(' + translateX + ', ' + translateY + ')')
