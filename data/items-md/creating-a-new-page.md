@@ -1,7 +1,7 @@
 ---
 name: Creating a new page
 ring: Working
-quadrant: Pages and journeys
+quadrant: Pages and Layouts
 status: No Change
 order: 2
 ---

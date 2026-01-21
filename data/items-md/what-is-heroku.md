@@ -1,9 +1,9 @@
 ---
 name: What is Heroku?
-ring: Expert
-quadrant: Run and maintain
+ring: Practitioner
+quadrant: Setup and Deployment
 status: No Change
-order: 4
+order: 16
 ---
 
 ## What is this skill?

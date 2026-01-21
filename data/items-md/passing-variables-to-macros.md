@@ -1,7 +1,7 @@
 ---
 name: Passing variables to macros
 ring: Practitioner
-quadrant: Components and patterns
+quadrant: Components and Patterns
 status: No Change
 order: 2
 ---

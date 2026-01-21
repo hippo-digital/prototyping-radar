@@ -3,7 +3,7 @@ name: Viewing session data
 ring: Working
 quadrant: Data and Logic
 status: No Change
-order: 4
+order: 3
 ---
 
 ## What is this skill?

@@ -1,9 +1,9 @@
 ---
 name: Terminal basics
 ring: Working
-quadrant: Run and maintain
+quadrant: Setup and Deployment
 status: No Change
-order: 4
+order: 6
 ---
 
 ## What is this skill?

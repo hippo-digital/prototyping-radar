@@ -1,7 +1,7 @@
 ---
 name: Advanced Git
 ring: Expert
-quadrant: Run and maintain
+quadrant: Setup and Deployment
 status: No Change
 order: 1
 ---

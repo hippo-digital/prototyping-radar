@@ -1,7 +1,7 @@
 ---
 name: Debugging
 ring: Practitioner
-quadrant: Run and maintain
+quadrant: Setup and Deployment
 status: No Change
 order: 2
 ---

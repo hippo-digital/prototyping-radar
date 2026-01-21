@@ -1,9 +1,9 @@
 ---
 name: NPM packages
 ring: Working
-quadrant: Run and maintain
+quadrant: Setup and Deployment
 status: No Change
-order: 3
+order: 4
 ---
 
 ## What is this skill?

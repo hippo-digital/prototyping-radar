@@ -1,7 +1,7 @@
 ---
 name: Standard GOV.UK Page blocks
 ring: Working
-quadrant: Pages and journeys
+quadrant: Pages and Layouts
 status: No Change
 order: 7
 ---

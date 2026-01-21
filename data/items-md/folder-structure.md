@@ -1,9 +1,9 @@
 ---
 name: Folder structure
 ring: Working
-quadrant: Run and maintain
+quadrant: Setup and Deployment
 status: No Change
-order: 8
+order: 10
 ---
 
 ## What is this skill?

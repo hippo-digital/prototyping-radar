@@ -1,7 +1,7 @@
 ---
 name: Nunjucks vs HTML
 ring: Working
-quadrant: Pages and journeys
+quadrant: Pages and Layouts
 status: No Change
 order: 5
 ---

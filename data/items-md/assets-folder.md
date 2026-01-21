@@ -1,9 +1,9 @@
 ---
 name: Assets folder
 ring: Working
-quadrant: Run and maintain
+quadrant: Setup and Deployment
 status: No Change
-order: 9
+order: 11
 ---
 
 ## What is this skill?

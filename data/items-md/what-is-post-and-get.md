@@ -1,9 +1,9 @@
 ---
 name: What is POST and GET?
 ring: Working
-quadrant: Pages and journeys
+quadrant: Pages and Layouts
 status: No Change
-order: 10
+order: 9
 ---
 
 ## What is this skill?

@@ -1,0 +1,24 @@
+---
+name: Generating reference numbers
+ring: Practitioner
+quadrant: Data and Logic
+status: No Change
+order: 14
+---
+
+## What is this skill?
+
+Generating reference numbers involves creating unique identifiers for submissions or applications in your prototype. These help make confirmation pages feel realistic and can be used to track test scenarios.
+
+## Why is it important?
+
+- **Realistic prototypes** – Users expect a reference number after submitting
+- **User research** – Test if users understand what to do with reference numbers
+- **Scenario tracking** – Identify different test sessions or submissions
+- **Confidence building** – Reference numbers reassure users their submission was received
+
+## Where to learn more
+
+- [GOV.UK Design System: Confirmation pages](https://design-system.service.gov.uk/patterns/confirmation-pages/)
+- [JavaScript random string generation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
+- [UUID generation in Node.js](https://www.npmjs.com/package/uuid)

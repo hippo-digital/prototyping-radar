@@ -1,7 +1,7 @@
 ---
 name: Standard GOV.UK components
 ring: Working
-quadrant: Components and patterns
+quadrant: Components and Patterns
 status: No Change
 order: 2
 ---

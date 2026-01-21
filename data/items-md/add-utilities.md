@@ -1,7 +1,7 @@
 ---
 name: Add utilities
 ring: Practitioner
-quadrant: Run and maintain
+quadrant: Setup and Deployment
 status: No Change
 order: 1
 ---

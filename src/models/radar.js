@@ -33,32 +33,21 @@ const Radar = function () {
   self = {}
   rings = {}
 
-  function setNumbers(blips) {
-    blips.forEach(function (blip) {
-      ++blipNumber
-      blip.setBlipText(blipNumber)
-      blip.setId(blipNumber)
-    })
-  }
-
   // Renumber all blips in clockwise order by ring
   function renumberBlipsClockwise() {
     // Define the desired quadrant order (clockwise)
-    // quadrants are added in config order: Run and maintain (0), Pages and journeys (1), Components and patterns (3), Data and Logic (2)
-    // We want clockwise: Run and maintain (0), Pages and journeys (1), Components and patterns (2), Data and Logic (3)
     const quadrantOrder = {
-      'Run and maintain': 0,
-      'Pages and journeys': 1,
-      'Components and patterns': 2,
+      'Setup and Deployment': 0,
+      'Pages and Layouts': 1,
+      'Components and Patterns': 2,
       'Data and Logic': 3
     }
 
     // Collect all blips from all quadrants with their metadata
     const allBlipsWithMetadata = []
-    quadrants.forEach(function (quadrant, quadrantIndex) {
+    quadrants.forEach(function (quadrant) {
       if (quadrant.quadrant) {
         quadrant.quadrant.blips().forEach(function (blip) {
-          const ringName = blip.ring().name()
           const ringOrder = blip.ring().order()
           const quadrantName = quadrant.quadrant.name()
           const quadOrder = quadrantOrder[quadrantName]

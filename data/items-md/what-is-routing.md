@@ -1,9 +1,9 @@
 ---
 name: What is Routing?
 ring: Working
-quadrant: Pages and journeys
+quadrant: Pages and Layouts
 status: No Change
-order: 9
+order: 8
 ---
 
 ## What is this skill?

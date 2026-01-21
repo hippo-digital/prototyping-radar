@@ -1,9 +1,9 @@
 ---
 name: Update notifications
 ring: Working
-quadrant: Run and maintain
+quadrant: Setup and Deployment
 status: No Change
-order: 10
+order: 12
 ---
 
 ## What is this skill?

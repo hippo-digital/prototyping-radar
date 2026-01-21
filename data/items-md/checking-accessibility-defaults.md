@@ -1,7 +1,7 @@
 ---
 name: Checking accessibility defaults
 ring: Working
-quadrant: Components and patterns
+quadrant: Components and Patterns
 status: No Change
 order: 20
 ---

@@ -3,7 +3,7 @@ name: Basic 'if' statements
 ring: Working
 quadrant: Data and Logic
 status: No Change
-order: 7
+order: 6
 ---
 
 ## What is this skill?

@@ -1,23 +1,27 @@
 ---
-name: Storing data in session
+name: Storing user answers
 ring: Working
 quadrant: Data and Logic
 status: No Change
-order: 2
+order: 1
 ---
 
 ## What is this skill?
 
-Storing data in session involves understanding how the prototype kit remembers user input across pages using the session object. Form data is automatically stored and persists throughout the journey.
+Storing user answers involves understanding how form data flows through your prototype. The 'name' attribute on form fields determines the key used in session storage, and this data persists across pages throughout the user's journey.
 
 ## Why is it important?
 
+- **Data flow** – The name attribute determines how data is stored and retrieved
 - **Data persistence** – User answers are remembered across multiple pages
+- **Form pre-filling** – Correct names allow the kit to auto-fill forms with previous answers
 - **Dynamic content** – Display previous answers in later pages
 - **Branching logic** – Use stored data to determine which path users take
 - **Check answers pages** – Show users a summary of all their responses
+- **Debugging** – Mismatched names are a common source of bugs
 
 ## Where to learn more
 
 - [GOV.UK Prototype Kit: Storing data](https://prototype-kit.service.gov.uk/docs/store-and-use-data)
 - [GOV.UK Prototype Kit: Pass data from page to page](https://prototype-kit.service.gov.uk/docs/pass-data)
+- [MDN Web Docs: Form input name attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#name)

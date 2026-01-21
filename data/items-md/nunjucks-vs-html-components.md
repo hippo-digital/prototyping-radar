@@ -1,7 +1,7 @@
 ---
 name: Nunjucks vs HTML components
 ring: Working
-quadrant: Components and patterns
+quadrant: Components and Patterns
 status: No Change
 order: 6
 ---

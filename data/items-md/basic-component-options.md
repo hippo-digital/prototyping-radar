@@ -1,7 +1,7 @@
 ---
 name: Basic component options
 ring: Working
-quadrant: Components and patterns
+quadrant: Components and Patterns
 status: No Change
 order: 4
 ---

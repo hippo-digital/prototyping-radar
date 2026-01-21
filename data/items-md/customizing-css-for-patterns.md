@@ -1,7 +1,7 @@
 ---
 name: Customizing CSS for patterns
 ring: Practitioner
-quadrant: Components and patterns
+quadrant: Components and Patterns
 status: No Change
 order: 9
 ---

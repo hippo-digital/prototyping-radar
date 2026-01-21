@@ -1,9 +1,9 @@
 ---
 name: Node.js basics
 ring: Working
-quadrant: Run and maintain
+quadrant: Setup and Deployment
 status: No Change
-order: 2
+order: 3
 ---
 
 ## What is this skill?

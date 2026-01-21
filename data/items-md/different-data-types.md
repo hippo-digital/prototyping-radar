@@ -3,7 +3,7 @@ name: Different data types
 ring: Working
 quadrant: Data and Logic
 status: No Change
-order: 5
+order: 4
 ---
 
 ## What is this skill?

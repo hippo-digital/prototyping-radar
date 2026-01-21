@@ -1,9 +1,9 @@
 ---
 name: Deploying to Heroku
-ring: Expert
-quadrant: Run and maintain
+ring: Practitioner
+quadrant: Setup and Deployment
 status: No Change
-order: 3
+order: 17
 ---
 
 ## What is this skill?

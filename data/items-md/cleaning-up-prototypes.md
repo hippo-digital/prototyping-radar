@@ -1,7 +1,7 @@
 ---
 name: Cleaning up prototypes
 ring: Expert
-quadrant: Run and maintain
+quadrant: Setup and Deployment
 status: No Change
 order: 2
 ---

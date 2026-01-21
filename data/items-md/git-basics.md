@@ -1,7 +1,7 @@
 ---
 name: Git basics
 ring: Practitioner
-quadrant: Run and maintain
+quadrant: Setup and Deployment
 status: No Change
 order: 4
 ---

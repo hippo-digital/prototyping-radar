@@ -1,7 +1,7 @@
 ---
 name: Branding
 ring: Practitioner
-quadrant: Pages and journeys
+quadrant: Pages and Layouts
 status: No Change
 order: 10
 ---

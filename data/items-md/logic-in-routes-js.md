@@ -3,7 +3,7 @@ name: Logic in routes.js
 ring: Practitioner
 quadrant: Data and Logic
 status: No Change
-order: 7
+order: 6
 ---
 
 ## What is this skill?

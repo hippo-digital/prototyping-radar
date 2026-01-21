@@ -1,9 +1,9 @@
 ---
 name: Sass compile errors
 ring: Working
-quadrant: Run and maintain
+quadrant: Setup and Deployment
 status: No Change
-order: 11
+order: 14
 ---
 
 ## What is this skill?

@@ -1,7 +1,7 @@
 ---
 name: Using block content
 ring: Practitioner
-quadrant: Pages and journeys
+quadrant: Pages and Layouts
 status: No Change
 order: 4
 ---

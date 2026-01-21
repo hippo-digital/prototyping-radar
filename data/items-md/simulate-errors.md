@@ -1,9 +1,9 @@
 ---
 name: Simulate errors
 ring: Working
-quadrant: Pages and journeys
+quadrant: Pages and Layouts
 status: No Change
-order: 14
+order: 13
 ---
 
 ## What is this skill?

@@ -1,7 +1,7 @@
 ---
 name: Errors in routes
 ring: Practitioner
-quadrant: Run and maintain
+quadrant: Setup and Deployment
 status: No Change
 order: 3
 ---

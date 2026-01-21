@@ -1,7 +1,7 @@
 ---
 name: Basic page layouts
 ring: Working
-quadrant: Components and patterns
+quadrant: Components and Patterns
 status: No Change
 order: 5
 ---

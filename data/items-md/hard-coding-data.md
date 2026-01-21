@@ -1,9 +1,9 @@
 ---
 name: Hard-coding data
 ring: Working
-quadrant: Pages and journeys
+quadrant: Pages and Layouts
 status: No Change
-order: 11
+order: 10
 ---
 
 ## What is this skill?

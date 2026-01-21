@@ -3,7 +3,7 @@ name: Standard data filters
 ring: Working
 quadrant: Data and Logic
 status: No Change
-order: 10
+order: 9
 ---
 
 ## What is this skill?

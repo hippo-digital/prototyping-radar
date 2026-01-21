@@ -1,9 +1,9 @@
 ---
 name: Complex 'if/else' logic
-ring: Practitioner
+ring: Expert
 quadrant: Data and Logic
 status: No Change
-order: 1
+order: 13
 ---
 
 ## What is this skill?

@@ -1,9 +1,9 @@
 ---
 name: Add delays
 ring: Working
-quadrant: Pages and journeys
+quadrant: Pages and Layouts
 status: No Change
-order: 13
+order: 12
 ---
 
 ## What is this skill?

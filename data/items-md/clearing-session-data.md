@@ -3,7 +3,7 @@ name: Clearing session data
 ring: Working
 quadrant: Data and Logic
 status: No Change
-order: 13
+order: 12
 ---
 
 ## What is this skill?

@@ -1,7 +1,7 @@
 ---
 name: What is a macro?
 ring: Working
-quadrant: Components and patterns
+quadrant: Components and Patterns
 status: No Change
 order: 1
 ---

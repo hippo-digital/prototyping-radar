@@ -1,9 +1,9 @@
 ---
 name: Restarting the kit
 ring: Working
-quadrant: Run and maintain
+quadrant: Setup and Deployment
 status: No Change
-order: 6
+order: 8
 ---
 
 ## What is this skill?

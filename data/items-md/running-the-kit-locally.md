@@ -1,9 +1,9 @@
 ---
 name: Running the kit locally
 ring: Working
-quadrant: Run and maintain
+quadrant: Setup and Deployment
 status: No Change
-order: 5
+order: 7
 ---
 
 ## What is this skill?

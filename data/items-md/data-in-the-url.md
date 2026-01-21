@@ -3,7 +3,7 @@ name: Data in the URL
 ring: Working
 quadrant: Data and Logic
 status: No Change
-order: 12
+order: 11
 ---
 
 ## What is this skill?

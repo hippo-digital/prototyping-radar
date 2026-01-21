@@ -1,23 +1,27 @@
 ---
-name: Dynamic content from data
+name: Using data across pages
 ring: Practitioner
 quadrant: Data and Logic
 status: No Change
-order: 14
+order: 5
 ---
 
 ## What is this skill?
 
-Dynamic content from data involves rendering text, options, or page elements based on previous user choices stored in session data.
+Using data across pages involves passing variables between pages using session storage, hidden fields, or URL parameters, and then rendering dynamic content based on that stored data.
 
 ## Why is it important?
 
+- **Journey continuity** – Keep track of user input across multiple pages
+- **Form pre-population** – Show previous answers when users go back
 - **Personalisation** – Address users by name or reference their choices
 - **Contextual content** – Show relevant information based on earlier answers
 - **Check answers pages** – Display summaries of user input
 - **Confirmation details** – Show submitted information on confirmation pages
+- **Conditional journeys** – Use earlier answers to influence later pages
 
 ## Where to learn more
 
 - [GOV.UK Prototype Kit: Pass data from page to page](https://prototype-kit.service.gov.uk/docs/pass-data)
+- [GOV.UK Prototype Kit: Storing data](https://prototype-kit.service.gov.uk/docs/store-and-use-data)
 - [GOV.UK Design System: Check answers](https://design-system.service.gov.uk/patterns/check-answers/)
