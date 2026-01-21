@@ -1,8 +1,9 @@
 ---
-name: "Nunjucks vs HTML"
-ring: "Working"
-quadrant: "Pages and journeys"
-status: "No Change"
+name: Nunjucks vs HTML
+ring: Working
+quadrant: Pages and Layouts
+status: No Change
+order: 5
 ---
 
 ## What is this skill?

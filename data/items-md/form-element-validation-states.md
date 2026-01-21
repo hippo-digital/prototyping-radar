@@ -1,8 +1,9 @@
 ---
-name: "Form element validation states"
-ring: "Practitioner"
-quadrant: "Components and patterns"
-status: "No Change"
+name: Form element validation states
+ring: Practitioner
+quadrant: Components and Patterns
+status: No Change
+order: 6
 ---
 
 ## What is this skill?

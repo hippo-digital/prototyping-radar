@@ -1,8 +1,9 @@
 ---
-name: "Complex data structures"
-ring: "Expert"
-quadrant: "Data and Logic"
-status: "No Change"
+name: Complex data structures
+ring: Expert
+quadrant: Data and Logic
+status: No Change
+order: 4
 ---
 
 ## What is this skill?

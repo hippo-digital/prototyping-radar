@@ -2,7 +2,7 @@
 // This file replaces environment variables for easier management
 
 module.exports = {
-  quadrants: ['Run and maintain', 'Pages and journeys', 'Components and patterns', 'Data and Logic'],
+  quadrants: ['Setup and Deployment', 'Pages and Layouts', 'Components and Patterns', 'Data and Logic'],
 
   rings: ['Working', 'Practitioner', 'Expert'],
 

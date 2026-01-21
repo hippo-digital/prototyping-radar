@@ -1,8 +1,9 @@
 ---
-name: "Standard data filters"
-ring: "Working"
-quadrant: "Data and Logic"
-status: "No Change"
+name: Standard data filters
+ring: Working
+quadrant: Data and Logic
+status: No Change
+order: 9
 ---
 
 ## What is this skill?

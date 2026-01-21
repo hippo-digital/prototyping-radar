@@ -1,8 +1,9 @@
 ---
-name: "Use back link correctly"
-ring: "Practitioner"
-quadrant: "Pages and journeys"
-status: "No Change"
+name: Use back link correctly
+ring: Practitioner
+quadrant: Pages and Layouts
+status: No Change
+order: 12
 ---
 
 ## What is this skill?

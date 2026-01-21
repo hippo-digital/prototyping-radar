@@ -1,8 +1,9 @@
 ---
-name: "Errors in routes"
-ring: "Practitioner"
-quadrant: "Run and maintain"
-status: "No Change"
+name: Errors in routes
+ring: Practitioner
+quadrant: Setup and Deployment
+status: No Change
+order: 3
 ---
 
 ## What is this skill?

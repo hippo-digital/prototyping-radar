@@ -1,8 +1,9 @@
 ---
-name: "Customizing the start page"
-ring: "Practitioner"
-quadrant: "Pages and journeys"
-status: "No Change"
+name: Customizing the start page
+ring: Practitioner
+quadrant: Pages and Layouts
+status: No Change
+order: 9
 ---
 
 ## What is this skill?

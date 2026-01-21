@@ -1,8 +1,9 @@
 ---
-name: "Standard GOV.UK Page blocks"
-ring: "Working"
-quadrant: "Pages and journeys"
-status: "No Change"
+name: Standard GOV.UK Page blocks
+ring: Working
+quadrant: Pages and Layouts
+status: No Change
+order: 7
 ---
 
 ## What is this skill?

@@ -1,8 +1,9 @@
 ---
-name: "Update notifications"
-ring: "Working"
-quadrant: "Run and maintain"
-status: "No Change"
+name: Update notifications
+ring: Working
+quadrant: Setup and Deployment
+status: No Change
+order: 12
 ---
 
 ## What is this skill?

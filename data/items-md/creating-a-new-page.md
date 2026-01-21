@@ -1,8 +1,9 @@
 ---
-name: "Creating a new page"
-ring: "Working"
-quadrant: "Pages and journeys"
-status: "No Change"
+name: Creating a new page
+ring: Working
+quadrant: Pages and Layouts
+status: No Change
+order: 2
 ---
 
 ## What is this skill?

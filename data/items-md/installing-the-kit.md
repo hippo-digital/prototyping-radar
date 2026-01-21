@@ -1,8 +1,9 @@
 ---
-name: "Installing the kit"
-ring: "Working"
-quadrant: "Run and maintain"
-status: "No Change"
+name: Installing the kit
+ring: Working
+quadrant: Setup and Deployment
+status: No Change
+order: 2
 ---
 
 ## What is this skill?

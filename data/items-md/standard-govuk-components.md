@@ -1,8 +1,9 @@
 ---
-name: "Standard GOV.UK components"
-ring: "Working"
-quadrant: "Components and patterns"
-status: "No Change"
+name: Standard GOV.UK components
+ring: Working
+quadrant: Components and Patterns
+status: No Change
+order: 2
 ---
 
 ## What is this skill?

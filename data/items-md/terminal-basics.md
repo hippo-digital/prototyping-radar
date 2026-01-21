@@ -1,8 +1,9 @@
 ---
-name: "Terminal basics"
-ring: "Working"
-quadrant: "Run and maintain"
-status: "No Change"
+name: Terminal basics
+ring: Working
+quadrant: Setup and Deployment
+status: No Change
+order: 6
 ---
 
 ## What is this skill?

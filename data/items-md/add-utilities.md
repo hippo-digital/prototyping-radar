@@ -1,8 +1,9 @@
 ---
-name: "Add utilities"
-ring: "Practitioner"
-quadrant: "Run and maintain"
-status: "No Change"
+name: Add utilities
+ring: Practitioner
+quadrant: Setup and Deployment
+status: No Change
+order: 1
 ---
 
 ## What is this skill?

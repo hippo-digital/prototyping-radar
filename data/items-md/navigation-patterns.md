@@ -1,8 +1,9 @@
 ---
-name: "Navigation patterns"
-ring: "Practitioner"
-quadrant: "Pages and journeys"
-status: "No Change"
+name: Navigation patterns
+ring: Practitioner
+quadrant: Pages and Layouts
+status: No Change
+order: 11
 ---
 
 ## What is this skill?

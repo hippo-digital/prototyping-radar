@@ -1,8 +1,9 @@
 ---
-name: "Branding"
-ring: "Practitioner"
-quadrant: "Pages and journeys"
-status: "No Change"
+name: Branding
+ring: Practitioner
+quadrant: Pages and Layouts
+status: No Change
+order: 10
 ---
 
 ## What is this skill?

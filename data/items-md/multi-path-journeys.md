@@ -1,8 +1,9 @@
 ---
-name: "Multi-path journeys"
-ring: "Expert"
-quadrant: "Pages and journeys"
-status: "No Change"
+name: Multi-path journeys
+ring: Expert
+quadrant: Pages and Layouts
+status: No Change
+order: 5
 ---
 
 ## What is this skill?

@@ -1,0 +1,24 @@
+---
+name: Error page handling
+ring: Practitioner
+quadrant: Pages and Layouts
+status: No Change
+order: 16
+---
+
+## What is this skill?
+
+Error page handling involves creating custom 404 (not found) and 500 (server error) pages for your prototype. This helps test how users respond to errors and ensures a consistent experience when things go wrong.
+
+## Why is it important?
+
+- **User experience** – Guide users back to safety when they hit an error
+- **Realistic testing** – Test error scenarios during user research
+- **Consistent branding** – Error pages should match your service design
+- **Debugging** – Custom error pages can show helpful developer information
+
+## Where to learn more
+
+- [GOV.UK Design System: Error pages](https://design-system.service.gov.uk/patterns/page-not-found-pages/)
+- [Express.js error handling](https://expressjs.com/en/guide/error-handling.html)
+- [GOV.UK Service Manual: Error pages](https://www.gov.uk/service-manual/design/designing-error-pages)

@@ -1,8 +1,9 @@
 ---
-name: "Managing versions"
-ring: "Practitioner"
-quadrant: "Run and maintain"
-status: "No Change"
+name: Managing versions
+ring: Practitioner
+quadrant: Setup and Deployment
+status: No Change
+order: 8
 ---
 
 ## What is this skill?

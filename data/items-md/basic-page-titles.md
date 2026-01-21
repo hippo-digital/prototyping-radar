@@ -1,8 +1,9 @@
 ---
-name: "Basic page titles"
-ring: "Working"
-quadrant: "Pages and journeys"
-status: "No Change"
+name: Basic page titles
+ring: Working
+quadrant: Pages and Layouts
+status: No Change
+order: 6
 ---
 
 ## What is this skill?

@@ -1,8 +1,9 @@
 ---
-name: "What is POST and GET?"
-ring: "Working"
-quadrant: "Pages and journeys"
-status: "No Change"
+name: What is POST and GET?
+ring: Working
+quadrant: Pages and Layouts
+status: No Change
+order: 9
 ---
 
 ## What is this skill?

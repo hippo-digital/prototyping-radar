@@ -1,8 +1,9 @@
 ---
-name: "What is Heroku?"
-ring: "Expert"
-quadrant: "Run and maintain"
-status: "No Change"
+name: What is Heroku?
+ring: Practitioner
+quadrant: Setup and Deployment
+status: No Change
+order: 16
 ---
 
 ## What is this skill?

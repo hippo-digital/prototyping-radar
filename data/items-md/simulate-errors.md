@@ -1,8 +1,9 @@
 ---
-name: "Simulate errors"
-ring: "Working"
-quadrant: "Pages and journeys"
-status: "No Change"
+name: Simulate errors
+ring: Working
+quadrant: Pages and Layouts
+status: No Change
+order: 13
 ---
 
 ## What is this skill?

@@ -1,8 +1,9 @@
 ---
-name: "Pattern library management"
-ring: "Expert"
-quadrant: "Components and patterns"
-status: "No Change"
+name: Pattern library management
+ring: Expert
+quadrant: Components and Patterns
+status: No Change
+order: 4
 ---
 
 ## What is this skill?

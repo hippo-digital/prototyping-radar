@@ -1,8 +1,9 @@
 ---
-name: "Git basics"
-ring: "Practitioner"
-quadrant: "Run and maintain"
-status: "No Change"
+name: Git basics
+ring: Practitioner
+quadrant: Setup and Deployment
+status: No Change
+order: 4
 ---
 
 ## What is this skill?

@@ -1,8 +1,9 @@
 ---
-name: "Previewing in local host"
-ring: "Working"
-quadrant: "Pages and journeys"
-status: "No Change"
+name: Previewing in local host
+ring: Working
+quadrant: Pages and Layouts
+status: No Change
+order: 11
 ---
 
 ## What is this skill?

@@ -1,8 +1,9 @@
 ---
-name: "Linking pages"
-ring: "Working"
-quadrant: "Pages and journeys"
-status: "No Change"
+name: Linking pages
+ring: Working
+quadrant: Pages and Layouts
+status: No Change
+order: 3
 ---
 
 ## What is this skill?

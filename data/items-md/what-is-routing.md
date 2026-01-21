@@ -1,8 +1,9 @@
 ---
-name: "What is Routing?"
-ring: "Working"
-quadrant: "Pages and journeys"
-status: "No Change"
+name: What is Routing?
+ring: Working
+quadrant: Pages and Layouts
+status: No Change
+order: 8
 ---
 
 ## What is this skill?

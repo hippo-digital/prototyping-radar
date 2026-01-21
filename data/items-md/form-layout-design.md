@@ -1,8 +1,9 @@
 ---
-name: "Form layout design"
-ring: "Practitioner"
-quadrant: "Pages and journeys"
-status: "No Change"
+name: Form layout design
+ring: Practitioner
+quadrant: Pages and Layouts
+status: No Change
+order: 14
 ---
 
 ## What is this skill?

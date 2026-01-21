@@ -1,8 +1,9 @@
 ---
-name: "Updating the GOV.UK Frontend"
-ring: "Expert"
-quadrant: "Components and patterns"
-status: "No Change"
+name: Updating the GOV.UK Frontend
+ring: Expert
+quadrant: Components and Patterns
+status: No Change
+order: 6
 ---
 
 ## What is this skill?

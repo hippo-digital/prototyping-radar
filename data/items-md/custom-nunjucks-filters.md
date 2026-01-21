@@ -1,8 +1,9 @@
 ---
-name: "Custom Nunjucks filters"
-ring: "Expert"
-quadrant: "Data and Logic"
-status: "No Change"
+name: Custom Nunjucks filters
+ring: Expert
+quadrant: Data and Logic
+status: No Change
+order: 5
 ---
 
 ## What is this skill?

@@ -1,8 +1,9 @@
 ---
-name: "Debugging"
-ring: "Practitioner"
-quadrant: "Run and maintain"
-status: "No Change"
+name: Debugging
+ring: Practitioner
+quadrant: Setup and Deployment
+status: No Change
+order: 2
 ---
 
 ## What is this skill?

@@ -1,8 +1,9 @@
 ---
-name: "Basic component options"
-ring: "Working"
-quadrant: "Components and patterns"
-status: "No Change"
+name: Basic component options
+ring: Working
+quadrant: Components and Patterns
+status: No Change
+order: 4
 ---
 
 ## What is this skill?

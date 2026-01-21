@@ -1,8 +1,9 @@
 ---
-name: "Customizing CSS for patterns"
-ring: "Practitioner"
-quadrant: "Components and patterns"
-status: "No Change"
+name: Customizing CSS for patterns
+ring: Practitioner
+quadrant: Components and Patterns
+status: No Change
+order: 9
 ---
 
 ## What is this skill?
