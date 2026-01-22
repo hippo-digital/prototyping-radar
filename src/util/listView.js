@@ -347,6 +347,7 @@ function initializeToggle(radar) {
     if (isListView) {
       // Switch to list view
       d3.select('body').classed('list-view-active', true)
+      d3.select('#list-view').style('display', 'block')
       button.text('🎯 Radar View')
 
       // Create list view
@@ -354,7 +355,7 @@ function initializeToggle(radar) {
     } else {
       // Switch to radar view
       d3.select('body').classed('list-view-active', false)
-      d3.select('#list-view').classed('active', false)
+      d3.select('#list-view').style('display', 'none')
       button.text('📄 List View')
     }
   })
