@@ -1,0 +1,109 @@
+Title	Quadrant	Ring
+What is a macro?	Components and Patterns	Working
+Standard GOV.UK components	Components and Patterns	Working
+Copying code from the Design System	Components and Patterns	Working
+Basic component options	Components and Patterns	Working
+Basic page layouts	Components and Patterns	Working
+Nunjucks vs HTML components	Components and Patterns	Working
+Checking accessibility defaults	Components and Patterns	Working
+Tables with data	Components and Patterns	Working
+Accordions	Components and Patterns	Working
+Accessibility testing basics	Components and Patterns	Working
+Create custom macros	Components and Patterns	Practitioner
+Passing variables to macros	Components and Patterns	Practitioner
+Use macros for items	Components and Patterns	Practitioner
+Form element validation states	Components and Patterns	Practitioner
+Customizing CSS for patterns	Components and Patterns	Practitioner
+Conditional components	Components and Patterns	Practitioner
+Autocomplete component	Components and Patterns	Practitioner
+Skip links and focus management	Components and Patterns	Practitioner
+WCAG basics for prototypers	Components and Patterns	Practitioner
+Building complex macros	Components and Patterns	Expert
+Isolating patterns for reuse	Components and Patterns	Expert
+Pattern library management	Components and Patterns	Expert
+Design system contribution	Components and Patterns	Expert
+Updating the GOV.UK Frontend	Components and Patterns	Expert
+Storing user answers	Data and Logic	Working
+Viewing session data	Data and Logic	Working
+Different data types	Data and Logic	Working
+Basic 'if' statements	Data and Logic	Working
+Basic math in Nunjucks	Data and Logic	Working
+Standard data filters	Data and Logic	Working
+Data in the URL	Data and Logic	Working
+Clearing session data	Data and Logic	Working
+Using data across pages	Data and Logic	Practitioner
+Logic in routes.js	Data and Logic	Practitioner
+Redirecting with logic	Data and Logic	Practitioner
+Validation logic	Data and Logic	Practitioner
+Using checkboxes (arrays)	Data and Logic	Practitioner
+Generating reference numbers	Data and Logic	Practitioner
+Date manipulation	Data and Logic	Practitioner
+Complex data structures	Data and Logic	Expert
+Custom Nunjucks filters	Data and Logic	Expert
+Using external JSON files	Data and Logic	Expert
+Creating data maps	Data and Logic	Expert
+Looping through data	Data and Logic	Expert
+Filtering data	Data and Logic	Expert
+Searching/Filtering lists	Data and Logic	Expert
+Email notification preview	Data and Logic	Expert
+Multi-user testing	Data and Logic	Expert
+Complex 'if/else' logic	Data and Logic	Expert
+Views and page templates	Pages and Layouts	Working
+Creating a new page	Pages and Layouts	Working
+Linking pages	Pages and Layouts	Working
+Using the /index page	Pages and Layouts	Working
+Nunjucks vs HTML	Pages and Layouts	Working
+Basic page titles	Pages and Layouts	Working
+Standard GOV.UK Page blocks	Pages and Layouts	Working
+What is Routing?	Pages and Layouts	Working
+What is POST and GET?	Pages and Layouts	Working
+Hard-coding data	Pages and Layouts	Working
+Previewing in local host	Pages and Layouts	Working
+Add delays	Pages and Layouts	Working
+Simulate errors	Pages and Layouts	Working
+Mobile responsive testing	Pages and Layouts	Working
+Extend layout files	Pages and Layouts	Practitioner
+Using block content	Pages and Layouts	Practitioner
+Customizing the start page	Pages and Layouts	Practitioner
+Branding	Pages and Layouts	Practitioner
+Navigation patterns	Pages and Layouts	Practitioner
+Use back link correctly	Pages and Layouts	Practitioner
+Form layout design	Pages and Layouts	Practitioner
+Confirmation pages	Pages and Layouts	Practitioner
+Error page handling	Pages and Layouts	Practitioner
+Deep linking	Pages and Layouts	Practitioner
+User research handoff	Pages and Layouts	Practitioner
+Building wizard patterns	Pages and Layouts	Expert
+Multi-path journeys	Pages and Layouts	Expert
+Dynamic routing logic	Pages and Layouts	Expert
+Print stylesheets	Pages and Layouts	Expert
+Setting up VS Code	Setup and Deployment	Working
+Installing the kit	Setup and Deployment	Working
+Node.js basics	Setup and Deployment	Working
+NPM packages	Setup and Deployment	Working
+Introduction to Git and GitHub	Setup and Deployment	Working
+Terminal basics	Setup and Deployment	Working
+Running the kit locally	Setup and Deployment	Working
+Restarting the kit	Setup and Deployment	Working
+What's in the kit	Setup and Deployment	Working
+Folder structure	Setup and Deployment	Working
+Assets folder	Setup and Deployment	Working
+Update notifications	Setup and Deployment	Working
+Using browser DevTools	Setup and Deployment	Working
+Sass compile errors	Setup and Deployment	Working
+Add utilities	Setup and Deployment	Practitioner
+Debugging	Setup and Deployment	Practitioner
+Errors in routes	Setup and Deployment	Practitioner
+Git basics	Setup and Deployment	Practitioner
+Managing versions	Setup and Deployment	Practitioner
+Terminal shortcuts	Setup and Deployment	Practitioner
+Environment variables	Setup and Deployment	Practitioner
+Backing up prototypes	Setup and Deployment	Practitioner
+Password protection	Setup and Deployment	Practitioner
+Prototype documentation	Setup and Deployment	Practitioner
+Cleaning up before sharing	Setup and Deployment	Practitioner
+What is Heroku?	Setup and Deployment	Practitioner
+Deploying to Heroku	Setup and Deployment	Practitioner
+Advanced Git	Setup and Deployment	Expert
+Cleaning up prototypes	Setup and Deployment	Expert
+Archiving old versions	Setup and Deployment	Expert
