@@ -13,11 +13,13 @@
   }
 
   .search-container {
-    height: auto;
-    margin: 1px auto 0;
+    height: 48px;
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex: 0 1 300px; // Don't grow, shrink if needed, preferred width 300px
+    min-width: 200px; // Minimum width
 
     &.sticky-offset {
       margin-top: 108px;
@@ -63,18 +65,20 @@
     }
 
     &__input {
+      width: 100%;
       color: $wave;
       height: 48px;
-      //margin-bottom: 30px;
+      padding: 0 16px;
       background: #edf1f3 url(images/search-active-wave.svg) no-repeat 98% center;
       font-family: $baseFontFamily;
       scroll-margin-top: $subnavHeight;
       border-radius: 10px;
+      border: none;
+      box-sizing: border-box;
 
       @include media-query-medium {
         height: 100%;
         margin-bottom: 0;
-        flex-grow: 1;
       }
     }
   }

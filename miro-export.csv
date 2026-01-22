@@ -1,0 +1,2353 @@
+Title,Description,Tags
+🎯 Components and Patterns,Quadrant,quadrant
+🎯 Data and Logic,Quadrant,quadrant
+🎯 Pages and Layouts,Quadrant,quadrant
+🎯 Setup and Deployment,Quadrant,quadrant
+Accessibility testing basics,"Working | Components and Patterns
+
+What is this skill?:
+
+Accessibility testing basics involves using built-in browser tools and simple checks to ensure your prototype can be used by people with disabilities. This includes checking keyboard navigation, colour contrast, and screen reader compatibility.
+
+Why is it important?:
+
+• Legal requirement – Public sector services must meet WCAG 2.1 AA standards
+
+• Inclusive design – Prototypes should represent accessible final products
+
+• Early problem detection – Catch accessibility issues before development
+
+• User research validity – Ensure all participants can use your prototype
+
+Where to learn more:
+
+• GOV.UK Service Manual: Testing for accessibility
+
+• WebAIM: Quick reference guide
+
+• WAVE accessibility checker
+
+• axe DevTools browser extension","working,components-and-patterns,no-change"
+Accordions,"Working | Components and Patterns
+
+What is this skill?:
+
+Accordions allow users to show and hide sections of content on a page. Understanding when to use them and how to implement them accessibly is important for organising long pages.
+
+Why is it important?:
+
+• Content organisation – Break up long pages into manageable sections
+
+• Progressive disclosure – Let users see only what they need
+
+• Accessibility – Must be keyboard navigable and screen reader friendly
+
+• Appropriate use – Accordions aren't always the right solution
+
+Where to learn more:
+
+• GOV.UK Design System: Accordion
+
+• NHS Design System: Expander
+
+• Nielsen Norman: Accordions","working,components-and-patterns,no-change"
+Add delays,"Working | Pages and Layouts
+
+What is this skill?:
+
+Adding delays involves simulating system processing time in your prototype, such as loading spinners or ""please wait"" pages. This helps test user expectations and design appropriate feedback for slow operations.
+
+Why is it important?:
+
+• Realistic expectations – Real services have processing time; test user patience
+
+• Loading states – Design appropriate feedback for operations that take time
+
+• User research insights – Understand how users react to waiting
+
+• Anxiety reduction – Test whether your loading patterns reassure users
+
+Where to learn more:
+
+• GOV.UK Prototype Kit: Create routes
+
+• GOV.UK Design System: Patterns","working,pages-and-layouts,no-change"
+Add utilities,"Practitioner | Setup and Deployment
+
+What is this skill?:
+
+Adding utilities involves using helper classes and functions to extend your prototype's functionality. This includes GOV.UK Frontend utility classes for spacing, typography, and layout, as well as creating your own helper functions.
+
+Why is it important?:
+
+• Rapid styling – Apply consistent spacing and typography without writing custom CSS
+
+• Design system compliance – Utility classes ensure you follow GOV.UK or NHS design standards
+
+• Cleaner code – Reusable utilities reduce duplication across your prototype
+
+• Faster prototyping – Spend less time on repetitive styling tasks
+
+Where to learn more:
+
+• GOV.UK Design System: Spacing
+
+• GOV.UK Design System: Typography","practitioner,setup-and-deployment,no-change"
+Advanced Git,"Expert | Setup and Deployment
+
+What is this skill?:
+
+Advanced Git involves using branches to work on features separately, merging changes, resolving conflicts, and using Git history to understand or revert changes in your prototype.
+
+Why is it important?:
+
+• Safe experimentation – Test ideas in branches without affecting the main prototype
+
+• Team collaboration – Multiple people can work on different features simultaneously
+
+• Version management – Maintain different versions for different research rounds
+
+• Recovery – Revert problematic changes without losing other work
+
+Where to learn more:
+
+• GitHub: Git branching
+
+• Atlassian: Git branching tutorial","expert,setup-and-deployment,no-change"
+Archiving old versions,"Expert | Setup and Deployment
+
+What is this skill?:
+
+Archiving old versions involves properly storing and documenting past prototype iterations so they can be referenced or restored later. This includes tagging releases, creating branches, and maintaining documentation of what each version contains.
+
+Why is it important?:
+
+• Audit trail – Know what was tested in each research round
+
+• Stakeholder requests – Quickly retrieve specific past versions
+
+• Learning from history – Review how designs evolved over time
+
+• Compliance – Some projects require version history for governance
+
+Where to learn more:
+
+• Git tagging
+
+• GitHub releases
+
+• Semantic versioning","expert,setup-and-deployment,no-change"
+Assets folder,"Working | Setup and Deployment
+
+What is this skill?:
+
+The assets folder is where you store images, custom JavaScript files, and stylesheets for your prototype. Understanding how to organise and reference these files correctly ensures your prototype looks and functions as intended.
+
+Why is it important?:
+
+• Visual fidelity – Add images, icons, and logos to make prototypes more realistic
+
+• Custom styling – Include your own CSS to extend or override default styles
+
+• Interactive elements – Add JavaScript for enhanced user interactions
+
+• Organised codebase – Proper asset management keeps your prototype maintainable
+
+Where to learn more:
+
+• GOV.UK Prototype Kit: Adding CSS, JavaScript and images
+
+• NHS digital service manual: Design system","working,setup-and-deployment,no-change"
+Autocomplete component,"Practitioner | Components and Patterns
+
+What is this skill?:
+
+The autocomplete component (also called typeahead or accessible autocomplete) helps users select from a long list of options by filtering as they type. Essential for country selectors, address lookups, or any large list.
+
+Why is it important?:
+
+• User experience – Faster than scrolling through hundreds of options
+
+• Accessibility – The GOV.UK component is built to be screen reader friendly
+
+• Error reduction – Helps users find and select the correct option
+
+• Mobile friendly – Works better than long dropdowns on small screens
+
+Where to learn more:
+
+• GOV.UK Design System: Accessible autocomplete
+
+• Accessible autocomplete GitHub
+
+• GOV.UK country picker example","practitioner,components-and-patterns,no-change"
+Backing up prototypes,"Practitioner | Setup and Deployment
+
+What is this skill?:
+
+Backing up prototypes involves creating copies of your work at key milestones, typically using Git commits, branches, or zip archives. This protects against accidental changes and allows you to return to previous versions.
+
+Why is it important?:
+
+• Safety net – Recover from accidental deletions or breaking changes
+
+• Version history – Return to any previous state of your prototype
+
+• Research rounds – Maintain snapshots for different user research sessions
+
+• Collaboration – Share specific versions with team members
+
+Where to learn more:
+
+• GitHub: Creating commits
+
+• GOV.UK Prototype Kit: Version control
+
+• Git basics: Recording changes","practitioner,setup-and-deployment,no-change"
+Basic component options,"Working | Components and Patterns
+
+What is this skill?:
+
+Basic component options involves passing simple parameters like text, IDs, and labels to GOV.UK Frontend macros to configure how components appear and behave.
+
+Why is it important?:
+
+• Customisation – Adapt components to your specific needs
+
+• Correct labelling – Ensure form fields have proper labels for accessibility
+
+• Unique IDs – Prevent conflicts when using multiple instances
+
+• Foundation – Basic options are the first step to mastering macros
+
+Where to learn more:
+
+• GOV.UK Design System: Component options
+
+• GOV.UK Frontend: Component API","working,components-and-patterns,no-change"
+Basic 'if' statements,"Working | Data and Logic
+
+What is this skill?:
+
+Basic 'if' statements in Nunjucks allow you to show or hide content based on conditions, such as whether a user has entered certain data or selected a specific option.
+
+Why is it important?:
+
+• Dynamic content – Show different content based on user input
+
+• Conditional visibility – Hide sections that aren't relevant to the user
+
+• Error handling – Display error messages only when validation fails
+
+• Personalisation – Tailor the experience based on previous answers
+
+Where to learn more:
+
+• Nunjucks: If statement
+
+• GOV.UK Prototype Kit: Show different pages","working,data-and-logic,no-change"
+Basic math in Nunjucks,"Working | Data and Logic
+
+What is this skill?:
+
+Basic math in Nunjucks involves performing simple calculations like addition, subtraction, and multiplication directly in your templates to display computed values.
+
+Why is it important?:
+
+• Dynamic calculations – Show totals, counts, or computed values
+
+• Progress indicators – Calculate completion percentages
+
+• Date manipulation – Add or subtract days for deadline calculations
+
+• Simple logic – Avoid needing routes for basic arithmetic
+
+Where to learn more:
+
+• Nunjucks: Math operations
+
+• Nunjucks: Built-in filters","working,data-and-logic,no-change"
+Basic page layouts,"Working | Components and Patterns
+
+What is this skill?:
+
+Basic page layouts involves using the GOV.UK grid system with rows and columns to structure content on your pages, ensuring consistent spacing and responsive behaviour.
+
+Why is it important?:
+
+• Responsive design – Layouts adapt to different screen sizes
+
+• Consistency – Match the standard GOV.UK page structure
+
+• Content hierarchy – Organise information logically
+
+• Two-thirds pattern – Use the standard content width for readability
+
+Where to learn more:
+
+• GOV.UK Design System: Layout
+
+• GOV.UK Design System: Grid system","working,components-and-patterns,no-change"
+Basic page titles,"Working | Pages and Layouts
+
+What is this skill?:
+
+Setting basic page titles involves configuring the text that appears in browser tabs and is read by screen readers. This is essential for accessibility and helps users understand where they are.
+
+Why is it important?:
+
+• Accessibility – Screen readers announce page titles to help users navigate
+
+• User orientation – Helps users know which tab contains your prototype
+
+• SEO basics – Good practice that carries over to production development
+
+• Professional quality – Proper titles show attention to detail
+
+Where to learn more:
+
+• GOV.UK Design System: Page template
+
+• W3C: Page titles","working,pages-and-layouts,no-change"
+Branding,"Practitioner | Pages and Layouts
+
+What is this skill?:
+
+Branding involves applying service-specific headers, logos, and banners to your prototype to match your organisation's identity or test different visual approaches.
+
+Why is it important?:
+
+• Realistic testing – Branded prototypes feel more authentic to users
+
+• Stakeholder buy-in – Helps decision makers visualise the final service
+
+• Service identity – Test how branding affects user perception
+
+• Multi-organisation services – Handle joint services or departmental branding
+
+Where to learn more:
+
+• GOV.UK Design System: Header
+
+• NHS digital service manual: Header","practitioner,pages-and-layouts,no-change"
+Building complex macros,"Expert | Components and Patterns
+
+What is this skill?:
+
+Building complex macros involves creating sophisticated Nunjucks components with nested logic, multiple parameters, default values, and conditional rendering based on the options passed in.
+
+Why is it important?:
+
+• Flexibility – Create components that adapt to many different use cases
+
+• Production-like quality – Build macros that match GOV.UK Frontend standards
+
+• Reduced duplication – Handle variations within a single macro
+
+• Team efficiency – Provide powerful tools for less experienced team members
+
+Where to learn more:
+
+• Nunjucks: Macro
+
+• GOV.UK Frontend: Component examples","expert,components-and-patterns,no-change"
+Building wizard patterns,"Expert | Pages and Layouts
+
+What is this skill?:
+
+Building wizard patterns involves creating advanced multi-step interactions with branching logic, progress indicators, and the ability to go back and change answers.
+
+Why is it important?:
+
+• Complex transactions – Handle services that require many steps
+
+• User guidance – Help users understand their progress
+
+• Change answers – Allow users to review and edit their responses
+
+• Task list integration – Combine with task list patterns for longer services
+
+Where to learn more:
+
+• GOV.UK Design System: Task list page
+
+• GOV.UK Design System: Check answers","expert,pages-and-layouts,no-change"
+Checking accessibility defaults,"Working | Components and Patterns
+
+What is this skill?:
+
+Checking accessibility defaults involves verifying that components have proper ARIA attributes, labels, and focus states built in, and understanding what accessibility features come out of the box.
+
+Why is it important?:
+
+• Compliance – Ensure your prototype meets accessibility standards
+
+• Inclusive design – Components work for users with disabilities
+
+• Testing confidence – Know what's already handled vs what you need to add
+
+• Learning – Understand accessibility best practices through examples
+
+Where to learn more:
+
+• GOV.UK Design System: Accessibility
+
+• NHS digital service manual: Accessibility","working,components-and-patterns,no-change"
+Cleaning up before sharing,"Practitioner | Setup and Deployment
+
+What is this skill?:
+
+Cleaning up before sharing involves removing unused files, test data, console logs, and commented-out code before sharing your prototype with stakeholders or deploying it for user research.
+
+Why is it important?:
+
+• Professionalism – Clean prototypes reflect well on your team
+
+• Reduced confusion – Remove dead ends and incomplete journeys
+
+• Performance – Smaller prototypes load faster
+
+• Security – Remove any test credentials or sensitive data
+
+Where to learn more:
+
+• GOV.UK Prototype Kit: Publishing
+
+• Clean Code principles
+
+• Git: Removing files","practitioner,setup-and-deployment,no-change"
+Cleaning up prototypes,"Expert | Setup and Deployment
+
+What is this skill?:
+
+Cleaning up prototypes involves refactoring code after user research sessions, removing dead ends and unused code, consolidating learnings, and preparing the prototype for the next iteration or handover.
+
+Why is it important?:
+
+• Maintainable codebase – Clean prototypes are easier to update and extend
+
+• Clear documentation – Helps team members understand what was tested and learned
+
+• Efficient handover – Developers can better understand intended interactions
+
+• Reduced technical debt – Prevents prototypes from becoming unmaintainable over time
+
+Where to learn more:
+
+• GOV.UK Service Manual: Prototyping
+
+• GOV.UK Service Manual: Retiring your prototype","expert,setup-and-deployment,no-change"
+Clearing session data,"Working | Data and Logic
+
+What is this skill?:
+
+Clearing session data involves resetting the prototype to a clean state, removing all stored user input so you can start a fresh journey without previous answers affecting the experience.
+
+Why is it important?:
+
+• Clean testing – Start each research session with no pre-existing data
+
+• Multiple scenarios – Test different journeys without interference from old data
+
+• Debugging – Rule out stale data as a cause of unexpected behaviour
+
+• User research – Ensure each participant starts with a blank slate
+
+Where to learn more:
+
+• GOV.UK Prototype Kit: Clear session data
+
+• GOV.UK Prototype Kit: Storing data","working,data-and-logic,no-change"
+Complex data structures,"Expert | Data and Logic
+
+What is this skill?:
+
+Complex data structures involves working with nested objects, arrays of objects, and multi-level data hierarchies that represent real-world service data.
+
+Why is it important?:
+
+• Real-world simulation – Match how production systems structure data
+
+• Multi-item forms – Handle ""add another"" patterns with arrays
+
+• Relationship mapping – Connect related pieces of information
+
+• Advanced prototypes – Build sophisticated data-driven features
+
+Where to learn more:
+
+• MDN: Working with objects
+
+• Nunjucks: Variables","expert,data-and-logic,no-change"
+Complex 'if/else' logic,"Expert | Data and Logic
+
+What is this skill?:
+
+Complex 'if/else' logic involves handling multiple conditions with elif (else if) statements and nested conditionals to manage sophisticated display rules.
+
+Why is it important?:
+
+• Multiple outcomes – Handle more than two possible states
+
+• Compound conditions – Check multiple criteria together
+
+• Nested logic – Build complex decision trees in templates
+
+• Edge cases – Handle unusual combinations of user input
+
+Where to learn more:
+
+• Nunjucks: If/elif/else
+
+• Nunjucks: Comparisons","expert,data-and-logic,no-change"
+Conditional components,"Practitioner | Components and Patterns
+
+What is this skill?:
+
+Conditional components involves showing or hiding entire components based on user data or logic, such as only displaying certain form fields when relevant conditions are met.
+
+Why is it important?:
+
+• Relevant content – Only show what's applicable to each user
+
+• Cleaner interfaces – Reduce clutter by hiding irrelevant elements
+
+• Progressive disclosure – Reveal information as it becomes relevant
+
+• Dynamic forms – Adapt the interface based on earlier answers
+
+Where to learn more:
+
+• Nunjucks: If statement
+
+• GOV.UK Design System: Conditional reveal","practitioner,components-and-patterns,no-change"
+Confirmation pages,"Practitioner | Pages and Layouts
+
+What is this skill?:
+
+Confirmation pages are the ""end of journey"" screens that tell users they've successfully completed a task. They include reference numbers, next steps, and important information.
+
+Why is it important?:
+
+• User confidence – Confirms the action was successful
+
+• Next steps – Tells users what happens next and what they need to do
+
+• Reference information – Provides details users may need later
+
+• Journey completion – Essential for testing the full user experience
+
+Where to learn more:
+
+• GOV.UK Design System: Confirmation page
+
+• GOV.UK Design System: Panel","practitioner,pages-and-layouts,no-change"
+Copying code from the Design System,"Working | Components and Patterns
+
+What is this skill?:
+
+Copying code from the Design System involves finding the right component in the documentation, copying the HTML or Nunjucks example, and adapting it for your prototype.
+
+Why is it important?:
+
+• Quick implementation – Get components working fast
+
+• Correct structure – Start with properly formatted code
+
+• Learn patterns – Understand how components are built
+
+• Avoid mistakes – Copy tested code rather than writing from scratch
+
+Where to learn more:
+
+• GOV.UK Design System
+
+• NHS digital service manual","working,components-and-patterns,no-change"
+Create custom macros,"Practitioner | Components and Patterns
+
+What is this skill?:
+
+Creating custom macros involves building your own reusable Nunjucks components that accept parameters and output HTML, similar to how GOV.UK Frontend components work.
+
+Why is it important?:
+
+• Reusability – Build once, use across multiple pages
+
+• Consistency – Ensure the same pattern looks identical everywhere
+
+• Maintainability – Update the macro once to fix issues everywhere
+
+• Team efficiency – Share components with colleagues
+
+Where to learn more:
+
+• Nunjucks: Macro
+
+• GOV.UK Frontend source code","practitioner,components-and-patterns,no-change"
+Creating a new page,"Working | Pages and Layouts
+
+What is this skill?:
+
+Creating a new page involves adding a new .html file to the app/views folder, setting up the basic template structure, and extending the correct layout to ensure consistency with other pages.
+
+Why is it important?:
+
+• Build your prototype – You need pages to create any user journey
+
+• Correct structure – New pages must extend layouts to work properly
+
+• Organised files – Learn to name and place files logically
+
+• Efficient workflow – Know when to duplicate existing pages vs. starting fresh
+
+Where to learn more:
+
+• GOV.UK Prototype Kit: Create pages
+
+• NHS Prototype Kit: Views","working,pages-and-layouts,no-change"
+Creating data maps,"Expert | Data and Logic
+
+What is this skill?:
+
+Creating data maps involves structuring user input into organised data objects or JSON structures, transforming flat form data into meaningful hierarchies.
+
+Why is it important?:
+
+• Organised data – Keep user responses structured and easy to access
+
+• Complex forms – Handle multi-part forms with nested data
+
+• API simulation – Mimic how real services structure data
+
+• Check answers pages – Easily iterate over structured data for summaries
+
+Where to learn more:
+
+• MDN: Working with objects
+
+• GOV.UK Design System: Check answers","expert,data-and-logic,no-change"
+Custom Nunjucks filters,"Expert | Data and Logic
+
+What is this skill?:
+
+Custom Nunjucks filters are JavaScript functions you write to transform data in templates, extending the built-in filters with your own formatting logic.
+
+Why is it important?:
+
+• Custom formatting – Format dates, currencies, or text your way
+
+• Reusable logic – Write once, use across all templates
+
+• Clean templates – Keep complex transformations out of views
+
+• Consistent output – Ensure data is always formatted the same way
+
+Where to learn more:
+
+• Nunjucks: Custom filters
+
+• GOV.UK Prototype Kit: Filters","expert,data-and-logic,no-change"
+Customizing CSS for patterns,"Practitioner | Components and Patterns
+
+What is this skill?:
+
+Customizing CSS for patterns involves writing custom Sass or CSS to modify the appearance of standard components or create new visual styles for your prototype.
+
+Why is it important?:
+
+• Visual testing – Test design variations with stakeholders
+
+• Brand requirements – Adapt patterns for specific service needs
+
+• Gap filling – Style elements not covered by the design system
+
+• Iteration – Quickly try different visual approaches
+
+Where to learn more:
+
+• GOV.UK Prototype Kit: CSS and Sass
+
+• GOV.UK Design System: Styles","practitioner,components-and-patterns,no-change"
+Customizing the start page,"Practitioner | Pages and Layouts
+
+What is this skill?:
+
+Customizing the start page involves building a standard GOV.UK or NHS service start page with guidance, eligibility information, and a clear call-to-action button.
+
+Why is it important?:
+
+• First impression – The start page sets user expectations for the service
+
+• Eligibility checking – Help users understand if the service is right for them
+
+• Reduce drop-off – Clear guidance prevents users starting journeys they can't complete
+
+• Design system compliance – Follow the standard start page pattern
+
+Where to learn more:
+
+• GOV.UK Design System: Start page pattern
+
+• GOV.UK Service Manual: Start pages","practitioner,pages-and-layouts,no-change"
+Data in the URL,"Working | Data and Logic
+
+What is this skill?:
+
+Data in the URL involves understanding how query strings (like ?name=value) can pass information between pages, and how to read these parameters in your prototype.
+
+Why is it important?:
+
+• Deep linking – Link directly to specific states or scenarios
+
+• External integration – Receive data from other systems via URLs
+
+• Testing shortcuts – Jump to specific journey points with pre-set data
+
+• Sharing states – Send links that reproduce specific prototype states
+
+Where to learn more:
+
+• MDN Web Docs: Query strings
+
+• Express.js: Request query","working,data-and-logic,no-change"
+Date manipulation,"Practitioner | Data and Logic
+
+What is this skill?:
+
+Date manipulation involves calculating dates (like ""3 working days from now""), formatting dates for display, and comparing dates in your prototype logic. The date-fns library is commonly used for this.
+
+Why is it important?:
+
+• Dynamic deadlines – Show realistic future dates based on today
+
+• Date formatting – Display dates in the GOV.UK style (1 January 2024)
+
+• Validation – Check if dates are in the past or future
+
+• Calculations – Add or subtract days, months, or years
+
+Where to learn more:
+
+• GOV.UK Design System: Dates
+
+• date-fns documentation
+
+• MDN: Date object","practitioner,data-and-logic,no-change"
+Debugging,"Practitioner | Setup and Deployment
+
+What is this skill?:
+
+Debugging involves systematically finding and fixing problems in your prototype. This includes using browser developer tools, reading terminal error messages, and using console.log to inspect data.
+
+Why is it important?:
+
+• Self-sufficiency – Fix your own problems without waiting for help
+
+• Faster iteration – Quickly identify and resolve issues during development
+
+• Learn how things work – Debugging teaches you how the kit functions internally
+
+• Better code quality – Understanding errors helps you write more robust prototypes
+
+Where to learn more:
+
+• Chrome DevTools documentation
+
+• MDN Web Docs: Debugging JavaScript","practitioner,setup-and-deployment,no-change"
+Deep linking,"Practitioner | Pages and Layouts
+
+What is this skill?:
+
+Deep linking involves creating URLs that link directly to specific states or pages within your prototype, including form data or session state. This allows testers to jump directly to a specific point in a journey.
+
+Why is it important?:
+
+• User research efficiency – Jump directly to the screen you want to test
+
+• Bug reporting – Share exact URLs that reproduce issues
+
+• Stakeholder reviews – Send links to specific pages for feedback
+
+• Testing edge cases – Create URLs that set up specific scenarios
+
+Where to learn more:
+
+• GOV.UK Prototype Kit: Pass data with URLs
+
+• Express.js: Route parameters
+
+• MDN: URL query strings","practitioner,pages-and-layouts,no-change"
+Deploying to Heroku,"Practitioner | Setup and Deployment
+
+What is this skill?:
+
+Deploying to Heroku involves pushing your prototype code to Heroku's servers so it's accessible online. This includes setting up the app, configuring environment variables, and managing deployments.
+
+Why is it important?:
+
+• Share your work – Make prototypes accessible to stakeholders and users
+
+• Remote research – Conduct user research sessions with participants anywhere
+
+• Continuous updates – Push changes and see them live within minutes
+
+• Professional workflow – Deployment skills are valuable across all development work
+
+Where to learn more:
+
+• GOV.UK Prototype Kit: Publishing on Heroku
+
+• Heroku: Deploying Node.js apps","practitioner,setup-and-deployment,no-change"
+Design system contribution,"Expert | Components and Patterns
+
+What is this skill?:
+
+Design system contribution involves refining prototype patterns to meet the quality standards required for inclusion in the official GOV.UK or NHS design systems.
+
+Why is it important?:
+
+• Community benefit – Share your work to help others
+
+• Quality improvement – Contribution process improves your patterns
+
+• Recognition – Contribute to widely-used government resources
+
+• Learning – Understand how design systems are built and maintained
+
+Where to learn more:
+
+• GOV.UK Design System: Propose a component
+
+• GOV.UK Design System: Develop a component","expert,components-and-patterns,no-change"
+Different data types,"Working | Data and Logic
+
+What is this skill?:
+
+Understanding different data types means knowing the difference between strings, numbers, booleans, arrays, and objects. This is essential for handling user input and building logic.
+
+Why is it important?:
+
+• Correct comparisons – Comparing ""1"" (string) and 1 (number) behaves differently
+
+• Form handling – Form inputs are always strings; you may need to convert them
+
+• Conditional logic – Booleans are essential for branching
+
+• Data structures – Arrays and objects let you manage lists and complex data
+
+Where to learn more:
+
+• MDN Web Docs: JavaScript data types
+
+• GOV.UK Prototype Kit: Storing data","working,data-and-logic,no-change"
+Dynamic routing logic,"Expert | Pages and Layouts
+
+What is this skill?:
+
+Dynamic routing logic involves advanced server-side routing that changes the user's path based on complex combinations of session data, external factors, or calculated states.
+
+Why is it important?:
+
+• Complex services – Handle sophisticated eligibility and routing requirements
+
+• Personalisation – Tailor journeys based on user characteristics
+
+• Integration simulation – Mimic real backend logic and API responses
+
+• Edge case handling – Manage unusual scenarios gracefully
+
+Where to learn more:
+
+• GOV.UK Prototype Kit: Create routes
+
+• Express.js: Routing","expert,pages-and-layouts,no-change"
+Email notification preview,"Expert | Data and Logic
+
+What is this skill?:
+
+Email notification preview involves creating pages that show what emails or letters would look like, using data from the user's session. This helps test email content and timing during user research.
+
+Why is it important?:
+
+• Realistic testing – Users can see what emails they'd receive
+
+• Content testing – Test if email wording is clear and actionable
+
+• Journey completeness – Show the full experience including notifications
+
+• Stakeholder review – Get sign-off on notification content
+
+Where to learn more:
+
+• GOV.UK Notify
+
+• GOV.UK Notify templates
+
+• GOV.UK Service Manual: Sending emails and letters","expert,data-and-logic,no-change"
+Environment variables,"Practitioner | Setup and Deployment
+
+What is this skill?:
+
+Environment variables allow you to configure your prototype differently for local development versus deployment. They're used to store settings like feature flags, API keys, or environment-specific URLs without hardcoding them.
+
+Why is it important?:
+
+• Security – Keep sensitive data out of your codebase
+
+• Flexibility – Change behaviour without modifying code
+
+• Deployment ready – Configure differently for Heroku vs local
+
+• Feature toggles – Enable or disable features per environment
+
+Where to learn more:
+
+• GOV.UK Prototype Kit: Environment variables
+
+• Heroku: Configuration and config vars
+
+• Node.js process.env","practitioner,setup-and-deployment,no-change"
+Error page handling,"Practitioner | Pages and Layouts
+
+What is this skill?:
+
+Error page handling involves creating custom 404 (not found) and 500 (server error) pages for your prototype. This helps test how users respond to errors and ensures a consistent experience when things go wrong.
+
+Why is it important?:
+
+• User experience – Guide users back to safety when they hit an error
+
+• Realistic testing – Test error scenarios during user research
+
+• Consistent branding – Error pages should match your service design
+
+• Debugging – Custom error pages can show helpful developer information
+
+Where to learn more:
+
+• GOV.UK Design System: Error pages
+
+• Express.js error handling
+
+• GOV.UK Service Manual: Error pages","practitioner,pages-and-layouts,no-change"
+Errors in routes,"Practitioner | Setup and Deployment
+
+What is this skill?:
+
+Debugging errors in routes involves understanding how the routes.js file works and troubleshooting issues that prevent your prototype from handling form submissions, redirects, and page navigation correctly.
+
+Why is it important?:
+
+• Unblock development – Route errors stop your prototype from working entirely
+
+• Understand data flow – Debugging routes teaches you how data moves through your prototype
+
+• Build confidence – Once you can fix route errors, you can tackle more complex logic
+
+• Better error messages – Learn to read Node.js error messages to quickly identify problems
+
+Where to learn more:
+
+• GOV.UK Prototype Kit: Using routes
+
+• Express.js routing guide","practitioner,setup-and-deployment,no-change"
+Extend layout files,"Practitioner | Pages and Layouts
+
+What is this skill?:
+
+Extending layout files involves using Nunjucks template inheritance to modify block structures for specific page needs, creating custom layouts that still inherit from the base template.
+
+Why is it important?:
+
+• Customisation – Create page-specific layouts while maintaining consistency
+
+• Efficiency – Reuse common structures across multiple pages
+
+• Flexibility – Override only the blocks you need to change
+
+• Maintainability – Keep your codebase organised and DRY
+
+Where to learn more:
+
+• GOV.UK Prototype Kit: Templates and layouts
+
+• Nunjucks: Template inheritance","practitioner,pages-and-layouts,no-change"
+Filtering data,"Expert | Data and Logic
+
+What is this skill?:
+
+Filtering data involves using logic to display specific subsets of information from arrays or objects based on conditions, such as showing only completed tasks or matching search results.
+
+Why is it important?:
+
+• Dynamic displays – Show only relevant items from larger datasets
+
+• Search results – Filter lists based on user queries
+
+• Status filtering – Display items by their current state
+
+• Performance – Show manageable subsets of large data sets
+
+Where to learn more:
+
+• Nunjucks: For loops with conditions
+
+• MDN: Array.filter()","expert,data-and-logic,no-change"
+Folder structure,"Working | Setup and Deployment
+
+What is this skill?:
+
+Understanding the folder structure means knowing where to find and place different types of files in the prototype kit. This includes the app folder for views, routes, and assets, as well as configuration files in the root.
+
+Why is it important?:
+
+• Find files quickly – Know exactly where to look for views, routes, and styles
+
+• Organise your work – Keep your prototype tidy and maintainable
+
+• Avoid breaking things – Understand which files are safe to edit and which to leave alone
+
+• Collaborate effectively – Team members can navigate the project consistently
+
+Where to learn more:
+
+• GOV.UK Prototype Kit: Folder structure
+
+• NHS Prototype Kit: Project structure","working,setup-and-deployment,no-change"
+Form element validation states,"Practitioner | Components and Patterns
+
+What is this skill?:
+
+Form element validation states involves implementing error styling, error messages, and error summaries on form components to show users when they've made mistakes.
+
+Why is it important?:
+
+• User guidance – Help users understand and fix their errors
+
+• Accessibility – Error states must be announced to screen readers
+
+• Design system compliance – Follow GOV.UK error patterns correctly
+
+• Realistic testing – Test how users respond to validation feedback
+
+Where to learn more:
+
+• GOV.UK Design System: Error message
+
+• GOV.UK Design System: Error summary","practitioner,components-and-patterns,no-change"
+Form layout design,"Practitioner | Pages and Layouts
+
+What is this skill?:
+
+Form layout design involves organizing complex forms with fieldsets, legends, hint text, and proper spacing to create accessible, user-friendly form pages.
+
+Why is it important?:
+
+• Accessibility – Properly structured forms work with assistive technologies
+
+• Usability – Good layout reduces user errors and confusion
+
+• Design system compliance – Follow GOV.UK form patterns
+
+• Complex forms – Handle multi-part questions and grouped inputs correctly
+
+Where to learn more:
+
+• GOV.UK Design System: Fieldset
+
+• GOV.UK Service Manual: Form structure","practitioner,pages-and-layouts,no-change"
+Generating reference numbers,"Practitioner | Data and Logic
+
+What is this skill?:
+
+Generating reference numbers involves creating unique identifiers for submissions or applications in your prototype. These help make confirmation pages feel realistic and can be used to track test scenarios.
+
+Why is it important?:
+
+• Realistic prototypes – Users expect a reference number after submitting
+
+• User research – Test if users understand what to do with reference numbers
+
+• Scenario tracking – Identify different test sessions or submissions
+
+• Confidence building – Reference numbers reassure users their submission was received
+
+Where to learn more:
+
+• GOV.UK Design System: Confirmation pages
+
+• JavaScript random string generation
+
+• UUID generation in Node.js","practitioner,data-and-logic,no-change"
+Git basics,"Practitioner | Setup and Deployment
+
+What is this skill?:
+
+Git basics involves using version control to track changes to your prototype, create commits, and push your code to remote repositories like GitHub. This protects your work and enables collaboration.
+
+Why is it important?:
+
+• Never lose work – Git tracks every change, so you can always recover previous versions
+
+• Collaboration – Share your prototype with team members and work together
+
+• Deployment – Most hosting platforms (like Heroku) use Git for deployment
+
+• Professional practice – Version control is standard in all software development
+
+Where to learn more:
+
+• GitHub: Git handbook
+
+• GOV.UK Prototype Kit: Publishing on the web","practitioner,setup-and-deployment,no-change"
+Hard-coding data,"Working | Pages and Layouts
+
+What is this skill?:
+
+Hard-coding data means placing static content directly into pages for quick testing, rather than pulling it from session data or external sources. This is useful for rapid prototyping.
+
+Why is it important?:
+
+• Speed – Quickly test page designs without setting up data flows
+
+• Simplicity – Easier to understand when learning the kit
+
+• Demonstration – Show stakeholders a specific scenario without complex logic
+
+• Starting point – Often the first step before making content dynamic
+
+Where to learn more:
+
+• GOV.UK Prototype Kit: Create pages
+
+• GOV.UK Design System: Components","working,pages-and-layouts,no-change"
+Installing the kit,"Working | Setup and Deployment
+
+What is this skill?:
+
+Installing the kit involves downloading the prototype kit, setting up Node.js, and running npm install to get all dependencies. This is the first step before you can start building prototypes.
+
+Why is it important?:
+
+• Get started – You cannot prototype without first installing the kit
+
+• Understand dependencies – Learn how Node.js and NPM work together
+
+• Troubleshoot setup issues – Know how to fix common installation problems
+
+• Set up new projects – Create fresh prototypes whenever needed
+
+Where to learn more:
+
+• GOV.UK Prototype Kit: Installation guide
+
+• NHS Prototype Kit: Installation","working,setup-and-deployment,no-change"
+Introduction to Git and GitHub,"Working | Setup and Deployment
+
+What is this skill?:
+
+Git is a version control system that tracks changes to your files over time. GitHub is a website that hosts Git repositories online, making it easy to back up your work and collaborate with others. Understanding the basics of both is essential before you start prototyping.
+
+Why is it important?:
+
+• Save your work safely – Git lets you save snapshots of your prototype that you can return to
+
+• Undo mistakes – Accidentally break something? Git lets you go back to a working version
+
+• Collaboration – Share your prototype with team members through GitHub
+
+• Industry standard – Git is used everywhere in software development
+
+Where to learn more:
+
+• GitHub: Hello World guide
+
+• Git basics in plain English
+
+• GOV.UK Prototype Kit: GitHub Desktop
+
+• GitHub Desktop download","working,setup-and-deployment,no-change"
+Isolating patterns for reuse,"Expert | Components and Patterns
+
+What is this skill?:
+
+Isolating patterns for reuse involves extracting components from your prototype into standalone, well-documented modules that can be shared across projects or with other teams.
+
+Why is it important?:
+
+• Cross-project efficiency – Reuse proven patterns in future prototypes
+
+• Team collaboration – Share components with colleagues
+
+• Design system contribution – Prepare patterns for wider adoption
+
+• Quality improvement – Isolated patterns get more attention and refinement
+
+Where to learn more:
+
+• GOV.UK Design System: Contribute
+
+• NHS digital service manual: Contribute","expert,components-and-patterns,no-change"
+Linking pages,"Working | Pages and Layouts
+
+What is this skill?:
+
+Linking pages involves creating anchor tags and navigation elements that connect different pages in your prototype. This is fundamental to building any user journey.
+
+Why is it important?:
+
+• User navigation – Links are how users move through your service
+
+• Journey flow – Connect pages in the correct sequence
+
+• Accessibility – Properly formed links work with screen readers and keyboards
+
+• Foundation skill – All prototypes require linking pages together
+
+Where to learn more:
+
+• GOV.UK Prototype Kit: Create pages
+
+• MDN Web Docs: Creating hyperlinks","working,pages-and-layouts,no-change"
+Logic in routes.js,"Practitioner | Data and Logic
+
+What is this skill?:
+
+Logic in routes.js involves moving complex decision-making out of templates and into server-side JavaScript, making code cleaner and enabling more sophisticated processing.
+
+Why is it important?:
+
+• Cleaner templates – Keep views focused on presentation
+
+• Complex logic – JavaScript offers more powerful programming features
+
+• Reusability – Share logic across multiple routes
+
+• Debugging – Easier to test and debug than template logic
+
+Where to learn more:
+
+• GOV.UK Prototype Kit: Create routes
+
+• Express.js: Routing","practitioner,data-and-logic,no-change"
+Looping through data,"Expert | Data and Logic
+
+What is this skill?:
+
+Looping through data involves using Nunjucks 'for' loops to iterate over arrays and objects, displaying lists of items dynamically from data.
+
+Why is it important?:
+
+• Dynamic lists – Generate lists from data rather than hard-coding
+
+• Repeated patterns – Render the same component multiple times with different data
+
+• Task lists – Display lists of tasks or items from session data
+
+• Summary tables – Build tables from arrays of user responses
+
+Where to learn more:
+
+• Nunjucks: For
+
+• GOV.UK Design System: Summary list","expert,data-and-logic,no-change"
+Managing versions,"Practitioner | Setup and Deployment
+
+What is this skill?:
+
+Managing versions involves keeping track of different prototype kit versions, updating dependencies safely, and understanding how to roll back if an update causes problems.
+
+Why is it important?:
+
+• Stability – Keep your prototype working reliably across updates
+
+• Team consistency – Ensure everyone is using the same version
+
+• Safe updates – Know how to update without breaking your prototype
+
+• Access new features – Upgrade to get the latest components and fixes
+
+Where to learn more:
+
+• GOV.UK Prototype Kit: Updating the kit
+
+• NPM: About semantic versioning","practitioner,setup-and-deployment,no-change"
+Mobile responsive testing,"Working | Pages and Layouts
+
+What is this skill?:
+
+Mobile responsive testing involves checking your prototype works well on different screen sizes, particularly mobile phones. The GOV.UK Design System is mobile-first, but custom additions need testing.
+
+Why is it important?:
+
+• Real usage patterns – Many users access services on mobile devices
+
+• Design system compliance – Verify GOV.UK components respond correctly
+
+• Custom component testing – Check your additions work on small screens
+
+• User research preparation – Some sessions may use mobile devices
+
+Where to learn more:
+
+• GOV.UK Design System: Layout
+
+• Chrome DevTools: Device mode
+
+• MDN: Responsive design","working,pages-and-layouts,no-change"
+Multi-path journeys,"Expert | Pages and Layouts
+
+What is this skill?:
+
+Multi-path journeys involve designing complex user flows where different users take different routes through the service based on their circumstances, eligibility, or choices.
+
+Why is it important?:
+
+• Realistic services – Most services have multiple paths for different user types
+
+• Efficient journeys – Skip irrelevant questions for each user
+
+• Edge cases – Test all possible routes through the service
+
+• User research – Understand how different users experience the service
+
+Where to learn more:
+
+• GOV.UK Prototype Kit: Branching
+
+• GOV.UK Service Manual: Form structure","expert,pages-and-layouts,no-change"
+Multi-user testing,"Expert | Data and Logic
+
+What is this skill?:
+
+Multi-user testing involves setting up your prototype to simulate scenarios where multiple users interact with the same case or application, such as an applicant and a caseworker viewing the same submission.
+
+Why is it important?:
+
+• Realistic scenarios – Many services involve multiple user types
+
+• Role switching – Test both sides of a two-sided service
+
+• Data consistency – Ensure both users see the same information
+
+• Complex journeys – Test handoffs between different user types
+
+Where to learn more:
+
+• GOV.UK Service Manual: User roles
+
+• Prototype Kit: Session data
+
+• Testing two-sided services","expert,data-and-logic,no-change"
+Navigation patterns,"Practitioner | Pages and Layouts
+
+What is this skill?:
+
+Navigation patterns involves implementing sidebars, footers, breadcrumbs, and other navigation elements that help users understand where they are and move through your service.
+
+Why is it important?:
+
+• User orientation – Help users understand their location in the service
+
+• Efficient navigation – Allow users to jump to relevant sections
+
+• Accessibility – Proper navigation landmarks help screen reader users
+
+• Complex services – Essential for services with multiple sections or tasks
+
+Where to learn more:
+
+• GOV.UK Design System: Breadcrumbs
+
+• GOV.UK Design System: Footer","practitioner,pages-and-layouts,no-change"
+Node.js basics,"Working | Setup and Deployment
+
+What is this skill?:
+
+Node.js basics involves understanding that Node.js is the JavaScript runtime that powers the prototype kit. It runs the server that serves your prototype pages and processes your routes.
+
+Why is it important?:
+
+• Understand the foundation – Node.js is what makes the prototype kit work
+
+• Install the right version – Different kit versions may require specific Node.js versions
+
+• Debug server errors – Recognise when issues are Node.js related
+
+• Extend functionality – Node.js knowledge enables more advanced prototyping
+
+Where to learn more:
+
+• GOV.UK Prototype Kit: Requirements
+
+• Node.js official documentation","working,setup-and-deployment,no-change"
+NPM packages,"Working | Setup and Deployment
+
+What is this skill?:
+
+NPM (Node Package Manager) packages are reusable code libraries that extend the functionality of your prototype. Understanding how to install, update, and manage these dependencies is crucial for maintaining your prototype kit.
+
+Why is it important?:
+
+• Access to powerful tools – NPM packages provide ready-made solutions for common problems
+
+• Keep your kit updated – Understanding NPM helps you update the GOV.UK Frontend and other dependencies
+
+• Troubleshoot installation issues – Many kit problems stem from NPM-related issues
+
+• Extend functionality – Add new features to your prototype using community packages
+
+Where to learn more:
+
+• GOV.UK Prototype Kit: Updating the kit
+
+• NPM documentation: Getting started","working,setup-and-deployment,no-change"
+Nunjucks vs HTML components,"Working | Components and Patterns
+
+What is this skill?:
+
+Understanding Nunjucks vs HTML components means knowing when to use a Nunjucks macro (for dynamic, configurable components) versus plain HTML (for static, one-off content).
+
+Why is it important?:
+
+• Right tool for the job – Choose the appropriate approach for each situation
+
+• Efficiency – Macros save time for repeated, dynamic components
+
+• Simplicity – HTML is fine for simple, static content
+
+• Maintenance – Understanding the difference helps when updating code
+
+Where to learn more:
+
+• GOV.UK Design System: Using Nunjucks
+
+• GOV.UK Design System: Components","working,components-and-patterns,no-change"
+Nunjucks vs HTML,"Working | Pages and Layouts
+
+What is this skill?:
+
+Understanding Nunjucks vs HTML means knowing when to use static HTML and when to use Nunjucks templating features like variables, loops, conditionals, and template inheritance to build dynamic pages.
+
+Why is it important?:
+
+• Dynamic content – Nunjucks lets you display different content based on user data
+
+• Reduce repetition – Use template inheritance and includes to avoid duplicating code
+
+• Cleaner pages – Conditionals and loops make complex pages easier to manage
+
+• Design system integration – GOV.UK and NHS.UK macros are written in Nunjucks
+
+Where to learn more:
+
+• Nunjucks templating documentation
+
+• GOV.UK Design System: Using Nunjucks macros","working,pages-and-layouts,no-change"
+Passing variables to macros,"Practitioner | Components and Patterns
+
+What is this skill?:
+
+Passing variables to macros involves using session data or other variables to dynamically populate component fields, making forms pre-fill with user data or display personalised content.
+
+Why is it important?:
+
+• Pre-populated forms – Show users their previous answers when they return
+
+• Dynamic content – Display different text based on user data
+
+• Check answers pages – Pass all stored data to summary components
+
+• Personalisation – Create tailored experiences for each user
+
+Where to learn more:
+
+• GOV.UK Prototype Kit: Pass data
+
+• Nunjucks: Variables","practitioner,components-and-patterns,no-change"
+Password protection,"Practitioner | Setup and Deployment
+
+What is this skill?:
+
+Password protection involves adding simple authentication to your deployed prototype to prevent public access. This is essential when your prototype contains sensitive design work or is hosted publicly.
+
+Why is it important?:
+
+• Confidentiality – Protect unreleased designs from public view
+
+• Controlled access – Only share with intended testers and stakeholders
+
+• Heroku requirement – Many teams require password protection before deployment
+
+• Research integrity – Prevent participants from accessing the prototype early
+
+Where to learn more:
+
+• GOV.UK Prototype Kit: Password protection
+
+• Heroku basic authentication
+
+• Express.js basic auth middleware","practitioner,setup-and-deployment,no-change"
+Pattern library management,"Expert | Components and Patterns
+
+What is this skill?:
+
+Pattern library management involves organizing, documenting, and maintaining a collection of custom components and patterns within a large prototype or across multiple prototypes.
+
+Why is it important?:
+
+• Discoverability – Team members can find and use existing patterns
+
+• Consistency – Ensure patterns are used correctly across the project
+
+• Maintenance – Keep track of what needs updating when requirements change
+
+• Onboarding – Help new team members understand available components
+
+Where to learn more:
+
+• GOV.UK Design System: Community
+
+• Atomic Design methodology","expert,components-and-patterns,no-change"
+Previewing in local host,"Working | Pages and Layouts
+
+What is this skill?:
+
+Previewing in localhost involves navigating to your local server address (usually localhost:3000) in a browser to view and test your prototype as you develop it.
+
+Why is it important?:
+
+• Immediate feedback – See your changes as you make them
+
+• Testing – Check that links, forms, and logic work correctly
+
+• Debugging – Identify visual and functional issues early
+
+• Development workflow – Essential for iterative prototyping
+
+Where to learn more:
+
+• GOV.UK Prototype Kit: Running the kit
+
+• MDN Web Docs: What is a web server?","working,pages-and-layouts,no-change"
+Print stylesheets,"Expert | Pages and Layouts
+
+What is this skill?:
+
+Print stylesheets involve creating CSS rules that apply when a user prints a page or saves it as PDF. This ensures important content is visible and unnecessary elements like navigation are hidden in the printed version.
+
+Why is it important?:
+
+• Accessibility – Users may need to print forms or reference materials
+
+• Official documents – Some services require printable summaries or receipts
+
+• User testing – Test if printed versions of pages meet user needs
+
+• Professional output – Ensure printed pages look intentional, not broken
+
+Where to learn more:
+
+• GOV.UK Design System: Printing
+
+• MDN: Print media queries
+
+• CSS-Tricks: Print styles","expert,pages-and-layouts,no-change"
+Prototype documentation,"Practitioner | Setup and Deployment
+
+What is this skill?:
+
+Prototype documentation involves writing clear README files and inline comments that explain how to run your prototype, what scenarios are available, and any special setup required.
+
+Why is it important?:
+
+• Team handover – Others can pick up your prototype without explanation
+
+• Future you – Remember how things work when you return to a project
+
+• Research preparation – Document scenarios for user researchers
+
+• Stakeholder sharing – Include instructions for non-technical reviewers
+
+Where to learn more:
+
+• GitHub: About READMEs
+
+• Make a README
+
+• GOV.UK Technical documentation template","practitioner,setup-and-deployment,no-change"
+Redirecting with logic,"Practitioner | Data and Logic
+
+What is this skill?:
+
+Redirecting with logic involves using routes to send users to different pages based on their form answers, enabling branching journeys and eligibility checks.
+
+Why is it important?:
+
+• Branching journeys – Send users down different paths based on answers
+
+• Eligibility screening – Redirect ineligible users to appropriate pages
+
+• Skip logic – Jump over irrelevant questions
+
+• Dynamic experiences – Create personalised journeys
+
+Where to learn more:
+
+• GOV.UK Prototype Kit: Branching
+
+• GOV.UK Prototype Kit: Create routes","practitioner,data-and-logic,no-change"
+Restarting the kit,"Working | Setup and Deployment
+
+What is this skill?:
+
+Restarting the kit involves stopping and starting the prototype server, which is sometimes necessary after making changes to routes.js or installing new packages. Most view changes don't require a restart.
+
+Why is it important?:
+
+• Apply changes – Some changes only take effect after a restart
+
+• Fix frozen states – Restart when the kit becomes unresponsive
+
+• Clear caches – A restart can resolve unexpected behaviour
+
+• Know when it's needed – Understand which changes require a restart and which don't
+
+Where to learn more:
+
+• GOV.UK Prototype Kit: Running the kit
+
+• GOV.UK Prototype Kit: Create routes","working,setup-and-deployment,no-change"
+Running the kit locally,"Working | Setup and Deployment
+
+What is this skill?:
+
+Running the kit locally involves using terminal commands to start the GOV.UK or NHS.UK prototype kit on your own machine. This creates a local web server that lets you view and test your prototype in a browser.
+
+Why is it important?:
+
+• Immediate feedback – See changes instantly as you develop without waiting for deployments
+
+• Offline working – Continue prototyping without an internet connection
+
+• Safe experimentation – Test ideas locally before sharing with stakeholders
+
+• Essential first step – You cannot build prototypes without being able to run the kit
+
+Where to learn more:
+
+• GOV.UK Prototype Kit: Running the kit
+
+• NHS Prototype Kit: Getting started","working,setup-and-deployment,no-change"
+Sass compile errors,"Working | Setup and Deployment
+
+What is this skill?:
+
+Sass compile errors occur when the kit's stylesheet preprocessor encounters syntax issues or invalid code. Understanding how to read and fix these errors is essential for customising the appearance of your prototype.
+
+Why is it important?:
+
+• Keeps your prototype running – Sass errors will prevent the kit from compiling, blocking all development work
+
+• Enables visual customisation – Once you can debug Sass, you can confidently add custom styles
+
+• Speeds up troubleshooting – Recognising common error patterns helps you fix issues quickly
+
+• Builds foundational CSS knowledge – Understanding Sass errors improves your overall front-end skills
+
+Where to learn more:
+
+• GOV.UK Prototype Kit: Using CSS
+
+• Sass documentation: Syntax errors","working,setup-and-deployment,no-change"
+Searching/Filtering lists,"Expert | Data and Logic
+
+What is this skill?:
+
+Searching and filtering lists involves implementing search functionality that filters displayed results based on user input, enabling address lookups, reference searches, and dynamic lists.
+
+Why is it important?:
+
+• Search testing – Test how users interact with search interfaces
+
+• Address lookup – Simulate postcode or address finder patterns
+
+• Reference finding – Look up records by reference number
+
+• Dynamic results – Show filtered lists that update based on criteria
+
+Where to learn more:
+
+• GOV.UK Design System: Find a thing
+
+• MDN: Array.filter()","expert,data-and-logic,no-change"
+Setting up VS Code,"Working | Setup and Deployment
+
+What is this skill?:
+
+Setting up VS Code (Visual Studio Code) involves configuring the editor with helpful extensions and settings for prototyping work. This includes syntax highlighting for Nunjucks, code formatting, and integrated terminal access.
+
+Why is it important?:
+
+• Productivity – A well-configured editor speeds up your development workflow
+
+• Error prevention – Syntax highlighting helps you spot mistakes early
+
+• Consistency – Formatters ensure your code follows a consistent style
+
+• Integrated workflow – Run terminal commands and edit files in one place
+
+Where to learn more:
+
+• VS Code download
+
+• VS Code Nunjucks extension
+
+• GOV.UK Prototype Kit: Requirements","working,setup-and-deployment,no-change"
+Simulate errors,"Working | Pages and Layouts
+
+What is this skill?:
+
+Simulating errors involves creating error states, validation messages, and error summary pages in your prototype. This helps test how users respond to problems and ensures your service handles errors gracefully.
+
+Why is it important?:
+
+• Realistic testing – Users will encounter errors; test their reactions in research
+
+• Accessible error handling – Practice implementing error summaries and inline messages correctly
+
+• Design system compliance – Learn to use GOV.UK or NHS error patterns properly
+
+• Complete journeys – Error states are a crucial part of any user journey
+
+Where to learn more:
+
+• GOV.UK Design System: Error message
+
+• GOV.UK Design System: Error summary","working,pages-and-layouts,no-change"
+Skip links and focus management,"Practitioner | Components and Patterns
+
+What is this skill?:
+
+Skip links allow keyboard users to bypass repeated navigation and jump to main content. Focus management ensures the keyboard focus moves to the right place after page changes or dynamic updates.
+
+Why is it important?:
+
+• Accessibility requirement – Skip links are essential for keyboard users
+
+• Screen reader users – Saves time navigating past headers and menus
+
+• Dynamic content – Focus must move appropriately after form submissions
+
+• WCAG compliance – Required for accessibility standards
+
+Where to learn more:
+
+• GOV.UK Design System: Skip link
+
+• W3C: Skip navigation links
+
+• Managing focus for accessibility","practitioner,components-and-patterns,no-change"
+Standard data filters,"Working | Data and Logic
+
+What is this skill?:
+
+Standard data filters are built-in Nunjucks functions like 'default', 'lower', 'upper', and 'trim' that transform data when displaying it in templates.
+
+Why is it important?:
+
+• Default values – Show placeholder text when data is missing
+
+• Text formatting – Capitalise names or format strings consistently
+
+• Data cleaning – Remove whitespace or standardise input
+
+• Safe display – Handle missing or undefined values gracefully
+
+Where to learn more:
+
+• Nunjucks: Built-in filters
+
+• GOV.UK Prototype Kit: Passing data","working,data-and-logic,no-change"
+Standard GOV.UK components,"Working | Components and Patterns
+
+What is this skill?:
+
+Standard GOV.UK components are pre-built, accessible UI elements like buttons, radios, checkboxes, and text inputs that form the foundation of any government service prototype.
+
+Why is it important?:
+
+• Accessibility built-in – Components have been thoroughly tested for accessibility
+
+• Consistency – Match the look and feel of live government services
+
+• Speed – No need to build common elements from scratch
+
+• Best practices – Components embody research-backed design decisions
+
+Where to learn more:
+
+• GOV.UK Design System: Components
+
+• NHS digital service manual: Components","working,components-and-patterns,no-change"
+Standard GOV.UK Page blocks,"Working | Pages and Layouts
+
+What is this skill?:
+
+Understanding standard GOV.UK page blocks means knowing about the 'content', 'beforeContent', and other named blocks in the page template that you can override to place content in specific areas.
+
+Why is it important?:
+
+• Correct placement – Put back links, breadcrumbs, and main content in the right places
+
+• Design system compliance – Follow the expected page structure
+
+• Flexibility – Override only the blocks you need to change
+
+• Consistency – Ensures your pages match GOV.UK or NHS patterns
+
+Where to learn more:
+
+• GOV.UK Design System: Page template
+
+• GOV.UK Prototype Kit: Templates and layouts","working,pages-and-layouts,no-change"
+Storing user answers,"Working | Data and Logic
+
+What is this skill?:
+
+Storing user answers involves understanding how form data flows through your prototype. The 'name' attribute on form fields determines the key used in session storage, and this data persists across pages throughout the user's journey.
+
+Why is it important?:
+
+• Data flow – The name attribute determines how data is stored and retrieved
+
+• Data persistence – User answers are remembered across multiple pages
+
+• Form pre-filling – Correct names allow the kit to auto-fill forms with previous answers
+
+• Dynamic content – Display previous answers in later pages
+
+• Branching logic – Use stored data to determine which path users take
+
+• Check answers pages – Show users a summary of all their responses
+
+• Debugging – Mismatched names are a common source of bugs
+
+Where to learn more:
+
+• GOV.UK Prototype Kit: Storing data
+
+• GOV.UK Prototype Kit: Pass data from page to page
+
+• MDN Web Docs: Form input name attribute","working,data-and-logic,no-change"
+Tables with data,"Working | Components and Patterns
+
+What is this skill?:
+
+Tables with data involves using the GOV.UK table component to display structured information, and understanding when tables are appropriate versus other presentation methods.
+
+Why is it important?:
+
+• Data presentation – Show comparisons, lists, or structured data clearly
+
+• Accessibility – Proper table markup is essential for screen readers
+
+• Responsive design – Tables need careful handling on mobile devices
+
+• Appropriate use – Know when to use tables and when not to
+
+Where to learn more:
+
+• GOV.UK Design System: Table
+
+• GOV.UK Design System: Summary list
+
+• MDN: Table accessibility","working,components-and-patterns,no-change"
+Terminal basics,"Working | Setup and Deployment
+
+What is this skill?:
+
+Terminal basics involves understanding how to use the command line interface to navigate folders, run commands, and interact with the prototype kit. This is essential for starting, stopping, and managing your prototype.
+
+Why is it important?:
+
+• Run the kit – The terminal is how you start and stop your prototype
+
+• Install dependencies – NPM commands are run through the terminal
+
+• Navigate your project – Move between folders and find files quickly
+
+• Debug issues – Error messages appear in the terminal, helping you diagnose problems
+
+Where to learn more:
+
+• GOV.UK Prototype Kit: Terminal basics
+
+• MDN Web Docs: Command line crash course","working,setup-and-deployment,no-change"
+Terminal shortcuts,"Practitioner | Setup and Deployment
+
+What is this skill?:
+
+Terminal shortcuts are keyboard commands that speed up your workflow, such as using the up arrow to repeat previous commands, Ctrl+C to stop processes, and tab completion for file names.
+
+Why is it important?:
+
+• Work faster – Shortcuts significantly speed up common tasks
+
+• Reduce errors – Tab completion prevents typos in file names
+
+• Professional workflow – Efficient terminal use is a mark of an experienced developer
+
+• Less frustration – Quick commands make the development experience smoother
+
+Where to learn more:
+
+• Terminal shortcuts cheat sheet
+
+• MDN: Command line crash course","practitioner,setup-and-deployment,no-change"
+Update notifications,"Working | Setup and Deployment
+
+What is this skill?:
+
+Update notifications appear in the terminal or browser when a new version of the prototype kit or GOV.UK Frontend is available. Understanding these helps you decide when and how to update.
+
+Why is it important?:
+
+• Stay current – Know when important updates are available
+
+• Security patches – Updates often include security fixes
+
+• New features – Access the latest components and improvements
+
+• Plan updates – Decide whether to update now or wait until a convenient time
+
+Where to learn more:
+
+• GOV.UK Prototype Kit: Updating the kit
+
+• GOV.UK Frontend releases","working,setup-and-deployment,no-change"
+Updating the GOV.UK Frontend,"Expert | Components and Patterns
+
+What is this skill?:
+
+Updating the GOV.UK Frontend involves managing version upgrades of the core design system package, handling breaking changes, and ensuring your prototype continues to work after updates.
+
+Why is it important?:
+
+• Security fixes – Updates often include important security patches
+
+• New components – Access the latest design system components
+
+• Bug fixes – Benefit from fixes to existing component issues
+
+• Accessibility improvements – Updates often include accessibility enhancements
+
+Where to learn more:
+
+• GOV.UK Prototype Kit: Updating
+
+• GOV.UK Frontend releases","expert,components-and-patterns,no-change"
+Use back link correctly,"Practitioner | Pages and Layouts
+
+What is this skill?:
+
+Using the back link correctly involves implementing browser-style back navigation that works reliably, understanding when to use JavaScript history vs explicit URLs.
+
+Why is it important?:
+
+• User expectation – Users expect back links to work like the browser back button
+
+• Journey integrity – Incorrect back links can break user flows
+
+• Accessibility – Back links must be keyboard accessible and properly labelled
+
+• Design system compliance – GOV.UK and NHS patterns specify back link behaviour
+
+Where to learn more:
+
+• GOV.UK Design System: Back link
+
+• NHS digital service manual: Back link","practitioner,pages-and-layouts,no-change"
+Use macros for items,"Practitioner | Components and Patterns
+
+What is this skill?:
+
+Using macros for items involves implementing GOV.UK Frontend macros with data from loops to generate repeated elements like radio options, checkbox items, or summary list rows dynamically.
+
+Why is it important?:
+
+• Dynamic lists – Generate options from data rather than hard-coding
+
+• Maintainability – Change data in one place to update everywhere
+
+• Consistency – Each item uses the same component structure
+
+• Efficiency – Quickly add or remove items by editing data
+
+Where to learn more:
+
+• GOV.UK Design System: Radios
+
+• Nunjucks: For loops","practitioner,components-and-patterns,no-change"
+User research handoff,"Practitioner | Pages and Layouts
+
+What is this skill?:
+
+User research handoff involves preparing your prototype for user research sessions. This includes creating clear starting points, resetting data between sessions, and documenting which journeys to test.
+
+Why is it important?:
+
+• Consistent testing – Every participant starts from the same point
+
+• Researcher independence – Researchers can run sessions without developer support
+
+• Clear scenarios – Document which paths to test and what data to use
+
+• Clean data – Reset session data between participants
+
+Where to learn more:
+
+• GOV.UK Service Manual: User research
+
+• GOV.UK Prototype Kit: Clear session data
+
+• Nielsen Norman: Usability testing 101","practitioner,pages-and-layouts,no-change"
+Using block content,"Practitioner | Pages and Layouts
+
+What is this skill?:
+
+Using block content involves advanced use of Nunjucks layout blocks to create custom page structures, such as adding content to the page head, before the main content, or in the footer.
+
+Why is it important?:
+
+• Full control – Access any part of the page template
+
+• Custom layouts – Create non-standard page structures when needed
+
+• Script injection – Add page-specific JavaScript or CSS
+
+• Advanced patterns – Implement complex design requirements
+
+Where to learn more:
+
+• Nunjucks: Block
+
+• GOV.UK Design System: Page template options","practitioner,pages-and-layouts,no-change"
+Using browser DevTools,"Working | Setup and Deployment
+
+What is this skill?:
+
+Using browser DevTools involves inspecting HTML, CSS, and JavaScript in the browser to debug layout issues, test changes in real-time, and understand how your prototype renders. Essential for troubleshooting styling and layout problems.
+
+Why is it important?:
+
+• Real-time debugging – See exactly how the browser interprets your code
+
+• CSS inspection – Find and fix styling issues quickly
+
+• Console access – View JavaScript errors and debug data flow
+
+• Network monitoring – Check if assets are loading correctly
+
+Where to learn more:
+
+• Chrome DevTools documentation
+
+• Firefox Developer Tools
+
+• MDN: What are browser developer tools?","working,setup-and-deployment,no-change"
+Using checkboxes (arrays),"Practitioner | Data and Logic
+
+What is this skill?:
+
+Using checkboxes involves understanding that multiple selections are stored as arrays in session data, and knowing how to check if specific values are included.
+
+Why is it important?:
+
+• Multiple selections – Handle questions where users can select several options
+
+• Array handling – Understand how to work with array data in Nunjucks
+
+• Conditional logic – Check if a specific option was selected from many
+
+• Summary pages – Display all selected options on check answers pages
+
+Where to learn more:
+
+• GOV.UK Design System: Checkboxes
+
+• Nunjucks: Working with arrays","practitioner,data-and-logic,no-change"
+Using data across pages,"Practitioner | Data and Logic
+
+What is this skill?:
+
+Using data across pages involves passing variables between pages using session storage, hidden fields, or URL parameters, and then rendering dynamic content based on that stored data.
+
+Why is it important?:
+
+• Journey continuity – Keep track of user input across multiple pages
+
+• Form pre-population – Show previous answers when users go back
+
+• Personalisation – Address users by name or reference their choices
+
+• Contextual content – Show relevant information based on earlier answers
+
+• Check answers pages – Display summaries of user input
+
+• Confirmation details – Show submitted information on confirmation pages
+
+• Conditional journeys – Use earlier answers to influence later pages
+
+Where to learn more:
+
+• GOV.UK Prototype Kit: Pass data from page to page
+
+• GOV.UK Prototype Kit: Storing data
+
+• GOV.UK Design System: Check answers","practitioner,data-and-logic,no-change"
+Using external JSON files,"Expert | Data and Logic
+
+What is this skill?:
+
+Using external JSON files involves loading data from separate .json files into your prototype, enabling realistic datasets for testing search, lists, and data-driven features.
+
+Why is it important?:
+
+• Realistic data – Test with representative datasets
+
+• Separation of concerns – Keep data separate from templates
+
+• Easy updates – Modify data without changing code
+
+• Large datasets – Handle more data than would be practical inline
+
+Where to learn more:
+
+• GOV.UK Prototype Kit: Using data
+
+• Node.js: Reading JSON files","expert,data-and-logic,no-change"
+Using the /index page,"Working | Pages and Layouts
+
+What is this skill?:
+
+Using the /index page involves organizing your prototype's landing page to provide clear navigation to different journeys, versions, or test scenarios within your prototype.
+
+Why is it important?:
+
+• Organization – Provides a central hub for all your prototype journeys
+
+• User research – Facilitators can quickly navigate to the right starting point
+
+• Version management – Link to different iterations or scenarios
+
+• Documentation – Add notes about what each journey tests
+
+Where to learn more:
+
+• GOV.UK Prototype Kit: Create pages
+
+• GOV.UK Prototype Kit: Folder structure","working,pages-and-layouts,no-change"
+Validation logic,"Practitioner | Data and Logic
+
+What is this skill?:
+
+Validation logic involves checking whether users have entered required information correctly and displaying appropriate error messages when they haven't.
+
+Why is it important?:
+
+• Data quality – Ensure users provide necessary information
+
+• User guidance – Help users understand what's required
+
+• Error testing – Test how users respond to validation errors
+
+• Realistic prototypes – Mimic real service behaviour
+
+Where to learn more:
+
+• GOV.UK Design System: Error message
+
+• GOV.UK Design System: Error summary","practitioner,data-and-logic,no-change"
+Viewing session data,"Working | Data and Logic
+
+What is this skill?:
+
+Viewing session data involves using the prototype admin panel (usually at /manage-prototype/clear-data) to inspect what data is currently stored in the session.
+
+Why is it important?:
+
+• Debugging – See exactly what data is stored when things aren't working
+
+• Understanding flow – Check how data changes as users move through the journey
+
+• Testing – Verify that forms are saving data with the correct names
+
+• Learning – Understand how the kit handles data behind the scenes
+
+Where to learn more:
+
+• GOV.UK Prototype Kit: Clear session data
+
+• GOV.UK Prototype Kit: Storing data","working,data-and-logic,no-change"
+Views and page templates,"Working | Pages and Layouts
+
+What is this skill?:
+
+A view is the visual template that renders what users see in the browser. In the prototype kit, views are Nunjucks files in the app/views folder that combine HTML, design system components, and dynamic data. Views use template inheritance ('extends') to share common layouts across pages.
+
+Why is it important?:
+
+• Page creation – Views are where you build the actual screens users interact with
+
+• Consistency – All pages automatically share the same layout through inheritance
+
+• Efficiency – Don't repeat header and footer code on every page
+
+• Separation of concerns – Keeping views separate from routes makes code more organised
+
+• Template reuse – Views can extend layouts and include partials
+
+• Maintainability – Change the layout once to update all pages
+
+• Data display – Views receive data from routes and display it dynamically
+
+Where to learn more:
+
+• GOV.UK Prototype Kit: Create pages
+
+• GOV.UK Prototype Kit: Templates and layouts
+
+• Nunjucks: Template inheritance
+
+• Express.js: Using template engines","working,pages-and-layouts,no-change"
+WCAG basics for prototypers,"Practitioner | Components and Patterns
+
+What is this skill?:
+
+WCAG (Web Content Accessibility Guidelines) basics involves understanding the core principles of accessibility: Perceivable, Operable, Understandable, and Robust. Knowing these helps you build prototypes that represent accessible services.
+
+Why is it important?:
+
+• Design decisions – Understanding WCAG informs better design choices
+
+• Stakeholder conversations – Explain why certain patterns are required
+
+• Compliance awareness – Know what standards the final service must meet
+
+• Testing focus – Know what to check during prototype reviews
+
+Where to learn more:
+
+• W3C: WCAG 2.1 at a glance
+
+• GOV.UK: Understanding WCAG 2.1
+
+• WebAIM: WCAG 2 checklist
+
+• Deque University: Free courses","practitioner,components-and-patterns,no-change"
+What is a macro?,"Working | Components and Patterns
+
+What is this skill?:
+
+A macro is a reusable Nunjucks code block that accepts parameters and outputs HTML. GOV.UK Frontend components are implemented as macros, allowing you to configure them with different options.
+
+Why is it important?:
+
+• Reusability – Write once, use many times with different parameters
+
+• Consistency – Same component looks identical everywhere
+
+• Configuration – Pass different options to customise behaviour
+
+• Foundation – Understanding macros unlocks the full design system
+
+Where to learn more:
+
+• Nunjucks: Macro
+
+• GOV.UK Design System: Using Nunjucks","working,components-and-patterns,no-change"
+What is Heroku?,"Practitioner | Setup and Deployment
+
+What is this skill?:
+
+Understanding Heroku means knowing it's a cloud platform that hosts your prototype online, making it accessible to stakeholders and research participants without them needing to run the kit locally.
+
+Why is it important?:
+
+• Remote access – Share prototypes with anyone via a URL
+
+• User research – Conduct research sessions with participants anywhere
+
+• Stakeholder reviews – Let product owners and decision makers see progress
+
+• Password protection – Secure your prototype from public access
+
+Where to learn more:
+
+• GOV.UK Prototype Kit: Publishing on the web
+
+• Heroku: How Heroku works","practitioner,setup-and-deployment,no-change"
+What is POST and GET?,"Working | Pages and Layouts
+
+What is this skill?:
+
+POST and GET are HTTP methods that determine how data is sent between the browser and server. GET requests fetch pages, while POST requests submit form data. Understanding these is essential for building interactive prototypes.
+
+Why is it important?:
+
+• Form submissions – POST is used when users submit forms with their answers
+
+• Page navigation – GET is used when users click links or type URLs
+
+• Data handling – Knowing which method to use affects how you access user input
+
+• Correct behaviour – Using the right method ensures your prototype works as expected
+
+Where to learn more:
+
+• GOV.UK Prototype Kit: Pass data from page to page
+
+• MDN Web Docs: HTTP request methods","working,pages-and-layouts,no-change"
+What is Routing?,"Working | Pages and Layouts
+
+What is this skill?:
+
+Routing is the mechanism that determines which page to show when a user visits a URL or submits a form. In the prototype kit, routes connect URLs to views and control how users navigate through your prototype.
+
+Why is it important?:
+
+• User journeys – Routes define the paths users take through your service
+
+• Form handling – Routes process form submissions and determine what happens next
+
+• Dynamic content – Routes can pass data to pages, enabling personalised experiences
+
+• Branching logic – Routes enable different paths based on user input
+
+Where to learn more:
+
+• GOV.UK Prototype Kit: Create routes
+
+• Express.js routing basics","working,pages-and-layouts,no-change"
+What's in the kit,"Working | Setup and Deployment
+
+What is this skill?:
+
+Understanding what's in the kit means knowing the key files, folders, and how the different parts of the GOV.UK or NHS.UK prototype kit work together. This foundational knowledge helps you navigate and modify your prototype effectively.
+
+Why is it important?:
+
+• Faster orientation – Knowing where things are saves time when building or debugging
+
+• Confident modifications – Understanding the structure helps you make changes without breaking things
+
+• Better collaboration – Team members can work together more effectively with shared knowledge
+
+• Foundation for advanced skills – All other prototyping skills build on this understanding
+
+Where to learn more:
+
+• GOV.UK Prototype Kit: About the kit
+
+• NHS Prototype Kit documentation","working,setup-and-deployment,no-change"

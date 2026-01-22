@@ -71,6 +71,112 @@ header {
   margin-right: 10%;
 }
 
+// Header controls container when buttons are added to header
+header.input-sheet__logo {
+  background-color: $grey-light;
+  padding: 0;
+
+  > div {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+
+  .masthead__left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    min-width: 0;
+  }
+
+  // Logo and title group on left
+  .masthead__left > a {
+    flex-shrink: 0;
+
+    svg {
+      display: block;
+    }
+  }
+
+  .masthead__left > h1 {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #0c2340;
+    flex-shrink: 0;
+  }
+
+  // Controls group on right - this is critical
+  .header-controls-group {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-left: auto; // This pushes it to the right
+    //flex-shrink: 0;
+  }
+
+  // Ensure search box aligns nicely with buttons
+  .header-controls-group .search-box {
+    margin: 0;
+  }
+}
+
+// View toggle and assessment buttons styled to match search
+.view-toggle-button,
+.assessment-button {
+  height: 36px;
+  padding: 0 12px;
+  background-color: #fff;
+  border: 1px solid #d0d5dd;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 14px;
+  color: #0c2340;
+  white-space: nowrap;
+  flex-shrink: 0;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-weight: 500;
+
+  &:hover {
+    background: #f5f8fa;
+  }
+
+  &:active {
+    background: #edf3f7;
+  }
+
+  &:focus {
+    outline: 3px solid rgba(12, 35, 64, 0.25);
+    outline-offset: 2px;
+  }
+}
+
+// Search input in masthead controls group
+.header-controls-group {
+  .search-radar {
+    height: 48px;
+    padding: 0 14px 0 40px;
+    width: 260px;
+    border-radius: 10px;
+    border: 1px solid #c7d2da;
+    background-color: #ffffff;
+    background-image: url('/images/search-logo-2x.svg');
+    background-repeat: no-repeat;
+    background-position: 12px 50%;
+    font-size: 16px;
+
+    &:focus {
+      outline: 3px solid rgba(12, 35, 64, 0.25);
+      outline-offset: 2px;
+    }
+  }
+}
+
 .buttons-group {
   padding: 15px 0 25px;
 }
@@ -197,7 +303,7 @@ header {
         height: 100%;
         justify-content: flex-start;
         //min-height: 60px;
-        width: 100%;
+        //width: 100%;
       }
 
       /* Place the search in the header, aligned to the right */

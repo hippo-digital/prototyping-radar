@@ -4,6 +4,10 @@ jest.mock('d3', () => {
       this._node = node || null
     }
 
+    empty() {
+      return !this._node
+    }
+
     node() {
       return this._node
     }
@@ -19,6 +23,18 @@ jest.mock('d3', () => {
       if (!this._node) return new Selection(null)
       const el = globalThis.document.createElement(tagName)
       this._node.appendChild(el)
+      return new Selection(el)
+    }
+
+    insert(tagName, beforeSelector) {
+      if (!this._node) return new Selection(null)
+      const el = globalThis.document.createElement(tagName)
+      const before = beforeSelector ? this._node.querySelector(beforeSelector) : null
+      if (before && before.parentNode === this._node) {
+        this._node.insertBefore(el, before)
+      } else {
+        this._node.insertBefore(el, this._node.firstChild)
+      }
       return new Selection(el)
     }
 

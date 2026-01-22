@@ -607,6 +607,7 @@ const Radar = function (size, radar) {
     header = d3.select('header')
 
     buttonsGroup = header.append('div').classed('buttons-group', true)
+    // Keep this container for backward-compat/layout hooks, but search now lives in the masthead.
     alternativeDiv = header.append('div').attr('id', 'alternative-buttons')
 
     quadrantButtons = buttonsGroup.append('div').classed('quadrant-btn--group', true)
@@ -637,9 +638,17 @@ const Radar = function (size, radar) {
       .text('Print this radar')
       .on('click', window.print.bind(window))
 
-    alternativeDiv
+    // Render search into the masthead right controls.
+    // (Fallback to existing `alternativeDiv` if the controls group is not present.)
+    const headerControls = header.select('.header-controls-group')
+    const searchHost = headerControls.empty() ? alternativeDiv : headerControls
+
+    // Remove previous search box if any (e.g. re-render)
+    searchHost.select('.search-box').remove()
+
+    searchHost
       .append('div')
-      .classed('search-box', true)
+      .classed('search-box search-container', true)
       .append('input')
       .attr('id', 'auto-complete')
       .attr('placeholder', 'Search')
@@ -827,8 +836,34 @@ const Radar = function (size, radar) {
 
     renderDeepLinkViewIfPresent(quadrants)
 
+    // Expose radar instance globally for assessment flow
+    window.radar = radar
+
     // Initialize list view toggle
     initializeToggle(radar)
+
+    // Add assessment button
+    addAssessmentButton()
+  }
+
+  function addAssessmentButton() {
+    const AssessmentFlow = require('../util/assessmentFlow')
+
+    const header = d3.select('header.input-sheet__logo').select('div')
+    const controlsGroup = header.select('.header-controls-group')
+
+    if (controlsGroup.empty()) {
+      console.warn('Controls group not found, cannot add assessment button')
+      return
+    }
+
+    // Add assessment button before search container (after list view toggle)
+    controlsGroup.insert('button', '.search-container')
+      .attr('class', 'assessment-button')
+      .html('📋 Self-Assessment')
+      .on('click', () => {
+        new AssessmentFlow().startAssessment()
+      })
   }
 
   function hasMovementData(quadrants) {
