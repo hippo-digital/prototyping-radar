@@ -1,0 +1,239 @@
+# SKILLS RADAR - GRID LAYOUT FOR MIRO
+
+## Quick Stats
+
+Total Skills: 108
+Quadrants: 4
+Levels: 4
+
+## Suggested Miro Board Structure
+
+Create 4 sections (one per quadrant), each with 4 columns (one per ring level).
+Use the color coding: Yellow (Working), Green (Practitioner), Blue (Expert), Purple (Leading)
+
+════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
+
+## QUADRANT 1: Setup and Deployment
+
+### WORKING (14 skills)
+
+1. Setting up VS Code
+2. Installing the kit
+3. Node.js basics
+4. NPM packages
+5. Introduction to Git and GitHub
+6. Terminal basics
+7. Running the kit locally
+8. Restarting the kit
+9. What's in the kit
+10. Folder structure
+11. Assets folder
+12. Update notifications
+13. Using browser DevTools
+14. Sass compile errors
+
+### PRACTITIONER (13 skills)
+
+1. Add utilities
+2. Debugging
+3. Errors in routes
+4. Git basics
+5. Managing versions
+6. Terminal shortcuts
+7. Environment variables
+8. Backing up prototypes
+9. Password protection
+10. Prototype documentation
+11. Cleaning up before sharing
+12. What is Heroku?
+13. Deploying to Heroku
+
+### EXPERT (3 skills)
+
+1. Advanced Git
+2. Cleaning up prototypes
+3. Archiving old versions
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+## QUADRANT 2: Components and Patterns
+
+### WORKING (10 skills)
+
+1. What is a macro?
+2. Standard GOV.UK components
+3. Copying code from the Design System
+4. Basic component options
+5. Basic page layouts
+6. Nunjucks vs HTML components
+7. Checking accessibility defaults
+8. Tables with data
+9. Accordions
+10. Accessibility testing basics
+
+### PRACTITIONER (9 skills)
+
+1. Create custom macros
+2. Passing variables to macros
+3. Use macros for items
+4. Form element validation states
+5. Customizing CSS for patterns
+6. Conditional components
+7. Autocomplete component
+8. Skip links and focus management
+9. WCAG basics for prototypers
+
+### EXPERT (5 skills)
+
+1. Building complex macros
+2. Isolating patterns for reuse
+3. Pattern library management
+4. Design system contribution
+5. Updating the GOV.UK Frontend
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+## QUADRANT 3: Pages and Layouts
+
+### WORKING (14 skills)
+
+1. Views and page templates
+2. Creating a new page
+3. Linking pages
+4. Using the /index page
+5. Nunjucks vs HTML
+6. Basic page titles
+7. Standard GOV.UK Page blocks
+8. What is Routing?
+9. What is POST and GET?
+10. Hard-coding data
+11. Previewing in local host
+12. Add delays
+13. Simulate errors
+14. Mobile responsive testing
+
+### PRACTITIONER (11 skills)
+
+1. Extend layout files
+2. Using block content
+3. Customizing the start page
+4. Branding
+5. Navigation patterns
+6. Use back link correctly
+7. Form layout design
+8. Confirmation pages
+9. Error page handling
+10. Deep linking
+11. User research handoff
+
+### EXPERT (4 skills)
+
+1. Building wizard patterns
+2. Multi-path journeys
+3. Dynamic routing logic
+4. Print stylesheets
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+## QUADRANT 4: Data and Logic
+
+### WORKING (8 skills)
+
+1. Storing user answers
+2. Viewing session data
+3. Different data types
+4. Basic 'if' statements
+5. Basic math in Nunjucks
+6. Standard data filters
+7. Data in the URL
+8. Clearing session data
+
+### PRACTITIONER (7 skills)
+
+1. Using data across pages
+2. Logic in routes.js
+3. Redirecting with logic
+4. Validation logic
+5. Using checkboxes (arrays)
+6. Generating reference numbers
+7. Date manipulation
+
+### EXPERT (10 skills)
+
+1. Complex data structures
+2. Custom Nunjucks filters
+3. Using external JSON files
+4. Creating data maps
+5. Looping through data
+6. Filtering data
+7. Searching/Filtering lists
+8. Email notification preview
+9. Multi-user testing
+10. Complex 'if/else' logic
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+## Summary Table
+
+| Quadrant | Working | Practitioner | Expert | Leading | Total |
+|----------|---------|--------------|--------|---------|-------|
+| Setup and Deployment | 14 | 13 | 3 | 0 | **30** |
+| Components and Patterns | 10 | 9 | 5 | 0 | **24** |
+| Pages and Layouts | 14 | 11 | 4 | 0 | **29** |
+| Data and Logic | 8 | 7 | 10 | 0 | **25** |
+| **TOTAL** | **46** | **40** | **22** | **0** | **108** |
+
+## Miro Layout Instructions
+
+### Step 1: Set Up Your Board
+
+1. Create a large frame titled "Prototyping Skills Radar"
+2. Divide it into 4 equal sections (quadrants)
+3. Label each section with a quadrant name
+
+### Step 2: Import Data
+
+**Option A - CSV Import (Fastest):**
+1. In Miro, click "..." (three dots) → "Import from CSV"
+2. Upload `miro-export.csv`
+3. All sticky notes will be imported with titles, descriptions, and tags
+4. Filter by tag to organize into quadrants
+
+**Option B - JSON + Script (Advanced):**
+1. Use `miro-export.json` with Miro API
+2. This includes color coding for each ring level
+3. Requires Miro app/API access
+
+**Option C - Manual Entry:**
+1. Use this document as reference
+2. Create sticky notes for each skill
+3. Apply color coding based on ring level
+
+### Step 3: Organize by Rings
+
+Within each quadrant, arrange sticky notes in columns:
+
+```
+Quadrant: [Name]
+┌──────────────┬──────────────┬──────────────┬──────────────┐
+│   Working    │ Practitioner │    Expert    │   Leading    │
+│   (Yellow)   │   (Green)    │    (Blue)    │   (Purple)   │
+├──────────────┼──────────────┼──────────────┼──────────────┤
+│ [skills...]  │ [skills...]  │ [skills...]  │ [skills...]  │
+└──────────────┴──────────────┴──────────────┴──────────────┘
+```
+
+### Step 4: Add Visual Elements
+
+- Use frames to separate quadrants
+- Add connector lines to show skill progressions
+- Use shapes/icons to highlight key skills
+- Add notes for context or questions
+
+### Color Guide
+
+- 🟡 **Yellow** = Working level (foundational skills)
+- 🟢 **Green** = Practitioner level (intermediate skills)
+- 🔵 **Blue** = Expert level (advanced skills)
+- 🟣 **Purple** = Leading level (cutting-edge skills)
+
