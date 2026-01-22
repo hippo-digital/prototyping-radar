@@ -28,13 +28,7 @@ const InvalidConfigError = require('../exceptions/invalidConfigError')
 const InvalidContentError = require('../exceptions/invalidContentError')
 const FileNotFoundError = require('../exceptions/fileNotFoundError')
 const plotRadar = function (title, blips, currentRadarName, alternativeRadars) {
-  if (title.endsWith('.csv')) {
-    title = title.substring(0, title.length - 4)
-  }
-  if (title.endsWith('.json')) {
-    title = title.substring(0, title.length - 5)
-  }
-  document.title = title
+  document.title = 'Hippo Prototype Kit Skills Tree'
   d3.selectAll('.loading').remove()
 
   var rings = _.map(_.uniqBy(blips, 'ring'), 'ring')
@@ -100,7 +94,7 @@ function validateInputQuadrantOrRingName(allQuadrantsOrRings, quadrantOrRing) {
 }
 
 const plotRadarGraph = function (title, blips, currentRadarName, alternativeRadars) {
-  document.title = title.replace(/.(csv|json)$/, '')
+  document.title = 'Hippo Prototype Kit Skills Tree'
 
   d3.selectAll('.loading').remove()
 
@@ -376,7 +370,7 @@ const Factory = function () {
 }
 
 function setDocumentTitle() {
-  document.title = 'Hippo Capability Radar'
+  document.title = 'Hippo Prototype Kit Skills Tree'
 }
 
 function plotLoading() {
