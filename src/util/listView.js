@@ -328,40 +328,38 @@ function createListView(radar) {
 
 function initializeToggle(radar) {
   // Remove existing toggle if present
-  d3.select('.view-toggle').remove()
+  d3.select('.view-toggle__button').remove()
 
-  // Create toggle button
-  const toggle = d3.select('body')
-    .append('div')
-    .attr('class', 'view-toggle')
+  // Prefer to render into the header controls group; fallback to body.
+  const controlsGroupSelection = d3.select('header.input-sheet__logo .header-controls-group')
+  const controlsGroup = controlsGroupSelection.empty()
+    ? d3.select('body')
+    : controlsGroupSelection
 
-  const button = toggle.append('button')
-    .attr('class', 'view-toggle__button')
+  const button = controlsGroup
+    .insert('button', ':first-child')
+    .attr('class', 'view-toggle__button view-toggle-button')
     .text('📄 List View')
 
   let isListView = false
 
-  button.on('click', function() {
+  button.on('click', function () {
     isListView = !isListView
 
     if (isListView) {
       // Switch to list view
       d3.select('body').classed('list-view-active', true)
-      d3.select('#list-view').style('display', 'block')
       button.text('🎯 Radar View')
 
-      // Create list view
+      // Create list view (also sets it active)
       createListView(radar)
     } else {
       // Switch to radar view
       d3.select('body').classed('list-view-active', false)
-      d3.select('#list-view').style('display', 'none')
+      d3.select('#list-view').classed('active', false)
       button.text('📄 List View')
     }
   })
-
-  // Show the toggle
-  toggle.classed('visible', true)
 }
 
 module.exports = {

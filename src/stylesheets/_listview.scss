@@ -1,35 +1,4 @@
-.view-toggle {
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  z-index: 1000;
-  display: none; // Hidden until radar is loaded
-
-  &.visible {
-    display: block;
-  }
-}
-
-.view-toggle__button {
-  background: #0c2340;
-  color: white;
-  border: none;
-  padding: 12px 24px;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 14px;
-  font-weight: 600;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-  transition: background 0.2s ease;
-
-  &:hover {
-    background: #1a3a5c;
-  }
-
-  &:active {
-    transform: translateY(1px);
-  }
-}
+// List view toggle button is now in header, no separate positioning needed
 
 .list-view {
   display: none;

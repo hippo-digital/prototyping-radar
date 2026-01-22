@@ -82,6 +82,10 @@ After completing assessment:
 
 - `/src/stylesheets/base.scss` - Added assessment import
 - `/src/graphing/radar.js` - Added assessment button and exposed radar globally
+- `/src/util/listView.js` - Updated toggle to be added to header instead of fixed position
+- `/src/stylesheets/_listview.scss` - Removed fixed positioning styles for toggle
+- `/src/stylesheets/_header.scss` - Added flex layout for header with buttons
+- `/src/stylesheets/_search.scss` - Made search container more compact (max 400px)
 
 ## Next Steps (AI Integration)
 
@@ -95,9 +99,21 @@ To add Gemini AI recommendations:
 
 See implementation plan in previous documentation.
 
-## Button Location
+## Button Locations
 
-The "📋 Self-Assessment" button appears in the header next to the search, visible after the radar loads.
+Both control buttons are now located in the header for easy access:
+
+- **Header Layout**: Logo on left, controls group on right
+- **Controls Group** (right-aligned):
+  - "📄 List View" / "🎯 Radar View" toggle button
+  - "📋 Self-Assessment" button  
+  - Search field
+- **Button Styling**: Matches search field appearance
+  - Same height (48px)
+  - Same rounded corners (10px border-radius)
+  - Same background color (#edf1f3)
+  - Hover effects for interactivity
+- All controls fit comfortably in the header on desktop
 
 ## Responsive Design
 
