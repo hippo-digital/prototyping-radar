@@ -827,8 +827,29 @@ const Radar = function (size, radar) {
 
     renderDeepLinkViewIfPresent(quadrants)
 
+    // Expose radar instance globally for assessment flow
+    window.radar = radar
+
     // Initialize list view toggle
     initializeToggle(radar)
+
+    // Add assessment button
+    addAssessmentButton()
+  }
+
+  function addAssessmentButton() {
+    const AssessmentFlow = require('../util/assessmentFlow')
+
+    // Add button to the header next to the list view toggle
+    const header = d3.select('header.input-sheet__logo').select('div')
+
+    header.insert('button', ':first-child')
+      .attr('class', 'button assessment-button')
+      .style('margin-right', '1rem')
+      .html('📋 Self-Assessment')
+      .on('click', () => {
+        new AssessmentFlow().startAssessment()
+      })
   }
 
   function hasMovementData(quadrants) {
